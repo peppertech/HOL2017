@@ -1,0 +1,22 @@
+{
+  "name": "HOL2017",
+  "version": "1.0.0",
+  "description": "A sample Oracle JavaScript Extension Toolkit (JET) web app",
+  "author": {
+    "name": "Oracle Jet Team",
+    "homepage": "http://www.oraclejet.org"
+  },
+  "dependencies": {
+    "oraclejet": "~3.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-oraclejet": "~3.1.0",
+    "load-grunt-config": "0.19.2",
+    "oraclejet-tooling": "~3.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}

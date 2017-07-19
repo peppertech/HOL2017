@@ -1,0 +1,34 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-hybrid-padding">
+  <h3>Dashboard Content Area</h3><div class="oj-flex oj-flex-items-pad">
+    <div class="oj-flex-item">
+      <oj-chart 
+        id="barChart"
+        type="bar"
+        highlighted-categories="{{highlightedCategoriesValue}}"
+        series="{{barSeriesValue}}"
+        groups="{{barGroupsValue}}" 
+        animation-on-display="auto"
+        animation-on-data-change="auto"
+        hover-behavior="dim"
+        style="max-width:500px;width:100%;height:350px;">
+      </oj-chart>
+    </div>
+    <div class="oj-flex-item">
+      <oj-chart
+        type="bubble"
+        highlighted-categories="{{highlightedCategoriesValue}}"
+        series="{{bubbleSeriesValue}}"
+        groups="{{bubbleGroupsValue}}" 
+        animation-on-display="auto"
+        animation-on-data-change="auto"
+        hover-behavior="dim"
+        style="max-width:500px;width:100%;height:350px;">
+      </oj-chart>
+    </div>
+  </div>
+
+</div>
