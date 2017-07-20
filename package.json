@@ -7,13 +7,13 @@
     "homepage": "http://www.oraclejet.org"
   },
   "dependencies": {
-    "oraclejet": "~3.1.0"
+    "oraclejet": "~3.2.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-oraclejet": "~3.1.0",
+    "grunt-oraclejet": "~3.2.0",
     "load-grunt-config": "0.19.2",
-    "oraclejet-tooling": "~3.1.0"
+    "oraclejet-tooling": "~3.2.0"
   },
   "engines": {
     "node": ">=0.10.0"
