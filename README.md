@@ -1,5 +1,9 @@
 # HOL2017
 
+### Prerequisites
+node 4+ (preferably the LTS)
+
+
 ### Installation
 Clone the project and run the following commands from the root of the project folder:
 * npm install -g ojet-cli
