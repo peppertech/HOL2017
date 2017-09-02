@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   	configPath: path.join(process.cwd(), 'scripts/grunt/config')
   });
 
-  grunt.loadNpmTasks("grunt-oraclejet");
+  grunt.loadNpmTasks("@oracle/grunt-oraclejet");
 
   grunt.registerTask("build", "Public task. Calls oraclejet-build to build the oraclejet application. Can be customized with additional build tasks.", function (buildType) {
     grunt.task.run([`oraclejet-build:${buildType}`]);

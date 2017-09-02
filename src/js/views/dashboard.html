@@ -1,34 +1,12 @@
 <!--
  Copyright (c) 2014, 2017, Oracle and/or its affiliates.
  The Universal Permissive License (UPL), Version 1.0
--->
+ -->
 <div class="oj-hybrid-padding">
-  <h3>Dashboard Content Area</h3><div class="oj-flex oj-flex-items-pad">
-    <div class="oj-flex-item">
-      <oj-chart 
-        id="barChart"
-        type="bar"
-        highlighted-categories="{{highlightedCategoriesValue}}"
-        series="{{barSeriesValue}}"
-        groups="{{barGroupsValue}}" 
-        animation-on-display="auto"
-        animation-on-data-change="auto"
-        hover-behavior="dim"
-        style="max-width:500px;width:100%;height:350px;">
-      </oj-chart>
-    </div>
-    <div class="oj-flex-item">
-      <oj-chart
-        type="bubble"
-        highlighted-categories="{{highlightedCategoriesValue}}"
-        series="{{bubbleSeriesValue}}"
-        groups="{{bubbleGroupsValue}}" 
-        animation-on-display="auto"
-        animation-on-data-change="auto"
-        hover-behavior="dim"
-        style="max-width:500px;width:100%;height:350px;">
-      </oj-chart>
-    </div>
+  <h1>Dashboard Content Area</h1>
+  <div>
+      To change the content of this section, you will make edits to the dashboard.html file located in the /js/views folder.
   </div>
-
+  <my-chart id="chart1" messagetext="This is a test" type="bar"></my-chart>
+  <my-chart id="chart2" messagetext="A second instance with its own message" type="line"></my-chart>
 </div>

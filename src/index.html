@@ -34,14 +34,14 @@
 
     <!-- This is the main css file for the default Alta theme -->
     <!-- injector:theme -->
-    <link rel="stylesheet" href="css/libs/oj/v3.2.0/alta/oj-alta-min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/libs/oj/v4.0.0/alta/oj-alta-min.css" type="text/css"/>
     <!-- endinjector -->
     
     <!-- This contains icon fonts used by the starter template -->
     <link rel="stylesheet" href="css/demo-alta-site-min.css" type="text/css"/>
 
     <!-- This is where you would add any app specific styling -->
-    <link rel="stylesheet" href="css/override.css" type="text/css"/>
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
 
   </head>
   <body class="oj-web-applayout-body">
@@ -55,7 +55,7 @@
 
     <div id="globalBody" class="oj-offcanvas-outer-wrapper oj-offcanvas-page">
       <!--
-         ** Oracle JET V3.1.0 web application navigation drawer pattern.
+         ** Oracle JET V4.0.0 web application navigation drawer pattern.
          ** Please see the demos under Cookbook/Patterns/App Shell: Web
          ** and the CSS documentation under Support/API Docs/Non-Component Styling
          ** on the JET website for more information on how to use this pattern. 
@@ -63,15 +63,17 @@
          ** query size for a phone format and hidden until a user clicks on
          ** the header hamburger icon.
       -->
-      <div id="navDrawer" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start">
-        <div role="navigation" data-bind="click: toggleDrawer, ojComponent: {component: 'ojNavigationList',
-          navigationLevel: 'application', item: {template: 'navTemplate'}, data: navDataSource,
-          selection: router.stateId, edge: 'start'}">
-        </div>
+      <div id="navDrawer" role="navigation" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start">
+        <oj-navigation-list data="[[navDataSource]]"
+                            edge="start"
+                            item.renderer="[[oj.KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+                            on-click="[[toggleDrawer]]"
+                            selection="{{router.stateId}}">
+        </oj-navigation-list>
       </div>
       <div id="pageContent" class="oj-web-applayout-page">
         <!--
-           ** Oracle JET V3.1.0 web application header pattern.
+           ** Oracle JET V4.0.0 web application header pattern.
            ** Please see the demos under Cookbook/Patterns/App Shell: Web
            ** and the CSS documentation under Support/API Docs/Non-Component Styling
            ** on the JET website for more information on how to use this pattern.
@@ -80,40 +82,38 @@
           <div class="oj-web-applayout-max-width oj-flex-bar oj-sm-align-items-center">
             <!-- Offcanvas toggle button -->
             <div class="oj-flex-bar-start oj-md-hide">
-              <button id="drawerToggleButton" class="oj-button-lg" data-bind="click: toggleDrawer,
-                ojComponent: {component:'ojButton', label: 'Application Navigation',
-                chroming: 'half', display: 'icons', icons: {start: 'oj-web-applayout-offcanvas-icon'}}">
-              </button>
+              <oj-button id="drawerToggleButton" class="oj-button-lg" on-click="[[toggleDrawer]]" chroming="half" display="icons">
+                <span slot="startIcon" class="oj-web-applayout-offcanvas-icon"></span>
+                <span>Application Navigation</span>
+              </oj-button>
             </div>
-            <div data-bind="css: smScreen() ? 'oj-flex-bar-center-absolute' : 'oj-flex-bar-middle oj-sm-align-items-baseline'">
-              <span role="img" class="oj-sm-only-hide oj-icon demo-oracle-icon" title="Oracle Logo" alt="Oracle Logo"></span>
-              <h1 class="oj-web-applayout-header-title" title="Application Name" data-bind="text: appName"></h1>
+            <div class="oj-flex-bar-middle oj-sm-align-items-baseline">
+              <span role="img" class="oj-icon demo-oracle-icon" title="Oracle Logo" alt="Oracle Logo"></span>
+              <h1 class="oj-sm-only-hide oj-web-applayout-header-title" title="Application Name" data-bind="text: appName"></h1>
             </div>
             <div class="oj-flex-bar-end">
               <!-- Responsive Toolbar -->
-              <div data-bind="ojComponent: {component:'ojToolbar'}">
-                <button id="userMenu"
-                  data-bind="ojComponent: {component: 'ojButton', label: userLogin,
-                  display: smScreen() ? 'icons' : 'all',
-                  icons: smScreen() ? {start: 'oj-icon demo-appheader-avatar', end: null} : {end: 'oj-component-icon oj-button-menu-dropdown-icon'},
-                  chroming: 'half', menu: '#menu1'}">
-                </button>
-                <ul id='menu1' data-bind="ojComponent: {component: 'ojMenu'}" style="display:none">
-                  <li id="pref"><a href="#">Preferences</a></li>
-                  <li id="help"><a href="#">Help</a></li>
-                  <li id="about"><a href="#">About</a></li>
-                  <li id="out"><a href="#">Sign Out</a></li>
-                </ul>
-              </div>
+              <oj-toolbar>
+                <oj-menu-button id="userMenu" display="[[smScreen() ? 'icons' : 'all']]" chroming="half">
+                  <span data-bind="text: userLogin"></span>
+                  <span slot="endIcon" data-bind="css: smScreen() ? 'oj-icon demo-appheader-avatar' : 'oj-component-icon oj-button-menu-dropdown-icon'"></span>
+                  <oj-menu id="menu1" slot="menu" style="display:none">
+                    <oj-option id="pref" value="pref">Preferences</oj-option>
+                    <oj-option id="help" value="help">Help</oj-option>
+                    <oj-option id="about" value="about">About</oj-option>
+                    <oj-option id="out" value="out">Sign Out</oj-option>
+                  </oj-menu>
+                </oj-menu-button>
+              </oj-toolbar>
             </div>
           </div>
           <div role="navigation" class="oj-web-applayout-max-width oj-web-applayout-navbar">
-            <div data-bind="ojComponent: {component: 'ojNavigationList',
-              navigationLevel: 'application',
-              item: {template: 'navTemplate'}, data: navDataSource,
-              selection: router.stateId, edge: 'top'}"
-              class="oj-web-applayout-navbar oj-sm-only-hide oj-md-condense oj-md-justify-content-flex-end">
-            </div>
+            <oj-navigation-list class="oj-sm-only-hide oj-md-condense oj-md-justify-content-flex-end"
+                                data="[[navDataSource]]"
+                                edge="top"
+                                item.renderer="[[oj.KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+                                selection="{{router.stateId}}">
+            </oj-navigation-list>
           </div>
         </header>
         <div role="main" class="oj-web-applayout-max-width oj-web-applayout-content" data-bind="ojModule: router.moduleConfig">
