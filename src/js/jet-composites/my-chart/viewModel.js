@@ -17,11 +17,10 @@ define(
         context.props.then(function (propertyMap) {
             //Store a reference to the properties for any later use
             self.properties = propertyMap;
+            
+            //Parse your component properties here 
             self.messageText(self.properties.messagetext);
             self.type(self.properties.type);
-
-            //Parse your component properties here 
-
         });
         
                 /* chart data */
@@ -38,9 +37,7 @@ define(
         
         self.handleBindingsApplied = function(){
           self.ready(true);
-        }
-        
-        
+        }        
     };
     
     //Lifecycle methods - uncomment and implement if necessary 
