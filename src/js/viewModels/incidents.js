@@ -11,7 +11,7 @@ define(['ojs/ojcore', 'knockout', 'jquery'],
     function IncidentsViewModel() {
       var self = this;
       // Below are a subset of the ViewModel methods invoked by the ojModule binding
-      // Please reference the ojModule jsDoc for additionaly available methods.
+      // Please reference the ojModule jsDoc for additional available methods.
 
       /**
        * Optional ViewModel method invoked when this ViewModel is about to be
@@ -68,7 +68,7 @@ define(['ojs/ojcore', 'knockout', 'jquery'],
     }
 
     /*
-     * Returns a constructor for the ViewModel so that the ViewModel is constrcuted
+     * Returns a constructor for the ViewModel so that the ViewModel is constructed
      * each time the view is displayed.  Return an instance of the ViewModel if
      * only one instance of the ViewModel is needed.
      */

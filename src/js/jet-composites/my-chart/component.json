@@ -1,0 +1,24 @@
+{
+  "name": "my-chart",
+  "displayName": "my-chart",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": ">=4.0.0",
+  "properties": {
+    "messagetext": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}
