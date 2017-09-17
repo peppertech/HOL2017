@@ -1,0 +1,7 @@
+demo-about-me:not(.oj-complete){
+  visibility: hidden;
+}
+
+demo-about-me{
+
+}

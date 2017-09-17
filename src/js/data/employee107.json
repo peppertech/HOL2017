@@ -1,0 +1,310 @@
+{
+      "empId" : 107,
+      "firstName" : "Diana",
+      "lastName" : "Lorentz",
+      "title" : "Programmer",
+      "email" : "DLORENTZ",
+      "phone" : "590.423.5567",
+      "mobile" : "590.423.5567",
+      "address" : "2014 Main St",
+      "city" : "Southlake",
+      "state" : "Texas",
+      "country" : "US",
+      "postal" : "76034",
+      "twitter" : "Diana",
+      "facebook" : "Diana",
+      "google" : "Diana",
+      "linkedIn" : "Diana",
+      "hireDate" : "2010-01-01T00:00:00-08:00",
+      "compRatio" : 107,
+      "salary" : 9200.0,
+      "bonus" : 850.0,
+      "commission" : 0.0,
+      "rating" : 5,
+      "potential" : 4,
+      "deptId" : 60,
+      "mgrId" : 104,
+      "deptName" : "IT",
+      "mgrFirstName" : "Bruce",
+      "mgrLastName" : "Ernst",
+      "teamAvgRating" : 4.0,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 1,
+      "groupAvgRating" : 5.0,
+      "groupAvgPotential" : 4.0,
+      "groupCompRatioAbove" : 0,
+      "groupCompRatioIn" : 1,
+      "groupCompRatioBelow" : 0,
+      "groupMeetings" : 1,
+      "groupEvents" : 1,
+      "groupTrainings" : 1,
+      "groupTimeOff" : 1,
+      "comps" : [ {
+         "bonus" : 850,
+         "comission" : 0,
+         "compId" : 49560,
+         "compRatio" : 107,
+         "compSalary" : 9200,
+         "effective" : "2015-08-08T00:00:00-07:00"
+      }, {
+         "bonus" : 824.5,
+         "comission" : 0,
+         "compId" : 49561,
+         "compRatio" : 109,
+         "compSalary" : 8832,
+         "effective" : "2014-04-10T00:00:00-07:00"
+      }, {
+         "bonus" : 816.255,
+         "comission" : 0,
+         "compId" : 49562,
+         "compRatio" : 100,
+         "compSalary" : 8567.04,
+         "effective" : "2013-06-25T00:00:00-07:00"
+      }, {
+         "bonus" : 734.6295,
+         "comission" : 0,
+         "compId" : 49563,
+         "compRatio" : 81,
+         "compSalary" : 8310.0288,
+         "effective" : "2012-08-07T00:00:00-07:00"
+      }, {
+         "bonus" : 690.55173,
+         "comission" : 0,
+         "compId" : 49564,
+         "compRatio" : 101,
+         "compSalary" : 8143.828224,
+         "effective" : "2011-05-17T00:00:00-07:00"
+      }, {
+         "bonus" : 669.8351781,
+         "comission" : 0,
+         "compId" : 49565,
+         "compRatio" : 28,
+         "compSalary" : 7736.6368128,
+         "effective" : "2010-09-05T00:00:00-07:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2010-05-20T00:00:00-07:00",
+         "perfId" : 41301,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2011-02-26T00:00:00-08:00",
+         "perfId" : 41302,
+         "potential" : 2,
+         "rating" : 2
+      }, {
+         "effective" : "2012-04-13T00:00:00-07:00",
+         "perfId" : 41303,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2013-08-17T00:00:00-07:00",
+         "perfId" : 41304,
+         "potential" : 3,
+         "rating" : 4
+      }, {
+         "effective" : "2014-11-07T00:00:00-08:00",
+         "perfId" : 41305,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2015-12-01T00:00:00-08:00",
+         "perfId" : 41306,
+         "potential" : 4,
+         "rating" : 5
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80174,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 80175,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      }, {
+         "empskillassignId" : 80176,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "CRM",
+            "skillId" : 16
+         }
+      }, {
+         "empskillassignId" : 80177,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 80178,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Financials",
+            "skillId" : 15
+         }
+      } ],
+      "events" : [ {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2010-08-12T00:00:00-07:00",
+         "eventId" : 145871,
+         "name" : "Event",
+         "start" : "2010-08-10T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2010-11-23T00:00:00-08:00",
+         "eventId" : 145872,
+         "name" : "Training",
+         "start" : "2010-11-21T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-09-12T00:00:00-07:00",
+         "eventId" : 145873,
+         "name" : "Time Off",
+         "start" : "2011-09-08T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-09-04T00:00:00-07:00",
+         "eventId" : 145874,
+         "name" : "Time Off",
+         "start" : "2011-09-02T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2012-12-13T00:00:00-08:00",
+         "eventId" : 145875,
+         "name" : "Training",
+         "start" : "2012-12-08T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2012-07-22T00:00:00-07:00",
+         "eventId" : 145876,
+         "name" : "Event",
+         "start" : "2012-07-19T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2013-12-08T00:00:00-08:00",
+         "eventId" : 145877,
+         "name" : "Time Off",
+         "start" : "2013-12-04T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mobility",
+         "end" : "2013-11-21T00:00:00-08:00",
+         "eventId" : 145878,
+         "name" : "Training",
+         "start" : "2013-11-19T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Public Speaking",
+         "end" : "2013-01-15T00:00:00-08:00",
+         "eventId" : 145879,
+         "name" : "Training",
+         "start" : "2013-01-13T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2013-10-09T00:00:00-07:00",
+         "eventId" : 145880,
+         "name" : "Customer Meeting",
+         "start" : "2013-10-08T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2014-06-17T00:00:00-07:00",
+         "eventId" : 145881,
+         "name" : "Customer Meeting",
+         "start" : "2014-06-12T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2014-10-13T00:00:00-07:00",
+         "eventId" : 145882,
+         "name" : "Training",
+         "start" : "2014-10-09T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Customer Advisory Board",
+         "end" : "2014-10-15T00:00:00-07:00",
+         "eventId" : 145883,
+         "name" : "Event",
+         "start" : "2014-10-12T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "ABC LLC",
+         "end" : "2015-07-25T04:00:03-07:00",
+         "eventId" : 145884,
+         "name" : "Customer Meeting",
+         "start" : "2015-07-24T04:00:03-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2015-05-23T04:00:03-07:00",
+         "eventId" : 145885,
+         "name" : "Training",
+         "start" : "2015-05-22T04:00:03-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2015-07-30T04:00:03-07:00",
+         "eventId" : 145886,
+         "name" : "Event",
+         "start" : "2015-07-26T04:00:03-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-04-15T04:00:03-07:00",
+         "eventId" : 145887,
+         "name" : "Time Off",
+         "start" : "2015-04-10T04:00:03-07:00",
+         "type" : "4"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-12-01T00:00:00-08:00",
+         "perfId" : 41306,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2015-10-16T00:00:00-07:00",
+         "perfId" : 41437,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2015-07-18T00:00:00-07:00",
+         "perfId" : 41707,
+         "potential" : 4,
+         "rating" : 4
+      } ],
+      "reports" : [ ]
+   }

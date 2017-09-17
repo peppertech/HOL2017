@@ -3,32 +3,18 @@
  The Universal Permissive License (UPL), Version 1.0
 -->
 <div class="oj-hybrid-padding">
-  <h3>Dashboard Content Area</h3><div class="oj-flex oj-flex-items-pad">
-    <div class="oj-flex-item">
-      <oj-chart 
-        id="barChart"
-        type="bar"
-        highlighted-categories="{{highlightedCategoriesValue}}"
-        series="{{barSeriesValue}}"
-        groups="{{barGroupsValue}}" 
-        animation-on-display="auto"
-        animation-on-data-change="auto"
-        hover-behavior="dim"
-        style="max-width:500px;width:100%;height:350px;">
-      </oj-chart>
-    </div>
-    <div class="oj-flex-item">
-      <oj-chart
-        type="bubble"
-        highlighted-categories="{{highlightedCategoriesValue}}"
-        series="{{bubbleSeriesValue}}"
-        groups="{{bubbleGroupsValue}}" 
-        animation-on-display="auto"
-        animation-on-data-change="auto"
-        hover-behavior="dim"
-        style="max-width:500px;width:100%;height:350px;">
-      </oj-chart>
-    </div>
+  <h3>Dashboard Content Area</h3>
+  <div class="justifyCenter justifyCenterMasonryLayout">
+    <oj-masonry-layout id="masonryLayout" class='templateList'>
+      <demo-team id="MyTeam" class="oj-masonrylayout-tile-2x2" profile={{personProfile}} messagetext="Hello There!"></demo-team>
+      <demo-about-me id="AboutMe" aria-label="About Me" class="oj-masonrylayout-tile-1x1"></demo-about-me>
+      <demo-notifications id="MyNotifications" class="oj-masonrylayout-tile-1x1"></demo-notifications>
+      <demo-comp id="AverageCompensation" class="oj-masonrylayout-tile-2x1"></demo-comp>
+      <demo-attrition id="AveragePerformance" aria-label="Attrition History" class="oj-masonrylayout-tile-1x1"></demo-attrition>
+      <demo-comp-ratio id="CompensationRatio" class="oj-masonrylayout-tile-1x1"></demo-comp-ratio>
+      <demo-team-activities id="MyTeamActivities" class="oj-masonrylayout-tile-1x1"></demo-team-activities>
+      <demo-ratings id="AverageRatings" class="oj-masonrylayout-tile-1x1"></demo-ratings>
+      <demo-my-activities id="MyActivities" class="oj-masonrylayout-tile-1x1"></demo-my-activities>
+     </oj-masonry-layout>
   </div>
-
 </div>

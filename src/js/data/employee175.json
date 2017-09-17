@@ -1,0 +1,481 @@
+{
+      "empId" : 175,
+      "firstName" : "Arthur",
+      "lastName" : "Hutton",
+      "title" : "Public Relations Reprentative",
+      "email" : "AHUTTON",
+      "phone" : "011.44.1644.429266",
+      "mobile" : "011.44.1644.429266",
+      "address" : "Magdalen Centre The Oxford Science Park",
+      "city" : "Oxford",
+      "state" : "Oxford",
+      "country" : "UK",
+      "postal" : "OX9 9ZB",
+      "twitter" : "Arthur",
+      "facebook" : "Arthur",
+      "google" : "Arthur",
+      "linkedIn" : "Arthur",
+      "hireDate" : "2008-02-14T00:00:00-08:00",
+      "compRatio" : 50,
+      "salary" : 8800.0,
+      "bonus" : 2200.0,
+      "commission" : 0.0,
+      "rating" : 3,
+      "potential" : 4,
+      "deptId" : 70,
+      "mgrId" : 149,
+      "deptName" : "Public Relations",
+      "mgrFirstName" : "Eleni",
+      "mgrLastName" : "Zlotkey",
+      "teamAvgRating" : 4.4,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 1,
+      "groupAvgRating" : 3.0,
+      "groupAvgPotential" : 4.0,
+      "groupCompRatioAbove" : 0,
+      "groupCompRatioIn" : 1,
+      "groupCompRatioBelow" : 1,
+      "groupMeetings" : 1,
+      "groupEvents" : 2,
+      "groupTrainings" : 0,
+      "groupTimeOff" : 1,
+      "comps" : [ {
+         "bonus" : 2200,
+         "comission" : 0,
+         "compId" : 49455,
+         "compRatio" : 50,
+         "compSalary" : 8800,
+         "effective" : "2015-02-13T00:00:00-08:00"
+      }, {
+         "bonus" : 2178,
+         "comission" : 0,
+         "compId" : 49456,
+         "compRatio" : 72,
+         "compSalary" : 8536,
+         "effective" : "2014-01-20T00:00:00-08:00"
+      }, {
+         "bonus" : 2156.22,
+         "comission" : 0,
+         "compId" : 49457,
+         "compRatio" : 1,
+         "compSalary" : 8109.2,
+         "effective" : "2013-10-05T00:00:00-07:00"
+      }, {
+         "bonus" : 2005.2846,
+         "comission" : 0,
+         "compId" : 49458,
+         "compRatio" : 56,
+         "compSalary" : 7947.016,
+         "effective" : "2012-10-19T00:00:00-07:00"
+      }, {
+         "bonus" : 1844.861832,
+         "comission" : 0,
+         "compId" : 49459,
+         "compRatio" : 113,
+         "compSalary" : 7867.54584,
+         "effective" : "2011-08-10T00:00:00-07:00"
+      }, {
+         "bonus" : 1807.96459536,
+         "comission" : 0,
+         "compId" : 49460,
+         "compRatio" : 115,
+         "compSalary" : 7710.1949232,
+         "effective" : "2010-08-20T00:00:00-07:00"
+      }, {
+         "bonus" : 1753.7256574992,
+         "comission" : 0,
+         "compId" : 49461,
+         "compRatio" : 11,
+         "compSalary" : 7324.68517704,
+         "effective" : "2009-11-14T00:00:00-08:00"
+      }, {
+         "bonus" : 1613.427604899264,
+         "comission" : 0,
+         "compId" : 49462,
+         "compRatio" : 9,
+         "compSalary" : 7251.4383252696,
+         "effective" : "2008-11-15T00:00:00-08:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2008-10-24T00:00:00-07:00",
+         "perfId" : 41196,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2009-05-09T00:00:00-07:00",
+         "perfId" : 41197,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2010-05-17T00:00:00-07:00",
+         "perfId" : 41198,
+         "potential" : 5,
+         "rating" : 5
+      }, {
+         "effective" : "2011-02-22T00:00:00-08:00",
+         "perfId" : 41199,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2012-09-11T00:00:00-07:00",
+         "perfId" : 41200,
+         "potential" : 4,
+         "rating" : 2
+      }, {
+         "effective" : "2013-11-27T00:00:00-08:00",
+         "perfId" : 41201,
+         "potential" : 2,
+         "rating" : 3
+      }, {
+         "effective" : "2014-04-12T00:00:00-07:00",
+         "perfId" : 41202,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2015-07-21T00:00:00-07:00",
+         "perfId" : 41203,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80028,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 80029,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Project Planning",
+            "skillId" : 11
+         }
+      }, {
+         "empskillassignId" : 80030,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      }, {
+         "empskillassignId" : 80031,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 80032,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Javascript",
+            "skillId" : 6
+         }
+      }, {
+         "empskillassignId" : 80033,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Word",
+            "skillId" : 4
+         }
+      }, {
+         "empskillassignId" : 80034,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Estimation",
+            "skillId" : 23
+         }
+      }, {
+         "empskillassignId" : 80035,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 80036,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 80037,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Statistics",
+            "skillId" : 5
+         }
+      }, {
+         "empskillassignId" : 80038,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "HCM",
+            "skillId" : 17
+         }
+      }, {
+         "empskillassignId" : 80039,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Management",
+            "skillId" : 14
+         }
+      }, {
+         "empskillassignId" : 80040,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 80041,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Bookeeping",
+            "skillDescription" : "Bookeeping",
+            "skillId" : 1
+         }
+      } ],
+      "events" : [ {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2008-06-22T00:00:00-07:00",
+         "eventId" : 145550,
+         "name" : "Event",
+         "start" : "2008-06-18T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2008-03-11T00:00:00-07:00",
+         "eventId" : 145551,
+         "name" : "Event",
+         "start" : "2008-03-07T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2008-07-07T00:00:00-07:00",
+         "eventId" : 145552,
+         "name" : "Event",
+         "start" : "2008-07-02T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2009-10-08T00:00:00-07:00",
+         "eventId" : 145553,
+         "name" : "Customer Meeting",
+         "start" : "2009-10-05T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "CCC Enterprises",
+         "end" : "2009-07-04T00:00:00-07:00",
+         "eventId" : 145554,
+         "name" : "Customer Meeting",
+         "start" : "2009-07-02T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2010-06-23T00:00:00-07:00",
+         "eventId" : 145555,
+         "name" : "Time Off",
+         "start" : "2010-06-18T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2010-01-07T00:00:00-08:00",
+         "eventId" : 145556,
+         "name" : "Training",
+         "start" : "2010-01-05T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2010-02-28T00:00:00-08:00",
+         "eventId" : 145557,
+         "name" : "Training",
+         "start" : "2010-02-23T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2010-06-12T00:00:00-07:00",
+         "eventId" : 145558,
+         "name" : "Time Off",
+         "start" : "2010-06-07T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2011-10-01T00:00:00-07:00",
+         "eventId" : 145559,
+         "name" : "Event",
+         "start" : "2011-09-26T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-05-17T00:00:00-07:00",
+         "eventId" : 145560,
+         "name" : "Time Off",
+         "start" : "2011-05-14T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mobility",
+         "end" : "2011-11-02T00:00:00-07:00",
+         "eventId" : 145561,
+         "name" : "Training",
+         "start" : "2011-11-01T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2012-06-24T00:00:00-07:00",
+         "eventId" : 145562,
+         "name" : "Time Off",
+         "start" : "2012-06-20T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2012-11-08T00:00:00-08:00",
+         "eventId" : 145563,
+         "name" : "Training",
+         "start" : "2012-11-04T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2012-06-18T00:00:00-07:00",
+         "eventId" : 145564,
+         "name" : "Time Off",
+         "start" : "2012-06-13T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2012-09-27T00:00:00-07:00",
+         "eventId" : 145565,
+         "name" : "Event",
+         "start" : "2012-09-24T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2013-02-22T00:00:00-08:00",
+         "eventId" : 145566,
+         "name" : "Training",
+         "start" : "2013-02-18T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2013-08-27T00:00:00-07:00",
+         "eventId" : 145567,
+         "name" : "Training",
+         "start" : "2013-08-22T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2014-06-08T00:00:00-07:00",
+         "eventId" : 145568,
+         "name" : "Customer Meeting",
+         "start" : "2014-06-03T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2014-07-28T00:00:00-07:00",
+         "eventId" : 145569,
+         "name" : "Time Off",
+         "start" : "2014-07-25T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2014-04-05T00:00:00-07:00",
+         "eventId" : 145570,
+         "name" : "Time Off",
+         "start" : "2014-04-01T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2014-06-28T00:00:00-07:00",
+         "eventId" : 145571,
+         "name" : "Customer Meeting",
+         "start" : "2014-06-27T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Feedback Session",
+         "end" : "2015-06-16T04:00:03-07:00",
+         "eventId" : 145572,
+         "name" : "Event",
+         "start" : "2015-06-11T04:00:03-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2015-05-07T04:00:03-07:00",
+         "eventId" : 145573,
+         "name" : "Time Off",
+         "start" : "2015-05-04T04:00:03-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2015-05-09T04:00:03-07:00",
+         "eventId" : 145574,
+         "name" : "Customer Meeting",
+         "start" : "2015-05-08T04:00:03-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2015-05-22T04:00:03-07:00",
+         "eventId" : 145575,
+         "name" : "Event",
+         "start" : "2015-05-19T04:00:03-07:00",
+         "type" : "2"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-07-21T00:00:00-07:00",
+         "perfId" : 41203,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2015-12-24T00:00:00-08:00",
+         "perfId" : 41209,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2015-08-10T00:00:00-07:00",
+         "perfId" : 41300,
+         "potential" : 5,
+         "rating" : 5
+      }, {
+         "effective" : "2015-06-06T00:00:00-07:00",
+         "perfId" : 41563,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2015-01-27T00:00:00-08:00",
+         "perfId" : 41886,
+         "potential" : 2,
+         "rating" : 4
+      } ],
+      "reports" : [ ]
+   }

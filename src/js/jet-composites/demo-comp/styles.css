@@ -1,0 +1,7 @@
+demo-comp:not(.oj-complete){
+  visibility: hidden;
+}
+
+demo-comp{
+
+}

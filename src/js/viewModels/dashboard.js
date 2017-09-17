@@ -5,11 +5,27 @@
 /*
  * Your dashboard ViewModel code goes here
  */
-define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'],
-        function (oj, ko, $) {
+define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
+        'ojs/ojmasonrylayout', 
+        'jet-composites/demo-team/loader',
+        'jet-composites/demo-about-me/loader',
+        'jet-composites/demo-attrition/loader',
+        'jet-composites/demo-comp-ratio/loader',
+        'jet-composites/demo-my-activities/loader',
+        'jet-composites/demo-notifications/loader',
+        'jet-composites/demo-comp/loader',
+        'jet-composites/demo-ratings/loader',
+        'jet-composites/demo-team-activities/loader'],
+        function (oj, ko, data) {
 
           function DashboardViewModel() {
             var self = this;
+
+            self.averagePerformance = ko.observable();
+            self.averagePotential = ko.observable();
+            self.ready = ko.observable(false);
+            self.personProfile = ko.observableArray([]);
+
 
             // Categories
             var categories = ["Initial", "Qualification", "Meeting", "Proposal", "Close"];
@@ -40,6 +56,25 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'],
             this.bubbleSeriesValue = ko.observableArray(bubbleSeries);
             this.bubbleGroupsValue = ko.observableArray(bubbleGroups);
 
+            self.loadData = function(){
+            data.fetchData('js/data/employee100.json').then(function (person) {
+                self.personProfile(person);
+                self.ready(true);
+                self.formatAverages();
+            }).fail(function (error) {
+                console.log('Error: ' + error.message);
+            });
+
+          }
+
+            self.formatAverages = function () {
+                self.averagePerformance(self.personProfile().groupAvgRating.toPrecision(2));
+                self.averagePotential(self.personProfile().groupAvgPotential.toPrecision(2));
+            };
+
+
+
+
             // Below are a subset of the ViewModel methods invoked by the ojModule binding
             // Please reference the ojModule jsDoc for additionaly available methods.
 
@@ -55,7 +90,7 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'],
              * the promise is resolved
              */
             self.handleActivated = function (info) {
-              // Implement if needed
+              self.loadData();
             };
 
             /**
