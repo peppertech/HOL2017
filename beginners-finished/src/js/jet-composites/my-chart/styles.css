@@ -1,0 +1,7 @@
+my-chart:not(.oj-complete){
+  visibility: hidden;
+}
+
+my-chart{
+
+}
