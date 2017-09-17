@@ -1,0 +1,921 @@
+{
+      "empId" : 123,
+      "firstName" : "Shanta",
+      "lastName" : "Vollman",
+      "title" : "Stock Manager",
+      "email" : "SVOLLMAN",
+      "phone" : "650.123.4234",
+      "mobile" : "650.123.4234",
+      "address" : "2011 Main Street",
+      "city" : "South San Francisco",
+      "state" : "California",
+      "country" : "US",
+      "postal" : "94105",
+      "twitter" : "Shanta",
+      "facebook" : "Shanta",
+      "google" : "Shanta",
+      "linkedIn" : "Shanta",
+      "hireDate" : "2006-07-14T00:00:00-07:00",
+      "compRatio" : 107,
+      "salary" : 6500.0,
+      "bonus" : 1625.0,
+      "commission" : 0.0,
+      "rating" : 3,
+      "potential" : 4,
+      "deptId" : 50,
+      "mgrId" : 122,
+      "deptName" : "Shipping",
+      "mgrFirstName" : "Payam",
+      "mgrLastName" : "Kaufling",
+      "teamAvgRating" : 3.0,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 8,
+      "groupAvgRating" : 3.875,
+      "groupAvgPotential" : 3.875,
+      "groupCompRatioAbove" : 1,
+      "groupCompRatioIn" : 8,
+      "groupCompRatioBelow" : 6,
+      "groupMeetings" : 5,
+      "groupEvents" : 5,
+      "groupTrainings" : 8,
+      "groupTimeOff" : 4,
+      "comps" : [ {
+         "bonus" : 1625,
+         "comission" : 0,
+         "compId" : 49879,
+         "compRatio" : 107,
+         "compSalary" : 6500,
+         "effective" : "2015-02-23T00:00:00-08:00"
+      }, {
+         "bonus" : 1462.5,
+         "comission" : 0,
+         "compId" : 49880,
+         "compRatio" : 81,
+         "compSalary" : 6435,
+         "effective" : "2014-01-01T00:00:00-08:00"
+      }, {
+         "bonus" : 1330.875,
+         "comission" : 0,
+         "compId" : 49881,
+         "compRatio" : 68,
+         "compSalary" : 6241.95,
+         "effective" : "2013-06-21T00:00:00-07:00"
+      }, {
+         "bonus" : 1264.33125,
+         "comission" : 0,
+         "compId" : 49882,
+         "compRatio" : 15,
+         "compSalary" : 5992.272,
+         "effective" : "2012-07-03T00:00:00-07:00"
+      }, {
+         "bonus" : 1251.6879375,
+         "comission" : 0,
+         "compId" : 49883,
+         "compRatio" : 50,
+         "compSalary" : 5752.58112,
+         "effective" : "2011-08-02T00:00:00-07:00"
+      }, {
+         "bonus" : 1176.58666125,
+         "comission" : 0,
+         "compId" : 49884,
+         "compRatio" : 17,
+         "compSalary" : 5695.0553088,
+         "effective" : "2010-03-07T00:00:00-08:00"
+      }, {
+         "bonus" : 1094.2255949625,
+         "comission" : 0,
+         "compId" : 49885,
+         "compRatio" : 48,
+         "compSalary" : 5524.203649536,
+         "effective" : "2009-09-06T00:00:00-07:00"
+      }, {
+         "bonus" : 1083.283339012875,
+         "comission" : 0,
+         "compId" : 49886,
+         "compRatio" : 32,
+         "compSalary" : 5303.23550355456,
+         "effective" : "2008-10-16T00:00:00-07:00"
+      }, {
+         "bonus" : 1007.45350528197375,
+         "comission" : 0,
+         "compId" : 49887,
+         "compRatio" : 111,
+         "compSalary" : 5197.1707934834688,
+         "effective" : "2007-12-13T00:00:00-08:00"
+      }, {
+         "bonus" : 936.9317599122355875,
+         "comission" : 0,
+         "compId" : 49888,
+         "compRatio" : 106,
+         "compSalary" : 4937.31225380929536,
+         "effective" : "2006-01-21T00:00:00-08:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2013-06-13T00:00:00-07:00",
+         "perfId" : 41627,
+         "potential" : 4,
+         "rating" : 4
+      }, {
+         "effective" : "2014-10-24T00:00:00-07:00",
+         "perfId" : 41628,
+         "potential" : 5,
+         "rating" : 5
+      }, {
+         "effective" : "2015-07-23T00:00:00-07:00",
+         "perfId" : 41629,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2006-12-04T00:00:00-08:00",
+         "perfId" : 41620,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2007-03-16T00:00:00-07:00",
+         "perfId" : 41621,
+         "potential" : 5,
+         "rating" : 4
+      }, {
+         "effective" : "2008-02-12T00:00:00-08:00",
+         "perfId" : 41622,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2009-05-03T00:00:00-07:00",
+         "perfId" : 41623,
+         "potential" : 2,
+         "rating" : 3
+      }, {
+         "effective" : "2010-09-20T00:00:00-07:00",
+         "perfId" : 41624,
+         "potential" : 4,
+         "rating" : 4
+      }, {
+         "effective" : "2011-01-08T00:00:00-08:00",
+         "perfId" : 41625,
+         "potential" : 3,
+         "rating" : 3
+      }, {
+         "effective" : "2012-01-26T00:00:00-08:00",
+         "perfId" : 41626,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80616,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Project Planning",
+            "skillId" : 11
+         }
+      }, {
+         "empskillassignId" : 80617,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Javascript",
+            "skillId" : 6
+         }
+      }, {
+         "empskillassignId" : 80618,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Acquistions",
+            "skillId" : 10
+         }
+      }, {
+         "empskillassignId" : 80619,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Strategy",
+            "skillId" : 22
+         }
+      }, {
+         "empskillassignId" : 80620,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 80621,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      }, {
+         "empskillassignId" : 80622,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 80623,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Outsourcing",
+            "skillId" : 20
+         }
+      }, {
+         "empskillassignId" : 80624,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Risk Analysis",
+            "skillId" : 12
+         }
+      }, {
+         "empskillassignId" : 80625,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Procurement",
+            "skillId" : 21
+         }
+      }, {
+         "empskillassignId" : 80626,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Word",
+            "skillId" : 4
+         }
+      }, {
+         "empskillassignId" : 80627,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      }, {
+         "empskillassignId" : 80628,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Statistics",
+            "skillId" : 5
+         }
+      }, {
+         "empskillassignId" : 80629,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 80630,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "HCM",
+            "skillId" : 17
+         }
+      }, {
+         "empskillassignId" : 80631,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Recruiting",
+            "skillId" : 13
+         }
+      }, {
+         "empskillassignId" : 80632,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Excel",
+            "skillId" : 3
+         }
+      }, {
+         "empskillassignId" : 80633,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      } ],
+      "events" : [ {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2006-09-26T00:00:00-07:00",
+         "eventId" : 146803,
+         "name" : "Event",
+         "start" : "2006-09-23T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2006-12-26T00:00:00-08:00",
+         "eventId" : 146804,
+         "name" : "Customer Meeting",
+         "start" : "2006-12-23T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2007-11-30T00:00:00-08:00",
+         "eventId" : 146805,
+         "name" : "Customer Meeting",
+         "start" : "2007-11-26T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2007-04-15T00:00:00-07:00",
+         "eventId" : 146806,
+         "name" : "Customer Meeting",
+         "start" : "2007-04-12T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2007-01-10T00:00:00-08:00",
+         "eventId" : 146807,
+         "name" : "Training",
+         "start" : "2007-01-08T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2007-11-15T00:00:00-08:00",
+         "eventId" : 146808,
+         "name" : "Time Off",
+         "start" : "2007-11-11T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2008-10-25T00:00:00-07:00",
+         "eventId" : 146809,
+         "name" : "Time Off",
+         "start" : "2008-10-20T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mobility",
+         "end" : "2008-11-22T00:00:00-08:00",
+         "eventId" : 146810,
+         "name" : "Training",
+         "start" : "2008-11-20T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2008-04-08T00:00:00-07:00",
+         "eventId" : 146811,
+         "name" : "Time Off",
+         "start" : "2008-04-05T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2009-04-05T00:00:00-07:00",
+         "eventId" : 146812,
+         "name" : "Event",
+         "start" : "2009-04-04T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2009-09-09T00:00:00-07:00",
+         "eventId" : 146813,
+         "name" : "Time Off",
+         "start" : "2009-09-06T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Oracle",
+         "end" : "2009-06-04T00:00:00-07:00",
+         "eventId" : 146814,
+         "name" : "Customer Meeting",
+         "start" : "2009-06-01T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2009-08-31T00:00:00-07:00",
+         "eventId" : 146815,
+         "name" : "Training",
+         "start" : "2009-08-26T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2010-12-19T00:00:00-08:00",
+         "eventId" : 146816,
+         "name" : "Event",
+         "start" : "2010-12-17T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2010-10-18T00:00:00-07:00",
+         "eventId" : 146817,
+         "name" : "Event",
+         "start" : "2010-10-13T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Public Speaking",
+         "end" : "2010-02-20T00:00:00-08:00",
+         "eventId" : 146818,
+         "name" : "Training",
+         "start" : "2010-02-15T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-02-12T00:00:00-08:00",
+         "eventId" : 146819,
+         "name" : "Time Off",
+         "start" : "2011-02-07T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2011-07-23T00:00:00-07:00",
+         "eventId" : 146820,
+         "name" : "Customer Meeting",
+         "start" : "2011-07-20T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2012-12-22T00:00:00-08:00",
+         "eventId" : 146821,
+         "name" : "Time Off",
+         "start" : "2012-12-19T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "ABC LLC",
+         "end" : "2012-02-26T00:00:00-08:00",
+         "eventId" : 146822,
+         "name" : "Customer Meeting",
+         "start" : "2012-02-22T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2012-03-08T00:00:00-08:00",
+         "eventId" : 146823,
+         "name" : "Time Off",
+         "start" : "2012-03-05T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "CCC Enterprises",
+         "end" : "2012-10-16T00:00:00-07:00",
+         "eventId" : 146824,
+         "name" : "Customer Meeting",
+         "start" : "2012-10-12T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Public Speaking",
+         "end" : "2013-07-19T00:00:00-07:00",
+         "eventId" : 146825,
+         "name" : "Training",
+         "start" : "2013-07-18T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Feedback Session",
+         "end" : "2013-12-11T00:00:00-08:00",
+         "eventId" : 146826,
+         "name" : "Event",
+         "start" : "2013-12-06T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2013-04-16T00:00:00-07:00",
+         "eventId" : 146827,
+         "name" : "Training",
+         "start" : "2013-04-15T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "iOS Development",
+         "end" : "2013-11-22T00:00:00-08:00",
+         "eventId" : 146828,
+         "name" : "Training",
+         "start" : "2013-11-18T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2014-01-18T00:00:00-08:00",
+         "eventId" : 146829,
+         "name" : "Time Off",
+         "start" : "2014-01-17T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2014-07-30T00:00:00-07:00",
+         "eventId" : 146830,
+         "name" : "Time Off",
+         "start" : "2014-07-27T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Winner's Circle",
+         "end" : "2014-07-18T00:00:00-07:00",
+         "eventId" : 146831,
+         "name" : "Event",
+         "start" : "2014-07-17T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2015-05-15T04:00:04-07:00",
+         "eventId" : 146832,
+         "name" : "Training",
+         "start" : "2015-05-11T04:00:04-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2015-08-12T04:00:04-07:00",
+         "eventId" : 146833,
+         "name" : "Training",
+         "start" : "2015-08-09T04:00:04-07:00",
+         "type" : "3"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-05-20T00:00:00-07:00",
+         "perfId" : 41313,
+         "potential" : 4,
+         "rating" : 4
+      }, {
+         "effective" : "2015-07-23T00:00:00-07:00",
+         "perfId" : 41629,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2015-04-25T00:00:00-07:00",
+         "perfId" : 41642,
+         "potential" : 5,
+         "rating" : 2
+      } ],
+      "reports" : [ {
+         "empId" : 195,
+         "firstName" : "Vance",
+         "lastName" : "Jones",
+         "title" : "Shipping Clerk",
+         "email" : "VJONES",
+         "phone" : "650.501.4876",
+         "mobile" : "650.501.4876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Vance",
+         "facebook" : "Vance",
+         "google" : "Vance",
+         "linkedIn" : "Vance",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 27,
+         "salary" : 5800.0,
+         "bonus" : 700.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 5,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 5.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 2,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 137,
+         "firstName" : "Renske",
+         "lastName" : "Ladwig",
+         "title" : "Stock Clerk",
+         "email" : "RLADWIG",
+         "phone" : "650.121.1234",
+         "mobile" : "650.121.1234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Renske",
+         "facebook" : "Renske",
+         "google" : "Renske",
+         "linkedIn" : "Renske",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 61,
+         "salary" : 5600.0,
+         "bonus" : 900.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 3,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 3.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 0,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 194,
+         "firstName" : "Samuel",
+         "lastName" : "McCain",
+         "title" : "Shipping Clerk",
+         "email" : "SMCCAIN",
+         "phone" : "650.501.3876",
+         "mobile" : "650.501.3876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Samuel",
+         "facebook" : "Samuel",
+         "google" : "Samuel",
+         "linkedIn" : "Samuel",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 51,
+         "salary" : 6200.0,
+         "bonus" : 800.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 1,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 140,
+         "firstName" : "Joshua",
+         "lastName" : "Patel",
+         "title" : "Stock Clerk",
+         "email" : "JPATEL",
+         "phone" : "650.121.1834",
+         "mobile" : "650.121.1834",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Joshua",
+         "facebook" : "Joshua",
+         "google" : "Joshua",
+         "linkedIn" : "Joshua",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 68,
+         "salary" : 5500.0,
+         "bonus" : 625.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 2,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 2,
+         "groupEvents" : 0,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 139,
+         "firstName" : "John",
+         "lastName" : "Seo",
+         "title" : "Stock Clerk",
+         "email" : "JSEO",
+         "phone" : "650.121.2019",
+         "mobile" : "650.121.2019",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "John",
+         "facebook" : "John",
+         "google" : "John",
+         "linkedIn" : "John",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 116,
+         "salary" : 5700.0,
+         "bonus" : 675.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 4,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 1,
+         "groupCompRatioIn" : 0,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 138,
+         "firstName" : "Stephen",
+         "lastName" : "Stiles",
+         "title" : "Stock Clerk",
+         "email" : "SSTILES",
+         "phone" : "650.121.2034",
+         "mobile" : "650.121.2034",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Stephen",
+         "facebook" : "Stephen",
+         "google" : "Stephen",
+         "linkedIn" : "Stephen",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 38,
+         "salary" : 5200.0,
+         "bonus" : 800.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 2,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 2.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 0,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 192,
+         "firstName" : "Sarah",
+         "lastName" : "Bell",
+         "title" : "Shipping Clerk",
+         "email" : "SBELL",
+         "phone" : "650.501.1876",
+         "mobile" : "650.501.1876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Sarah",
+         "facebook" : "Sarah",
+         "google" : "Sarah",
+         "linkedIn" : "Sarah",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 60,
+         "salary" : 6000.0,
+         "bonus" : 1000.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 2,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 2,
+         "groupEvents" : 0,
+         "groupTrainings" : 2,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 193,
+         "firstName" : "Britney",
+         "lastName" : "Everett",
+         "title" : "Shipping Clerk",
+         "email" : "BEVERETT",
+         "phone" : "650.501.2876",
+         "mobile" : "650.501.2876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Britney",
+         "facebook" : "Britney",
+         "google" : "Britney",
+         "linkedIn" : "Britney",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 97,
+         "salary" : 5900.0,
+         "bonus" : 975.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 5,
+         "deptId" : 50,
+         "mgrId" : 123,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Shanta",
+         "mgrLastName" : "Vollman",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 5.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 0
+      } ]
+   }

@@ -1,0 +1,24 @@
+{
+  "name": "demo-team",
+  "displayName": "demo-team",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+     "messagetext" : {
+     "type": "string"
+   },
+   "profile" : {
+      "type": "array"
+   }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

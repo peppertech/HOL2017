@@ -1,0 +1,803 @@
+{
+      "empId" : 203,
+      "firstName" : "Susan",
+      "lastName" : "Mavris",
+      "title" : "Human Resources Director",
+      "email" : "SMAVRIS",
+      "phone" : "515.123.7777",
+      "mobile" : "515.123.7777",
+      "address" : "8204 Arthur St",
+      "city" : "London",
+      "state" : "London",
+      "country" : "UK",
+      "postal" : "23123",
+      "twitter" : "Susan",
+      "facebook" : "Susan",
+      "google" : "Susan",
+      "linkedIn" : "Susan",
+      "hireDate" : "2008-02-14T00:00:00-08:00",
+      "compRatio" : 77,
+      "salary" : 9500.0,
+      "bonus" : 1625.0,
+      "commission" : 0.0,
+      "rating" : 2,
+      "potential" : 4,
+      "deptId" : 40,
+      "mgrId" : 101,
+      "deptName" : "Human Resources",
+      "mgrFirstName" : "Neena",
+      "mgrLastName" : "Kochhar",
+      "teamAvgRating" : 3.25,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 7,
+      "groupAvgRating" : 3.857142857142857,
+      "groupAvgPotential" : 4.571428571428571,
+      "groupCompRatioAbove" : 0,
+      "groupCompRatioIn" : 8,
+      "groupCompRatioBelow" : 6,
+      "groupMeetings" : 9,
+      "groupEvents" : 6,
+      "groupTrainings" : 4,
+      "groupTimeOff" : 5,
+      "comps" : [ {
+         "bonus" : 1625,
+         "comission" : 0,
+         "compId" : 49922,
+         "compRatio" : 77,
+         "compSalary" : 9500,
+         "effective" : "2015-12-05T00:00:00-08:00"
+      }, {
+         "bonus" : 1608.75,
+         "comission" : 0,
+         "compId" : 49923,
+         "compRatio" : 112,
+         "compSalary" : 9120,
+         "effective" : "2014-04-21T00:00:00-07:00"
+      }, {
+         "bonus" : 1528.3125,
+         "comission" : 0,
+         "compId" : 49924,
+         "compRatio" : 94,
+         "compSalary" : 8846.4,
+         "effective" : "2013-12-01T00:00:00-08:00"
+      }, {
+         "bonus" : 1390.764375,
+         "comission" : 0,
+         "compId" : 49925,
+         "compRatio" : 71,
+         "compSalary" : 8757.936,
+         "effective" : "2012-02-04T00:00:00-08:00"
+      }, {
+         "bonus" : 1307.3185125,
+         "comission" : 0,
+         "compId" : 49926,
+         "compRatio" : 38,
+         "compSalary" : 8320.0392,
+         "effective" : "2011-12-13T00:00:00-08:00"
+      }, {
+         "bonus" : 1268.098957125,
+         "comission" : 0,
+         "compId" : 49927,
+         "compRatio" : 9,
+         "compSalary" : 7987.237632,
+         "effective" : "2010-07-27T00:00:00-07:00"
+      }, {
+         "bonus" : 1230.05598841125,
+         "comission" : 0,
+         "compId" : 49928,
+         "compRatio" : 4,
+         "compSalary" : 7587.8757504,
+         "effective" : "2009-05-09T00:00:00-07:00"
+      }, {
+         "bonus" : 1143.9520692224625,
+         "comission" : 0,
+         "compId" : 49929,
+         "compRatio" : 74,
+         "compSalary" : 7360.239477888,
+         "effective" : "2008-03-10T00:00:00-07:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2008-11-15T00:00:00-08:00",
+         "perfId" : 41663,
+         "potential" : 2,
+         "rating" : 2
+      }, {
+         "effective" : "2009-11-25T00:00:00-08:00",
+         "perfId" : 41664,
+         "potential" : 2,
+         "rating" : 2
+      }, {
+         "effective" : "2010-07-09T00:00:00-07:00",
+         "perfId" : 41665,
+         "potential" : 5,
+         "rating" : 4
+      }, {
+         "effective" : "2011-01-23T00:00:00-08:00",
+         "perfId" : 41666,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2012-11-20T00:00:00-08:00",
+         "perfId" : 41667,
+         "potential" : 3,
+         "rating" : 4
+      }, {
+         "effective" : "2013-08-05T00:00:00-07:00",
+         "perfId" : 41668,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2014-08-05T00:00:00-07:00",
+         "perfId" : 41669,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2015-07-18T00:00:00-07:00",
+         "perfId" : 41670,
+         "potential" : 4,
+         "rating" : 2
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80692,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Financials",
+            "skillId" : 15
+         }
+      }, {
+         "empskillassignId" : 80693,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      }, {
+         "empskillassignId" : 80694,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Word",
+            "skillId" : 4
+         }
+      }, {
+         "empskillassignId" : 80695,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Bookeeping",
+            "skillDescription" : "Bookeeping",
+            "skillId" : 1
+         }
+      }, {
+         "empskillassignId" : 80696,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 80697,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 80698,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Excel",
+            "skillId" : 3
+         }
+      }, {
+         "empskillassignId" : 80699,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Statistics",
+            "skillId" : 5
+         }
+      }, {
+         "empskillassignId" : 80700,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Strategy",
+            "skillId" : 22
+         }
+      }, {
+         "empskillassignId" : 80701,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Management",
+            "skillId" : 14
+         }
+      }, {
+         "empskillassignId" : 80702,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Staffing",
+            "skillId" : 24
+         }
+      }, {
+         "empskillassignId" : 80703,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 80704,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 80705,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Project Planning",
+            "skillId" : 11
+         }
+      } ],
+      "events" : [ {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2008-05-29T00:00:00-07:00",
+         "eventId" : 146927,
+         "name" : "Event",
+         "start" : "2008-05-27T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Winner's Circle",
+         "end" : "2008-02-16T00:00:00-08:00",
+         "eventId" : 146928,
+         "name" : "Event",
+         "start" : "2008-02-11T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "iOS Development",
+         "end" : "2008-12-14T00:00:00-08:00",
+         "eventId" : 146929,
+         "name" : "Training",
+         "start" : "2008-12-09T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2009-05-22T00:00:00-07:00",
+         "eventId" : 146930,
+         "name" : "Event",
+         "start" : "2009-05-17T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "XYZ Systems",
+         "end" : "2009-11-21T00:00:00-08:00",
+         "eventId" : 146931,
+         "name" : "Customer Meeting",
+         "start" : "2009-11-16T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2010-04-19T00:00:00-07:00",
+         "eventId" : 146932,
+         "name" : "Training",
+         "start" : "2010-04-17T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "XYZ Systems",
+         "end" : "2010-08-31T00:00:00-07:00",
+         "eventId" : 146933,
+         "name" : "Customer Meeting",
+         "start" : "2010-08-26T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2010-05-14T00:00:00-07:00",
+         "eventId" : 146934,
+         "name" : "Event",
+         "start" : "2010-05-11T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2010-01-14T00:00:00-08:00",
+         "eventId" : 146935,
+         "name" : "Training",
+         "start" : "2010-01-09T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2011-08-17T00:00:00-07:00",
+         "eventId" : 146936,
+         "name" : "Customer Meeting",
+         "start" : "2011-08-15T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2011-11-20T00:00:00-08:00",
+         "eventId" : 146937,
+         "name" : "Customer Meeting",
+         "start" : "2011-11-18T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2011-07-05T00:00:00-07:00",
+         "eventId" : 146938,
+         "name" : "Training",
+         "start" : "2011-07-02T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2011-03-20T00:00:00-07:00",
+         "eventId" : 146939,
+         "name" : "Event",
+         "start" : "2011-03-15T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2012-10-24T00:00:00-07:00",
+         "eventId" : 146940,
+         "name" : "Time Off",
+         "start" : "2012-10-19T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2012-07-01T00:00:00-07:00",
+         "eventId" : 146941,
+         "name" : "Training",
+         "start" : "2012-06-26T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2012-07-10T00:00:00-07:00",
+         "eventId" : 146942,
+         "name" : "Training",
+         "start" : "2012-07-06T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2013-08-09T00:00:00-07:00",
+         "eventId" : 146943,
+         "name" : "Time Off",
+         "start" : "2013-08-07T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2013-05-17T00:00:00-07:00",
+         "eventId" : 146944,
+         "name" : "Event",
+         "start" : "2013-05-13T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Customer Advisory Board",
+         "end" : "2013-03-02T00:00:00-08:00",
+         "eventId" : 146945,
+         "name" : "Event",
+         "start" : "2013-02-26T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2014-10-04T00:00:00-07:00",
+         "eventId" : 146946,
+         "name" : "Event",
+         "start" : "2014-10-02T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2014-01-07T00:00:00-08:00",
+         "eventId" : 146947,
+         "name" : "Event",
+         "start" : "2014-01-04T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2015-04-23T04:00:04-07:00",
+         "eventId" : 146948,
+         "name" : "Time Off",
+         "start" : "2015-04-18T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-04-17T04:00:04-07:00",
+         "eventId" : 146949,
+         "name" : "Time Off",
+         "start" : "2015-04-16T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2015-06-09T04:00:04-07:00",
+         "eventId" : 146950,
+         "name" : "Training",
+         "start" : "2015-06-08T04:00:04-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2015-04-15T04:00:04-07:00",
+         "eventId" : 146951,
+         "name" : "Event",
+         "start" : "2015-04-12T04:00:04-07:00",
+         "type" : "2"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-09-08T00:00:00-07:00",
+         "perfId" : 41178,
+         "potential" : 3,
+         "rating" : 3
+      }, {
+         "effective" : "2015-01-03T00:00:00-08:00",
+         "perfId" : 41488,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2015-05-16T00:00:00-07:00",
+         "perfId" : 41654,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2015-07-18T00:00:00-07:00",
+         "perfId" : 41670,
+         "potential" : 4,
+         "rating" : 2
+      }, {
+         "effective" : "2015-08-05T00:00:00-07:00",
+         "perfId" : 41717,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2015-06-01T00:00:00-07:00",
+         "perfId" : 41796,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2015-03-22T00:00:00-07:00",
+         "perfId" : 42001,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2015-10-14T00:00:00-07:00",
+         "perfId" : 42028,
+         "potential" : 4,
+         "rating" : 5
+      } ],
+      "reports" : [ {
+         "empId" : 191,
+         "firstName" : "Randall",
+         "lastName" : "Perkins",
+         "title" : "Human Resources Representative",
+         "email" : "RPERKINS",
+         "phone" : "650.505.4876",
+         "mobile" : "650.505.4876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Randall",
+         "facebook" : "Randall",
+         "google" : "Randall",
+         "linkedIn" : "Randall",
+         "hireDate" : "2004-09-14T00:00:00-07:00",
+         "compRatio" : 99,
+         "salary" : 6500.0,
+         "bonus" : 625.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 4,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 2,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 136,
+         "firstName" : "Hazel",
+         "lastName" : "Philtanker",
+         "title" : "Human Resources Representative",
+         "email" : "HPHILTAN",
+         "phone" : "650.127.1634",
+         "mobile" : "650.127.1634",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Hazel",
+         "facebook" : "Hazel",
+         "google" : "Hazel",
+         "linkedIn" : "Hazel",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 101,
+         "salary" : 6200.0,
+         "bonus" : 550.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 4,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 3,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 134,
+         "firstName" : "Michael",
+         "lastName" : "Rogers",
+         "title" : "Human Resources Representative",
+         "email" : "MROGERS",
+         "phone" : "650.127.1834",
+         "mobile" : "650.127.1834",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Michael",
+         "facebook" : "Michael",
+         "google" : "Michael",
+         "linkedIn" : "Michael",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 46,
+         "salary" : 6900.0,
+         "bonus" : 725.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 3,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 2.0,
+         "groupAvgPotential" : 3.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 2
+      }, {
+         "empId" : 188,
+         "firstName" : "Kelly",
+         "lastName" : "Chung",
+         "title" : "Human Resources Representative",
+         "email" : "KCHUNG",
+         "phone" : "650.505.1876",
+         "mobile" : "650.505.1876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Kelly",
+         "facebook" : "Kelly",
+         "google" : "Kelly",
+         "linkedIn" : "Kelly",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 77,
+         "salary" : 6800.0,
+         "bonus" : 950.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 4,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 0,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 189,
+         "firstName" : "Jennifer",
+         "lastName" : "Dilly",
+         "title" : "Human Resources Representative",
+         "email" : "JDILLY",
+         "phone" : "650.505.2876",
+         "mobile" : "650.505.2876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Jennifer",
+         "facebook" : "Jennifer",
+         "google" : "Jennifer",
+         "linkedIn" : "Jennifer",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 5,
+         "salary" : 6600.0,
+         "bonus" : 900.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 190,
+         "firstName" : "Timothy",
+         "lastName" : "Gates",
+         "title" : "Human Resources Representative",
+         "email" : "TGATES",
+         "phone" : "650.505.3876",
+         "mobile" : "650.505.3876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Timothy",
+         "facebook" : "Timothy",
+         "google" : "Timothy",
+         "linkedIn" : "Timothy",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 20,
+         "salary" : 7900.0,
+         "bonus" : 725.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 5,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 2.0,
+         "groupAvgPotential" : 5.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 0,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 135,
+         "firstName" : "Ki",
+         "lastName" : "Gee",
+         "title" : "Human Resources Representative",
+         "email" : "KGEE",
+         "phone" : "650.127.1734",
+         "mobile" : "650.127.1734",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Ki",
+         "facebook" : "Ki",
+         "google" : "Ki",
+         "linkedIn" : "Ki",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 52,
+         "salary" : 6400.0,
+         "bonus" : 600.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 40,
+         "mgrId" : 203,
+         "deptName" : "Human Resources",
+         "mgrFirstName" : "Susan",
+         "mgrLastName" : "Mavris",
+         "teamAvgRating" : 3.5714285714285716,
+         "empMeetings" : 1,
+         "empEvents" : 1,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 2,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 0
+      } ]
+   }

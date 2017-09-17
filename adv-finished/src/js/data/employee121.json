@@ -1,0 +1,1018 @@
+{
+      "empId" : 121,
+      "firstName" : "Adam",
+      "lastName" : "Fripp",
+      "title" : "IT Manager",
+      "email" : "AFRIPP",
+      "phone" : "650.123.2234",
+      "mobile" : "650.123.2234",
+      "address" : "2011 Main Street",
+      "city" : "South San Francisco",
+      "state" : "California",
+      "country" : "US",
+      "postal" : "94105",
+      "twitter" : "Adam",
+      "facebook" : "Adam",
+      "google" : "Adam",
+      "linkedIn" : "Adam",
+      "hireDate" : "2004-09-14T00:00:00-07:00",
+      "compRatio" : 112,
+      "salary" : 10800.0,
+      "bonus" : 8050.0,
+      "commission" : 0.0,
+      "rating" : 2,
+      "potential" : 3,
+      "deptId" : 60,
+      "mgrId" : 103,
+      "deptName" : "IT",
+      "mgrFirstName" : "Alexander",
+      "mgrLastName" : "Hunold",
+      "teamAvgRating" : 2.5,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 8,
+      "groupAvgRating" : 4.125,
+      "groupAvgPotential" : 3.75,
+      "groupCompRatioAbove" : 1,
+      "groupCompRatioIn" : 8,
+      "groupCompRatioBelow" : 6,
+      "groupMeetings" : 6,
+      "groupEvents" : 6,
+      "groupTrainings" : 7,
+      "groupTimeOff" : 7,
+      "comps" : [ {
+         "bonus" : 8050,
+         "comission" : 0,
+         "compId" : 50202,
+         "compRatio" : 112,
+         "compSalary" : 10800,
+         "effective" : "2015-05-03T00:00:00-07:00"
+      }, {
+         "bonus" : 7245,
+         "comission" : 0,
+         "compId" : 50203,
+         "compRatio" : 33,
+         "compSalary" : 10692,
+         "effective" : "2014-11-16T00:00:00-08:00"
+      }, {
+         "bonus" : 6882.75,
+         "comission" : 0,
+         "compId" : 50204,
+         "compRatio" : 28,
+         "compSalary" : 10264.32,
+         "effective" : "2013-08-18T00:00:00-07:00"
+      }, {
+         "bonus" : 6194.475,
+         "comission" : 0,
+         "compId" : 50205,
+         "compRatio" : 31,
+         "compSalary" : 9853.7472,
+         "effective" : "2012-12-06T00:00:00-08:00"
+      }, {
+         "bonus" : 5575.0275,
+         "comission" : 0,
+         "compId" : 50206,
+         "compRatio" : 4,
+         "compSalary" : 9656.672256,
+         "effective" : "2011-02-16T00:00:00-08:00"
+      }, {
+         "bonus" : 5073.275025,
+         "comission" : 0,
+         "compId" : 50207,
+         "compRatio" : 86,
+         "compSalary" : 9173.8386432,
+         "effective" : "2010-02-09T00:00:00-08:00"
+      }, {
+         "bonus" : 4667.413023,
+         "comission" : 0,
+         "compId" : 50208,
+         "compRatio" : 70,
+         "compSalary" : 8806.885097472,
+         "effective" : "2009-04-04T00:00:00-07:00"
+      }, {
+         "bonus" : 4574.06476254,
+         "comission" : 0,
+         "compId" : 50209,
+         "compRatio" : 63,
+         "compSalary" : 8630.74739552256,
+         "effective" : "2008-08-22T00:00:00-07:00"
+      }, {
+         "bonus" : 4345.361524413,
+         "comission" : 0,
+         "compId" : 50210,
+         "compRatio" : 113,
+         "compSalary" : 8544.4399215673344,
+         "effective" : "2007-06-18T00:00:00-07:00"
+      }, {
+         "bonus" : 4301.90790916887,
+         "comission" : 0,
+         "compId" : 50211,
+         "compRatio" : 80,
+         "compSalary" : 8373.551123135987712,
+         "effective" : "2006-05-14T00:00:00-07:00"
+      }, {
+         "bonus" : 3871.717118251983,
+         "comission" : 0,
+         "compId" : 50212,
+         "compRatio" : 103,
+         "compSalary" : 7954.8735669791883264,
+         "effective" : "2005-09-27T00:00:00-07:00"
+      }, {
+         "bonus" : 3678.13126233938385,
+         "comission" : 0,
+         "compId" : 50213,
+         "compRatio" : 94,
+         "compSalary" : 7557.12988863022891008,
+         "effective" : "2004-06-25T00:00:00-07:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2004-02-15T00:00:00-08:00",
+         "perfId" : 41943,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2005-01-07T00:00:00-08:00",
+         "perfId" : 41944,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2006-08-11T00:00:00-07:00",
+         "perfId" : 41945,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2007-05-13T00:00:00-07:00",
+         "perfId" : 41946,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2008-04-06T00:00:00-07:00",
+         "perfId" : 41947,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2009-10-06T00:00:00-07:00",
+         "perfId" : 41948,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2010-03-27T00:00:00-07:00",
+         "perfId" : 41949,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2011-04-06T00:00:00-07:00",
+         "perfId" : 41950,
+         "potential" : 2,
+         "rating" : 3
+      }, {
+         "effective" : "2012-02-01T00:00:00-08:00",
+         "perfId" : 41951,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2013-01-02T00:00:00-08:00",
+         "perfId" : 41952,
+         "potential" : 5,
+         "rating" : 5
+      }, {
+         "effective" : "2014-07-03T00:00:00-07:00",
+         "perfId" : 41953,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2015-02-11T00:00:00-08:00",
+         "perfId" : 41954,
+         "potential" : 3,
+         "rating" : 2
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 81075,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Statistics",
+            "skillId" : 5
+         }
+      }, {
+         "empskillassignId" : 81076,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      }, {
+         "empskillassignId" : 81077,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Recruiting",
+            "skillId" : 13
+         }
+      }, {
+         "empskillassignId" : 81078,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Acquistions",
+            "skillId" : 10
+         }
+      }, {
+         "empskillassignId" : 81079,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "HCM",
+            "skillId" : 17
+         }
+      }, {
+         "empskillassignId" : 81080,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 81081,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Management",
+            "skillId" : 14
+         }
+      }, {
+         "empskillassignId" : 81082,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 81083,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Project Planning",
+            "skillId" : 11
+         }
+      }, {
+         "empskillassignId" : 81084,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 81085,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 81086,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Outsourcing",
+            "skillId" : 20
+         }
+      }, {
+         "empskillassignId" : 81087,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Strategy",
+            "skillId" : 22
+         }
+      }, {
+         "empskillassignId" : 81088,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Word",
+            "skillId" : 4
+         }
+      }, {
+         "empskillassignId" : 81089,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      }, {
+         "empskillassignId" : 81090,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Excel",
+            "skillId" : 3
+         }
+      }, {
+         "empskillassignId" : 81091,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Staffing",
+            "skillId" : 24
+         }
+      }, {
+         "empskillassignId" : 81092,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 81093,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Estimation",
+            "skillId" : 23
+         }
+      }, {
+         "empskillassignId" : 81094,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Bookeeping",
+            "skillDescription" : "Bookeeping",
+            "skillId" : 1
+         }
+      }, {
+         "empskillassignId" : 81095,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Javascript",
+            "skillId" : 6
+         }
+      }, {
+         "empskillassignId" : 81096,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Procurement",
+            "skillId" : 21
+         }
+      } ],
+      "events" : [ {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2004-03-14T00:00:00-08:00",
+         "eventId" : 147788,
+         "name" : "Event",
+         "start" : "2004-03-09T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "ABC LLC",
+         "end" : "2004-06-16T00:00:00-07:00",
+         "eventId" : 147789,
+         "name" : "Customer Meeting",
+         "start" : "2004-06-14T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "ABC LLC",
+         "end" : "2004-02-11T00:00:00-08:00",
+         "eventId" : 147790,
+         "name" : "Customer Meeting",
+         "start" : "2004-02-08T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2004-02-15T00:00:00-08:00",
+         "eventId" : 147791,
+         "name" : "Time Off",
+         "start" : "2004-02-14T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2005-11-14T00:00:00-08:00",
+         "eventId" : 147792,
+         "name" : "Training",
+         "start" : "2005-11-12T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2005-07-07T00:00:00-07:00",
+         "eventId" : 147793,
+         "name" : "Time Off",
+         "start" : "2005-07-04T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2005-07-29T00:00:00-07:00",
+         "eventId" : 147794,
+         "name" : "Customer Meeting",
+         "start" : "2005-07-26T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2005-02-20T00:00:00-08:00",
+         "eventId" : 147795,
+         "name" : "Customer Meeting",
+         "start" : "2005-02-19T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2006-05-06T00:00:00-07:00",
+         "eventId" : 147796,
+         "name" : "Training",
+         "start" : "2006-05-01T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2006-01-20T00:00:00-08:00",
+         "eventId" : 147797,
+         "name" : "Training",
+         "start" : "2006-01-19T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2006-10-24T00:00:00-07:00",
+         "eventId" : 147798,
+         "name" : "Customer Meeting",
+         "start" : "2006-10-20T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2007-03-10T00:00:00-08:00",
+         "eventId" : 147799,
+         "name" : "Customer Meeting",
+         "start" : "2007-03-07T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2007-02-12T00:00:00-08:00",
+         "eventId" : 147800,
+         "name" : "Time Off",
+         "start" : "2007-02-10T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "iOS Development",
+         "end" : "2008-09-15T00:00:00-07:00",
+         "eventId" : 147801,
+         "name" : "Training",
+         "start" : "2008-09-14T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2008-08-04T00:00:00-07:00",
+         "eventId" : 147802,
+         "name" : "Event",
+         "start" : "2008-08-01T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2008-06-25T00:00:00-07:00",
+         "eventId" : 147803,
+         "name" : "Customer Meeting",
+         "start" : "2008-06-21T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2008-11-04T00:00:00-08:00",
+         "eventId" : 147804,
+         "name" : "Event",
+         "start" : "2008-11-01T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2009-10-22T00:00:00-07:00",
+         "eventId" : 147805,
+         "name" : "Customer Meeting",
+         "start" : "2009-10-19T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2009-01-17T00:00:00-08:00",
+         "eventId" : 147806,
+         "name" : "Time Off",
+         "start" : "2009-01-15T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "iOS Development",
+         "end" : "2009-06-10T00:00:00-07:00",
+         "eventId" : 147807,
+         "name" : "Training",
+         "start" : "2009-06-08T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2009-11-13T00:00:00-08:00",
+         "eventId" : 147808,
+         "name" : "Time Off",
+         "start" : "2009-11-11T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2010-10-14T00:00:00-07:00",
+         "eventId" : 147809,
+         "name" : "Customer Meeting",
+         "start" : "2010-10-10T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2010-11-13T00:00:00-08:00",
+         "eventId" : 147810,
+         "name" : "Training",
+         "start" : "2010-11-12T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2010-09-12T00:00:00-07:00",
+         "eventId" : 147811,
+         "name" : "Event",
+         "start" : "2010-09-10T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2010-04-26T00:00:00-07:00",
+         "eventId" : 147812,
+         "name" : "Training",
+         "start" : "2010-04-23T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2011-06-19T00:00:00-07:00",
+         "eventId" : 147813,
+         "name" : "Training",
+         "start" : "2011-06-16T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2011-11-24T00:00:00-08:00",
+         "eventId" : 147814,
+         "name" : "Time Off",
+         "start" : "2011-11-20T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "ABC LLC",
+         "end" : "2012-06-05T00:00:00-07:00",
+         "eventId" : 147815,
+         "name" : "Customer Meeting",
+         "start" : "2012-06-02T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Oracle",
+         "end" : "2012-04-17T00:00:00-07:00",
+         "eventId" : 147816,
+         "name" : "Customer Meeting",
+         "start" : "2012-04-14T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2013-11-04T00:00:00-08:00",
+         "eventId" : 147817,
+         "name" : "Time Off",
+         "start" : "2013-11-02T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2013-08-07T00:00:00-07:00",
+         "eventId" : 147818,
+         "name" : "Event",
+         "start" : "2013-08-06T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2014-12-22T00:00:00-08:00",
+         "eventId" : 147819,
+         "name" : "Event",
+         "start" : "2014-12-21T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2014-03-29T00:00:00-07:00",
+         "eventId" : 147820,
+         "name" : "Training",
+         "start" : "2014-03-26T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2014-08-07T00:00:00-07:00",
+         "eventId" : 147821,
+         "name" : "Time Off",
+         "start" : "2014-08-04T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-07-23T04:00:04-07:00",
+         "eventId" : 147822,
+         "name" : "Time Off",
+         "start" : "2015-07-18T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2015-06-14T04:00:04-07:00",
+         "eventId" : 147823,
+         "name" : "Event",
+         "start" : "2015-06-13T04:00:04-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2015-05-17T04:00:04-07:00",
+         "eventId" : 147824,
+         "name" : "Training",
+         "start" : "2015-05-14T04:00:04-07:00",
+         "type" : "3"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-08-11T00:00:00-07:00",
+         "perfId" : 41880,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2015-02-11T00:00:00-08:00",
+         "perfId" : 41954,
+         "potential" : 3,
+         "rating" : 2
+      } ],
+      "reports" : [ {
+         "empId" : 131,
+         "firstName" : "James",
+         "lastName" : "Marlow",
+         "title" : "Programmer",
+         "email" : "JAMRLOW",
+         "phone" : "650.124.7234",
+         "mobile" : "650.124.7234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "James",
+         "facebook" : "James",
+         "google" : "James",
+         "linkedIn" : "James",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 26,
+         "salary" : 9500.0,
+         "bonus" : 2625.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 4,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 132,
+         "firstName" : "TJ",
+         "lastName" : "Olson",
+         "title" : "Programmer",
+         "email" : "TJOLSON",
+         "phone" : "650.124.8234",
+         "mobile" : "650.124.8234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "TJ",
+         "facebook" : "TJ",
+         "google" : "TJ",
+         "linkedIn" : "TJ",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 80,
+         "salary" : 9100.0,
+         "bonus" : 2525.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 4,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 2.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 184,
+         "firstName" : "Norm",
+         "lastName" : "Sarchand",
+         "title" : "Programmer",
+         "email" : "NSARCHAN",
+         "phone" : "650.509.1876",
+         "mobile" : "650.509.1876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Norm",
+         "facebook" : "Norm",
+         "google" : "Norm",
+         "linkedIn" : "Norm",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 100,
+         "salary" : 9200.0,
+         "bonus" : 4050.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 2,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 1,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 2,
+         "groupEvents" : 0,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 130,
+         "firstName" : "Mary",
+         "lastName" : "Atkinson",
+         "title" : "Programmer",
+         "email" : "MATKINSO",
+         "phone" : "650.124.6234",
+         "mobile" : "650.124.6234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Mary",
+         "facebook" : "Mary",
+         "google" : "Mary",
+         "linkedIn" : "Mary",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 21,
+         "salary" : 9800.0,
+         "bonus" : 7700.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 1,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 1,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 129,
+         "firstName" : "Laura",
+         "lastName" : "Bissot",
+         "title" : "Programmer",
+         "email" : "LBISSOT",
+         "phone" : "650.124.5234",
+         "mobile" : "650.124.5234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Laura",
+         "facebook" : "Laura",
+         "google" : "Laura",
+         "linkedIn" : "Laura",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 102,
+         "salary" : 9300.0,
+         "bonus" : 5825.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 1,
+         "groupEvents" : 1,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 185,
+         "firstName" : "Alex",
+         "lastName" : "Bull",
+         "title" : "Programmer",
+         "email" : "ABULL",
+         "phone" : "650.509.2876",
+         "mobile" : "650.509.2876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Alex",
+         "facebook" : "Alex",
+         "google" : "Alex",
+         "linkedIn" : "Alex",
+         "hireDate" : "2004-09-14T00:00:00-07:00",
+         "compRatio" : 70,
+         "salary" : 9100.0,
+         "bonus" : 4025.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 2,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 2.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 187,
+         "firstName" : "Anthony",
+         "lastName" : "Cabrio",
+         "title" : "Programmer",
+         "email" : "ACABRIO",
+         "phone" : "650.509.4876",
+         "mobile" : "650.509.4876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Anthony",
+         "facebook" : "Anthony",
+         "google" : "Anthony",
+         "linkedIn" : "Anthony",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 58,
+         "salary" : 9000.0,
+         "bonus" : 2750.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 5,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 5.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 0,
+         "groupTrainings" : 2,
+         "groupTimeOff" : 2
+      }, {
+         "empId" : 186,
+         "firstName" : "Julia",
+         "lastName" : "Dellinger",
+         "title" : "Programmer",
+         "email" : "JDELLING",
+         "phone" : "650.509.3876",
+         "mobile" : "650.509.3876",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Julia",
+         "facebook" : "Julia",
+         "google" : "Julia",
+         "linkedIn" : "Julia",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 58,
+         "salary" : 9400.0,
+         "bonus" : 3850.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 2,
+         "deptId" : 60,
+         "mgrId" : 121,
+         "deptName" : "IT",
+         "mgrFirstName" : "Adam",
+         "mgrLastName" : "Fripp",
+         "teamAvgRating" : 3.875,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 2,
+         "groupEvents" : 0,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      } ]
+   }

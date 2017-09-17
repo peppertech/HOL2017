@@ -1,0 +1,470 @@
+{
+      "empId" : 108,
+      "firstName" : "Nancy",
+      "lastName" : "Greenberg",
+      "title" : "Finance Director",
+      "email" : "NGREENBE",
+      "phone" : "515.124.4569",
+      "mobile" : "515.124.4569",
+      "address" : "2004 Bellevue Ct",
+      "city" : "Seattle",
+      "state" : "Washington",
+      "country" : "US",
+      "postal" : "98102",
+      "twitter" : "Nancy",
+      "facebook" : "Nancy",
+      "google" : "Nancy",
+      "linkedIn" : "Nancy",
+      "hireDate" : "2010-01-01T00:00:00-08:00",
+      "compRatio" : 33,
+      "salary" : 14000.0,
+      "bonus" : 4100.0,
+      "commission" : 0.0,
+      "rating" : 5,
+      "potential" : 3,
+      "deptId" : 100,
+      "mgrId" : 101,
+      "deptName" : "Finance",
+      "mgrFirstName" : "Neena",
+      "mgrLastName" : "Kochhar",
+      "teamAvgRating" : 3.25,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 12,
+      "groupAvgRating" : 3.8333333333333335,
+      "groupAvgPotential" : 4.083333333333333,
+      "groupCompRatioAbove" : 2,
+      "groupCompRatioIn" : 11,
+      "groupCompRatioBelow" : 11,
+      "groupMeetings" : 3,
+      "groupEvents" : 11,
+      "groupTrainings" : 9,
+      "groupTimeOff" : 16,
+      "comps" : [ {
+         "bonus" : 4100,
+         "comission" : 0,
+         "compId" : 50255,
+         "compRatio" : 33,
+         "compSalary" : 14000,
+         "effective" : "2015-01-22T00:00:00-08:00"
+      }, {
+         "bonus" : 4059,
+         "comission" : 0,
+         "compId" : 50256,
+         "compRatio" : 74,
+         "compSalary" : 13300,
+         "effective" : "2014-03-12T00:00:00-07:00"
+      }, {
+         "bonus" : 3693.69,
+         "comission" : 0,
+         "compId" : 50257,
+         "compRatio" : 86,
+         "compSalary" : 12901,
+         "effective" : "2013-01-19T00:00:00-08:00"
+      }, {
+         "bonus" : 3582.8793,
+         "comission" : 0,
+         "compId" : 50258,
+         "compRatio" : 103,
+         "compSalary" : 12513.97,
+         "effective" : "2012-03-05T00:00:00-08:00"
+      }, {
+         "bonus" : 3475.392921,
+         "comission" : 0,
+         "compId" : 50259,
+         "compRatio" : 89,
+         "compSalary" : 11888.2715,
+         "effective" : "2011-01-23T00:00:00-08:00"
+      }, {
+         "bonus" : 3336.37720416,
+         "comission" : 0,
+         "compId" : 50260,
+         "compRatio" : 81,
+         "compSalary" : 11531.623355,
+         "effective" : "2010-08-09T00:00:00-07:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2010-03-24T00:00:00-07:00",
+         "perfId" : 41996,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2011-01-18T00:00:00-08:00",
+         "perfId" : 41997,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2012-04-21T00:00:00-07:00",
+         "perfId" : 41998,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2013-10-10T00:00:00-07:00",
+         "perfId" : 41999,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2014-08-17T00:00:00-07:00",
+         "perfId" : 42000,
+         "potential" : 2,
+         "rating" : 4
+      }, {
+         "effective" : "2015-03-22T00:00:00-07:00",
+         "perfId" : 42001,
+         "potential" : 3,
+         "rating" : 5
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 81155,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 81156,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Javascript",
+            "skillId" : 6
+         }
+      }, {
+         "empskillassignId" : 81157,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Management",
+            "skillId" : 14
+         }
+      }, {
+         "empskillassignId" : 81158,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      }, {
+         "empskillassignId" : 81159,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Bookeeping",
+            "skillDescription" : "Bookeeping",
+            "skillId" : 1
+         }
+      }, {
+         "empskillassignId" : 81160,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Excel",
+            "skillId" : 3
+         }
+      }, {
+         "empskillassignId" : 81161,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Financials",
+            "skillId" : 15
+         }
+      }, {
+         "empskillassignId" : 81162,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Staffing",
+            "skillId" : 24
+         }
+      }, {
+         "empskillassignId" : 81163,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 81164,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      } ],
+      "events" : [ {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2010-05-31T00:00:00-07:00",
+         "eventId" : 147950,
+         "name" : "Event",
+         "start" : "2010-05-26T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2010-03-25T00:00:00-07:00",
+         "eventId" : 147951,
+         "name" : "Event",
+         "start" : "2010-03-23T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2010-05-22T00:00:00-07:00",
+         "eventId" : 147952,
+         "name" : "Time Off",
+         "start" : "2010-05-20T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2011-07-23T00:00:00-07:00",
+         "eventId" : 147953,
+         "name" : "Time Off",
+         "start" : "2011-07-20T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-02-10T00:00:00-08:00",
+         "eventId" : 147954,
+         "name" : "Time Off",
+         "start" : "2011-02-05T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-07-10T00:00:00-07:00",
+         "eventId" : 147955,
+         "name" : "Time Off",
+         "start" : "2011-07-07T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2012-01-25T00:00:00-08:00",
+         "eventId" : 147956,
+         "name" : "Training",
+         "start" : "2012-01-24T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2012-03-25T00:00:00-07:00",
+         "eventId" : 147957,
+         "name" : "Event",
+         "start" : "2012-03-21T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2013-07-21T00:00:00-07:00",
+         "eventId" : 147958,
+         "name" : "Training",
+         "start" : "2013-07-17T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Oracle",
+         "end" : "2013-08-26T00:00:00-07:00",
+         "eventId" : 147959,
+         "name" : "Customer Meeting",
+         "start" : "2013-08-23T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "ABC LLC",
+         "end" : "2013-06-19T00:00:00-07:00",
+         "eventId" : 147960,
+         "name" : "Customer Meeting",
+         "start" : "2013-06-17T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2013-07-17T00:00:00-07:00",
+         "eventId" : 147961,
+         "name" : "Customer Meeting",
+         "start" : "2013-07-15T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2014-09-20T00:00:00-07:00",
+         "eventId" : 147962,
+         "name" : "Training",
+         "start" : "2014-09-15T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2014-10-12T00:00:00-07:00",
+         "eventId" : 147963,
+         "name" : "Training",
+         "start" : "2014-10-10T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2014-04-29T00:00:00-07:00",
+         "eventId" : 147964,
+         "name" : "Event",
+         "start" : "2014-04-25T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Winner's Circle",
+         "end" : "2015-08-08T04:00:05-07:00",
+         "eventId" : 147965,
+         "name" : "Event",
+         "start" : "2015-08-07T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2015-06-13T04:00:05-07:00",
+         "eventId" : 147966,
+         "name" : "Event",
+         "start" : "2015-06-12T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2015-06-01T04:00:05-07:00",
+         "eventId" : 147967,
+         "name" : "Training",
+         "start" : "2015-05-28T04:00:05-07:00",
+         "type" : "3"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-09-08T00:00:00-07:00",
+         "perfId" : 41178,
+         "potential" : 3,
+         "rating" : 3
+      }, {
+         "effective" : "2015-01-03T00:00:00-08:00",
+         "perfId" : 41488,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2015-05-16T00:00:00-07:00",
+         "perfId" : 41654,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2015-07-18T00:00:00-07:00",
+         "perfId" : 41670,
+         "potential" : 4,
+         "rating" : 2
+      }, {
+         "effective" : "2015-08-05T00:00:00-07:00",
+         "perfId" : 41717,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2015-06-01T00:00:00-07:00",
+         "perfId" : 41796,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2015-03-22T00:00:00-07:00",
+         "perfId" : 42001,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2015-10-14T00:00:00-07:00",
+         "perfId" : 42028,
+         "potential" : 4,
+         "rating" : 5
+      } ],
+      "reports" : [ {
+         "empId" : 147,
+         "firstName" : "Allison",
+         "lastName" : "Errazuriz",
+         "title" : "Finance Manager",
+         "email" : "AERRAZUR",
+         "phone" : "011.44.1344.429278",
+         "mobile" : "011.44.1344.429278",
+         "address" : "Magdalen Centre The Oxford Science Park",
+         "city" : "Oxford",
+         "state" : "Oxford",
+         "country" : "UK",
+         "postal" : "OX9 9ZB",
+         "twitter" : "Allison",
+         "facebook" : "Allison",
+         "google" : "Allison",
+         "linkedIn" : "Allison",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 47,
+         "salary" : 12000.0,
+         "bonus" : 3000.0,
+         "commission" : 3000.0,
+         "rating" : 3,
+         "potential" : 5,
+         "deptId" : 100,
+         "mgrId" : 108,
+         "deptName" : "Finance",
+         "mgrFirstName" : "Nancy",
+         "mgrLastName" : "Greenberg",
+         "teamAvgRating" : 2.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 6,
+         "groupAvgRating" : 4.166666666666667,
+         "groupAvgPotential" : 4.5,
+         "groupCompRatioAbove" : 1,
+         "groupCompRatioIn" : 6,
+         "groupCompRatioBelow" : 6,
+         "groupMeetings" : 1,
+         "groupEvents" : 5,
+         "groupTrainings" : 6,
+         "groupTimeOff" : 7
+      }, {
+         "empId" : 109,
+         "firstName" : "Daniel",
+         "lastName" : "Faviet",
+         "title" : "Finance Manager",
+         "email" : "DFAVIET",
+         "phone" : "515.124.4169",
+         "mobile" : "515.124.4169",
+         "address" : "2004 Bellevue Ct",
+         "city" : "Seattle",
+         "state" : "Washington",
+         "country" : "US",
+         "postal" : "98102",
+         "twitter" : "Daniel",
+         "facebook" : "Daniel",
+         "google" : "Daniel",
+         "linkedIn" : "Daniel",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 38,
+         "salary" : 11500.0,
+         "bonus" : 2550.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 4,
+         "deptId" : 100,
+         "mgrId" : 108,
+         "deptName" : "Finance",
+         "mgrFirstName" : "Nancy",
+         "mgrLastName" : "Greenberg",
+         "teamAvgRating" : 2.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 4,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 4.75,
+         "groupCompRatioAbove" : 1,
+         "groupCompRatioIn" : 4,
+         "groupCompRatioBelow" : 4,
+         "groupMeetings" : 2,
+         "groupEvents" : 4,
+         "groupTrainings" : 2,
+         "groupTimeOff" : 9
+      } ]
+   }

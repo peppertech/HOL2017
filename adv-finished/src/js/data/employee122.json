@@ -1,0 +1,774 @@
+{
+      "empId" : 122,
+      "firstName" : "Payam",
+      "lastName" : "Kaufling",
+      "title" : "Shipping Director",
+      "email" : "PKAUFLIN",
+      "phone" : "650.123.3234",
+      "mobile" : "650.123.3234",
+      "address" : "2011 Main Street",
+      "city" : "South San Francisco",
+      "state" : "California",
+      "country" : "US",
+      "postal" : "94105",
+      "twitter" : "Payam",
+      "facebook" : "Payam",
+      "google" : "Payam",
+      "linkedIn" : "Payam",
+      "hireDate" : "2006-07-14T00:00:00-07:00",
+      "compRatio" : 120,
+      "salary" : 12900.0,
+      "bonus" : 3975.0,
+      "commission" : 0.0,
+      "rating" : 2,
+      "potential" : 3,
+      "deptId" : 50,
+      "mgrId" : 100,
+      "deptName" : "Shipping",
+      "mgrFirstName" : "Steven",
+      "mgrLastName" : "King",
+      "teamAvgRating" : 3.75,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 18,
+      "groupAvgRating" : 3.3333333333333335,
+      "groupAvgPotential" : 3.611111111111111,
+      "groupCompRatioAbove" : 2,
+      "groupCompRatioIn" : 17,
+      "groupCompRatioBelow" : 15,
+      "groupMeetings" : 19,
+      "groupEvents" : 13,
+      "groupTrainings" : 18,
+      "groupTimeOff" : 12,
+      "comps" : [ {
+         "bonus" : 3975,
+         "comission" : 0,
+         "compId" : 49476,
+         "compRatio" : 120,
+         "compSalary" : 12900,
+         "effective" : "2015-12-09T00:00:00-08:00"
+      }, {
+         "bonus" : 3935.25,
+         "comission" : 0,
+         "compId" : 49477,
+         "compRatio" : 32,
+         "compSalary" : 12642,
+         "effective" : "2014-10-17T00:00:00-07:00"
+      }, {
+         "bonus" : 3699.135,
+         "comission" : 0,
+         "compId" : 49478,
+         "compRatio" : 33,
+         "compSalary" : 12009.9,
+         "effective" : "2013-05-08T00:00:00-07:00"
+      }, {
+         "bonus" : 3477.1869,
+         "comission" : 0,
+         "compId" : 49479,
+         "compRatio" : 26,
+         "compSalary" : 11649.603,
+         "effective" : "2012-09-26T00:00:00-07:00"
+      }, {
+         "bonus" : 3372.871293,
+         "comission" : 0,
+         "compId" : 49480,
+         "compRatio" : 105,
+         "compSalary" : 11183.61888,
+         "effective" : "2011-07-22T00:00:00-07:00"
+      }, {
+         "bonus" : 3271.68515421,
+         "comission" : 0,
+         "compId" : 49481,
+         "compRatio" : 4,
+         "compSalary" : 11071.7826912,
+         "effective" : "2010-07-13T00:00:00-07:00"
+      }, {
+         "bonus" : 3140.8177480416,
+         "comission" : 0,
+         "compId" : 49482,
+         "compRatio" : 33,
+         "compSalary" : 10739.629210464,
+         "effective" : "2009-10-16T00:00:00-07:00"
+      }, {
+         "bonus" : 3109.409570561184,
+         "comission" : 0,
+         "compId" : 49483,
+         "compRatio" : 57,
+         "compSalary" : 10202.6477499408,
+         "effective" : "2008-03-02T00:00:00-08:00"
+      }, {
+         "bonus" : 2860.65680491628928,
+         "comission" : 0,
+         "compId" : 49484,
+         "compRatio" : 77,
+         "compSalary" : 9692.51536244376,
+         "effective" : "2007-05-21T00:00:00-07:00"
+      }, {
+         "bonus" : 2574.591124424660352,
+         "comission" : 0,
+         "compId" : 49485,
+         "compRatio" : 13,
+         "compSalary" : 9595.5902088193224,
+         "effective" : "2006-08-13T00:00:00-07:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2006-08-04T00:00:00-07:00",
+         "perfId" : 41217,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2007-01-16T00:00:00-08:00",
+         "perfId" : 41218,
+         "potential" : 4,
+         "rating" : 2
+      }, {
+         "effective" : "2008-06-10T00:00:00-07:00",
+         "perfId" : 41219,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2009-01-21T00:00:00-08:00",
+         "perfId" : 41220,
+         "potential" : 3,
+         "rating" : 3
+      }, {
+         "effective" : "2010-05-01T00:00:00-07:00",
+         "perfId" : 41221,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2011-12-25T00:00:00-08:00",
+         "perfId" : 41222,
+         "potential" : 4,
+         "rating" : 4
+      }, {
+         "effective" : "2012-04-09T00:00:00-07:00",
+         "perfId" : 41223,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2013-08-20T00:00:00-07:00",
+         "perfId" : 41224,
+         "potential" : 4,
+         "rating" : 2
+      }, {
+         "effective" : "2014-03-03T00:00:00-08:00",
+         "perfId" : 41225,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2015-03-27T00:00:00-07:00",
+         "perfId" : 41226,
+         "potential" : 3,
+         "rating" : 2
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80053,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 80054,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Project Planning",
+            "skillId" : 11
+         }
+      }, {
+         "empskillassignId" : 80055,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      }, {
+         "empskillassignId" : 80056,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 80057,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 80058,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 80059,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Word",
+            "skillId" : 4
+         }
+      }, {
+         "empskillassignId" : 80060,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Procurement",
+            "skillId" : 21
+         }
+      }, {
+         "empskillassignId" : 80061,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 80062,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Estimation",
+            "skillId" : 23
+         }
+      }, {
+         "empskillassignId" : 80063,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Javascript",
+            "skillId" : 6
+         }
+      }, {
+         "empskillassignId" : 80064,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Outsourcing",
+            "skillId" : 20
+         }
+      }, {
+         "empskillassignId" : 80065,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "HCM",
+            "skillId" : 17
+         }
+      }, {
+         "empskillassignId" : 80066,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Recruiting",
+            "skillId" : 13
+         }
+      }, {
+         "empskillassignId" : 80067,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Strategy",
+            "skillId" : 22
+         }
+      }, {
+         "empskillassignId" : 80068,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Financials",
+            "skillId" : 15
+         }
+      }, {
+         "empskillassignId" : 80069,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Risk Analysis",
+            "skillId" : 12
+         }
+      }, {
+         "empskillassignId" : 80070,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Acquistions",
+            "skillId" : 10
+         }
+      } ],
+      "events" : [ {
+         "color" : "#309fdb",
+         "description" : "CCC Enterprises",
+         "end" : "2006-12-30T00:00:00-08:00",
+         "eventId" : 145610,
+         "name" : "Customer Meeting",
+         "start" : "2006-12-25T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2006-10-21T00:00:00-07:00",
+         "eventId" : 145611,
+         "name" : "Event",
+         "start" : "2006-10-19T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "BBB Ltd",
+         "end" : "2006-08-26T00:00:00-07:00",
+         "eventId" : 145612,
+         "name" : "Customer Meeting",
+         "start" : "2006-08-22T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2006-12-26T00:00:00-08:00",
+         "eventId" : 145613,
+         "name" : "Training",
+         "start" : "2006-12-24T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "iOS Development",
+         "end" : "2007-09-20T00:00:00-07:00",
+         "eventId" : 145614,
+         "name" : "Training",
+         "start" : "2007-09-19T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2007-12-21T00:00:00-08:00",
+         "eventId" : 145615,
+         "name" : "Event",
+         "start" : "2007-12-16T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2007-11-07T00:00:00-08:00",
+         "eventId" : 145616,
+         "name" : "Time Off",
+         "start" : "2007-11-02T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2008-08-12T00:00:00-07:00",
+         "eventId" : 145617,
+         "name" : "Time Off",
+         "start" : "2008-08-08T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2008-06-24T00:00:00-07:00",
+         "eventId" : 145618,
+         "name" : "Time Off",
+         "start" : "2008-06-23T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "iOS Development",
+         "end" : "2009-07-07T00:00:00-07:00",
+         "eventId" : 145619,
+         "name" : "Training",
+         "start" : "2009-07-06T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2009-12-26T00:00:00-08:00",
+         "eventId" : 145620,
+         "name" : "Training",
+         "start" : "2009-12-23T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2009-11-07T00:00:00-08:00",
+         "eventId" : 145621,
+         "name" : "Event",
+         "start" : "2009-11-03T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2010-05-27T00:00:00-07:00",
+         "eventId" : 145622,
+         "name" : "Customer Meeting",
+         "start" : "2010-05-24T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2010-05-24T00:00:00-07:00",
+         "eventId" : 145623,
+         "name" : "Time Off",
+         "start" : "2010-05-19T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2010-05-22T00:00:00-07:00",
+         "eventId" : 145624,
+         "name" : "Event",
+         "start" : "2010-05-20T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-10-29T00:00:00-07:00",
+         "eventId" : 145625,
+         "name" : "Time Off",
+         "start" : "2011-10-27T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Customer Advisory Board",
+         "end" : "2011-08-11T00:00:00-07:00",
+         "eventId" : 145626,
+         "name" : "Event",
+         "start" : "2011-08-08T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2011-11-23T00:00:00-08:00",
+         "eventId" : 145627,
+         "name" : "Training",
+         "start" : "2011-11-22T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2012-01-05T00:00:00-08:00",
+         "eventId" : 145628,
+         "name" : "Time Off",
+         "start" : "2012-01-01T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Feedback Session",
+         "end" : "2012-05-17T00:00:00-07:00",
+         "eventId" : 145629,
+         "name" : "Event",
+         "start" : "2012-05-12T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2012-05-23T00:00:00-07:00",
+         "eventId" : 145630,
+         "name" : "Customer Meeting",
+         "start" : "2012-05-21T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2013-10-06T00:00:00-07:00",
+         "eventId" : 145631,
+         "name" : "Event",
+         "start" : "2013-10-03T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2013-05-19T00:00:00-07:00",
+         "eventId" : 145632,
+         "name" : "Event",
+         "start" : "2013-05-18T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2013-09-16T00:00:00-07:00",
+         "eventId" : 145633,
+         "name" : "Time Off",
+         "start" : "2013-09-12T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Oracle",
+         "end" : "2014-01-03T00:00:00-08:00",
+         "eventId" : 145634,
+         "name" : "Customer Meeting",
+         "start" : "2014-01-02T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Customer Advisory Board",
+         "end" : "2014-03-02T00:00:00-08:00",
+         "eventId" : 145635,
+         "name" : "Event",
+         "start" : "2014-03-01T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2014-03-05T00:00:00-08:00",
+         "eventId" : 145636,
+         "name" : "Event",
+         "start" : "2014-03-03T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-05-10T04:00:03-07:00",
+         "eventId" : 145637,
+         "name" : "Time Off",
+         "start" : "2015-05-07T04:00:03-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2015-07-12T04:00:03-07:00",
+         "eventId" : 145638,
+         "name" : "Customer Meeting",
+         "start" : "2015-07-09T04:00:03-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2015-06-05T04:00:03-07:00",
+         "eventId" : 145639,
+         "name" : "Event",
+         "start" : "2015-06-03T04:00:03-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2015-08-01T04:00:03-07:00",
+         "eventId" : 145640,
+         "name" : "Training",
+         "start" : "2015-07-29T04:00:03-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2015-04-24T04:00:05-07:00",
+         "eventId" : 148043,
+         "name" : "Customer Meeting",
+         "start" : "2015-04-20T04:00:05-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "CCC Enterprises",
+         "end" : "2015-04-17T04:00:05-07:00",
+         "eventId" : 148044,
+         "name" : "Customer Meeting",
+         "start" : "2015-04-15T04:00:05-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2015-04-21T04:00:05-07:00",
+         "eventId" : 148045,
+         "name" : "Event",
+         "start" : "2015-04-20T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Acme Ent",
+         "end" : "2015-04-18T04:00:05-07:00",
+         "eventId" : 148046,
+         "name" : "Customer Meeting",
+         "start" : "2015-04-17T04:00:05-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-04-22T04:00:05-07:00",
+         "eventId" : 148047,
+         "name" : "Time Off",
+         "start" : "2015-04-17T04:00:05-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2015-04-23T04:00:05-07:00",
+         "eventId" : 148048,
+         "name" : "Time Off",
+         "start" : "2015-04-20T04:00:05-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Winner's Circle",
+         "end" : "2015-04-18T04:00:05-07:00",
+         "eventId" : 148049,
+         "name" : "Event",
+         "start" : "2015-04-14T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-04-23T04:00:05-07:00",
+         "eventId" : 148050,
+         "name" : "Time Off",
+         "start" : "2015-04-19T04:00:05-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Oracle",
+         "end" : "2015-04-24T04:00:05-07:00",
+         "eventId" : 148051,
+         "name" : "Customer Meeting",
+         "start" : "2015-04-19T04:00:05-07:00",
+         "type" : "1"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-03-27T00:00:00-07:00",
+         "perfId" : 41226,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2015-05-02T00:00:00-07:00",
+         "perfId" : 41251,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2015-05-15T00:00:00-07:00",
+         "perfId" : 41259,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2015-12-12T00:00:00-08:00",
+         "perfId" : 41845,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "reports" : [ {
+         "empId" : 133,
+         "firstName" : "Jason",
+         "lastName" : "Mallin",
+         "title" : "Stock Clerk",
+         "email" : "JMALLIN",
+         "phone" : "650.127.1934",
+         "mobile" : "650.127.1934",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Jason",
+         "facebook" : "Jason",
+         "google" : "Jason",
+         "linkedIn" : "Jason",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 23,
+         "salary" : 5300.0,
+         "bonus" : 825.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 4,
+         "deptId" : 50,
+         "mgrId" : 122,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Payam",
+         "mgrLastName" : "Kaufling",
+         "teamAvgRating" : 3.0,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 0,
+         "groupTrainings" : 2,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 123,
+         "firstName" : "Shanta",
+         "lastName" : "Vollman",
+         "title" : "Stock Manager",
+         "email" : "SVOLLMAN",
+         "phone" : "650.123.4234",
+         "mobile" : "650.123.4234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Shanta",
+         "facebook" : "Shanta",
+         "google" : "Shanta",
+         "linkedIn" : "Shanta",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 107,
+         "salary" : 6500.0,
+         "bonus" : 1625.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 4,
+         "deptId" : 50,
+         "mgrId" : 122,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Payam",
+         "mgrLastName" : "Kaufling",
+         "teamAvgRating" : 3.0,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 8,
+         "groupAvgRating" : 3.875,
+         "groupAvgPotential" : 3.875,
+         "groupCompRatioAbove" : 1,
+         "groupCompRatioIn" : 8,
+         "groupCompRatioBelow" : 6,
+         "groupMeetings" : 5,
+         "groupEvents" : 5,
+         "groupTrainings" : 8,
+         "groupTimeOff" : 4
+      }, {
+         "empId" : 120,
+         "firstName" : "Matthew",
+         "lastName" : "Weiss",
+         "title" : "Stock Manager",
+         "email" : "MWEISS",
+         "phone" : "650.123.1234",
+         "mobile" : "650.123.1234",
+         "address" : "2011 Main Street",
+         "city" : "South San Francisco",
+         "state" : "California",
+         "country" : "US",
+         "postal" : "94105",
+         "twitter" : "Matthew",
+         "facebook" : "Matthew",
+         "google" : "Matthew",
+         "linkedIn" : "Matthew",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 58,
+         "salary" : 8000.0,
+         "bonus" : 2000.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 5,
+         "deptId" : 50,
+         "mgrId" : 122,
+         "deptName" : "Shipping",
+         "mgrFirstName" : "Payam",
+         "mgrLastName" : "Kaufling",
+         "teamAvgRating" : 3.0,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 7,
+         "groupAvgRating" : 3.2857142857142856,
+         "groupAvgPotential" : 3.857142857142857,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 8,
+         "groupCompRatioBelow" : 8,
+         "groupMeetings" : 9,
+         "groupEvents" : 5,
+         "groupTrainings" : 7,
+         "groupTimeOff" : 4
+      } ]
+   }

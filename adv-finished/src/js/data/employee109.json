@@ -1,0 +1,637 @@
+{
+      "empId" : 109,
+      "firstName" : "Daniel",
+      "lastName" : "Faviet",
+      "title" : "Finance Manager",
+      "email" : "DFAVIET",
+      "phone" : "515.124.4169",
+      "mobile" : "515.124.4169",
+      "address" : "2004 Bellevue Ct",
+      "city" : "Seattle",
+      "state" : "Washington",
+      "country" : "US",
+      "postal" : "98102",
+      "twitter" : "Daniel",
+      "facebook" : "Daniel",
+      "google" : "Daniel",
+      "linkedIn" : "Daniel",
+      "hireDate" : "2008-02-14T00:00:00-08:00",
+      "compRatio" : 38,
+      "salary" : 11500.0,
+      "bonus" : 2550.0,
+      "commission" : 0.0,
+      "rating" : 2,
+      "potential" : 4,
+      "deptId" : 100,
+      "mgrId" : 108,
+      "deptName" : "Finance",
+      "mgrFirstName" : "Nancy",
+      "mgrLastName" : "Greenberg",
+      "teamAvgRating" : 2.5,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 4,
+      "groupAvgRating" : 4.0,
+      "groupAvgPotential" : 4.75,
+      "groupCompRatioAbove" : 1,
+      "groupCompRatioIn" : 4,
+      "groupCompRatioBelow" : 4,
+      "groupMeetings" : 2,
+      "groupEvents" : 4,
+      "groupTrainings" : 2,
+      "groupTimeOff" : 9,
+      "comps" : [ {
+         "bonus" : 2550,
+         "comission" : 0,
+         "compId" : 50171,
+         "compRatio" : 38,
+         "compSalary" : 11500,
+         "effective" : "2015-03-14T00:00:00-07:00"
+      }, {
+         "bonus" : 2346,
+         "comission" : 0,
+         "compId" : 50172,
+         "compRatio" : 53,
+         "compSalary" : 11040,
+         "effective" : "2014-03-05T00:00:00-08:00"
+      }, {
+         "bonus" : 2181.78,
+         "comission" : 0,
+         "compId" : 50173,
+         "compRatio" : 52,
+         "compSalary" : 10488,
+         "effective" : "2013-03-22T00:00:00-07:00"
+      }, {
+         "bonus" : 2159.9622,
+         "comission" : 0,
+         "compId" : 50174,
+         "compRatio" : 25,
+         "compSalary" : 9963.6,
+         "effective" : "2012-11-21T00:00:00-08:00"
+      }, {
+         "bonus" : 2073.563712,
+         "comission" : 0,
+         "compId" : 50175,
+         "compRatio" : 39,
+         "compSalary" : 9764.328,
+         "effective" : "2011-11-16T00:00:00-08:00"
+      }, {
+         "bonus" : 1928.41425216,
+         "comission" : 0,
+         "compId" : 50176,
+         "compRatio" : 73,
+         "compSalary" : 9373.75488,
+         "effective" : "2010-02-26T00:00:00-08:00"
+      }, {
+         "bonus" : 1889.8459671168,
+         "comission" : 0,
+         "compId" : 50177,
+         "compRatio" : 104,
+         "compSalary" : 8905.067136,
+         "effective" : "2009-02-10T00:00:00-08:00"
+      }, {
+         "bonus" : 1719.759830076288,
+         "comission" : 0,
+         "compId" : 50178,
+         "compRatio" : 66,
+         "compSalary" : 8548.86445056,
+         "effective" : "2008-01-23T00:00:00-08:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2008-05-25T00:00:00-07:00",
+         "perfId" : 41912,
+         "potential" : 3,
+         "rating" : 4
+      }, {
+         "effective" : "2009-10-18T00:00:00-07:00",
+         "perfId" : 41913,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2010-04-17T00:00:00-07:00",
+         "perfId" : 41914,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2011-10-22T00:00:00-07:00",
+         "perfId" : 41915,
+         "potential" : 3,
+         "rating" : 4
+      }, {
+         "effective" : "2012-04-21T00:00:00-07:00",
+         "perfId" : 41916,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2013-07-08T00:00:00-07:00",
+         "perfId" : 41917,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2014-09-02T00:00:00-07:00",
+         "perfId" : 41918,
+         "potential" : 3,
+         "rating" : 4
+      }, {
+         "effective" : "2015-06-07T00:00:00-07:00",
+         "perfId" : 41919,
+         "potential" : 4,
+         "rating" : 2
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 81036,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Project Planning",
+            "skillId" : 11
+         }
+      }, {
+         "empskillassignId" : 81037,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Management",
+            "skillId" : 14
+         }
+      }, {
+         "empskillassignId" : 81038,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Acquistions",
+            "skillId" : 10
+         }
+      }, {
+         "empskillassignId" : 81039,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Excel",
+            "skillId" : 3
+         }
+      }, {
+         "empskillassignId" : 81040,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Staffing",
+            "skillId" : 24
+         }
+      }, {
+         "empskillassignId" : 81041,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Statistics",
+            "skillId" : 5
+         }
+      }, {
+         "empskillassignId" : 81042,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Risk Analysis",
+            "skillId" : 12
+         }
+      }, {
+         "empskillassignId" : 81043,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "CRM",
+            "skillId" : 16
+         }
+      }, {
+         "empskillassignId" : 81044,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 81045,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Procurement",
+            "skillId" : 21
+         }
+      }, {
+         "empskillassignId" : 81046,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 81047,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 81048,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Financials",
+            "skillId" : 15
+         }
+      }, {
+         "empskillassignId" : 81049,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      } ],
+      "events" : [ {
+         "color" : "#fbce4a",
+         "description" : "Mobility",
+         "end" : "2008-04-09T00:00:00-07:00",
+         "eventId" : 147696,
+         "name" : "Training",
+         "start" : "2008-04-06T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2008-05-19T00:00:00-07:00",
+         "eventId" : 147697,
+         "name" : "Event",
+         "start" : "2008-05-16T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2008-11-26T00:00:00-08:00",
+         "eventId" : 147698,
+         "name" : "Training",
+         "start" : "2008-11-23T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "XYZ Systems",
+         "end" : "2008-11-28T00:00:00-08:00",
+         "eventId" : 147699,
+         "name" : "Customer Meeting",
+         "start" : "2008-11-23T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2009-06-22T00:00:00-07:00",
+         "eventId" : 147700,
+         "name" : "Training",
+         "start" : "2009-06-21T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "CCC Enterprises",
+         "end" : "2009-02-28T00:00:00-08:00",
+         "eventId" : 147701,
+         "name" : "Customer Meeting",
+         "start" : "2009-02-26T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2009-08-05T00:00:00-07:00",
+         "eventId" : 147702,
+         "name" : "Customer Meeting",
+         "start" : "2009-08-04T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Feedback Session",
+         "end" : "2010-02-28T00:00:00-08:00",
+         "eventId" : 147703,
+         "name" : "Event",
+         "start" : "2010-02-24T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "ava Development",
+         "end" : "2010-12-24T00:00:00-08:00",
+         "eventId" : 147704,
+         "name" : "Training",
+         "start" : "2010-12-20T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2010-01-11T00:00:00-08:00",
+         "eventId" : 147705,
+         "name" : "Event",
+         "start" : "2010-01-10T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2011-04-17T00:00:00-07:00",
+         "eventId" : 147706,
+         "name" : "Customer Meeting",
+         "start" : "2011-04-14T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2011-03-11T00:00:00-08:00",
+         "eventId" : 147707,
+         "name" : "Time Off",
+         "start" : "2011-03-08T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2011-11-11T00:00:00-08:00",
+         "eventId" : 147708,
+         "name" : "Training",
+         "start" : "2011-11-10T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2012-11-16T00:00:00-08:00",
+         "eventId" : 147709,
+         "name" : "Event",
+         "start" : "2012-11-13T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2012-05-14T00:00:00-07:00",
+         "eventId" : 147710,
+         "name" : "Event",
+         "start" : "2012-05-09T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Oracle",
+         "end" : "2013-09-19T00:00:00-07:00",
+         "eventId" : 147711,
+         "name" : "Customer Meeting",
+         "start" : "2013-09-18T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2013-09-06T00:00:00-07:00",
+         "eventId" : 147712,
+         "name" : "Training",
+         "start" : "2013-09-01T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2014-06-29T00:00:00-07:00",
+         "eventId" : 147713,
+         "name" : "Training",
+         "start" : "2014-06-24T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Feedback Session",
+         "end" : "2014-09-10T00:00:00-07:00",
+         "eventId" : 147714,
+         "name" : "Event",
+         "start" : "2014-09-09T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2014-10-19T00:00:00-07:00",
+         "eventId" : 147715,
+         "name" : "Time Off",
+         "start" : "2014-10-14T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2014-07-09T00:00:00-07:00",
+         "eventId" : 147716,
+         "name" : "Training",
+         "start" : "2014-07-06T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-05-02T04:00:04-07:00",
+         "eventId" : 147717,
+         "name" : "Time Off",
+         "start" : "2015-04-29T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2015-05-31T04:00:04-07:00",
+         "eventId" : 147718,
+         "name" : "Time Off",
+         "start" : "2015-05-30T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2015-07-19T04:00:04-07:00",
+         "eventId" : 147719,
+         "name" : "Time Off",
+         "start" : "2015-07-18T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2015-07-30T04:00:04-07:00",
+         "eventId" : 147720,
+         "name" : "Time Off",
+         "start" : "2015-07-25T04:00:04-07:00",
+         "type" : "4"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-10-07T00:00:00-07:00",
+         "perfId" : 41904,
+         "potential" : 5,
+         "rating" : 3
+      }, {
+         "effective" : "2015-06-07T00:00:00-07:00",
+         "perfId" : 41919,
+         "potential" : 4,
+         "rating" : 2
+      } ],
+      "reports" : [ {
+         "empId" : 113,
+         "firstName" : "Luis",
+         "lastName" : "Popp",
+         "title" : "Accountant",
+         "email" : "LPOPP",
+         "phone" : "515.124.4567",
+         "mobile" : "515.124.4567",
+         "address" : "2004 Bellevue Ct",
+         "city" : "Seattle",
+         "state" : "Washington",
+         "country" : "US",
+         "postal" : "98102",
+         "twitter" : "Luis",
+         "facebook" : "Luis",
+         "google" : "Luis",
+         "linkedIn" : "Luis",
+         "hireDate" : "2009-03-01T00:00:00-08:00",
+         "compRatio" : 17,
+         "salary" : 6900.0,
+         "bonus" : 1625.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 4,
+         "deptId" : 100,
+         "mgrId" : 109,
+         "deptName" : "Finance",
+         "mgrFirstName" : "Daniel",
+         "mgrLastName" : "Faviet",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 2,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 112,
+         "firstName" : "Jose Manuel",
+         "lastName" : "Urman",
+         "title" : "Accountant",
+         "email" : "JMURMAN",
+         "phone" : "515.124.4469",
+         "mobile" : "515.124.4469",
+         "address" : "2004 Bellevue Ct",
+         "city" : "Seattle",
+         "state" : "Washington",
+         "country" : "US",
+         "postal" : "98102",
+         "twitter" : "Jose Manuel",
+         "facebook" : "Jose Manuel",
+         "google" : "Jose Manuel",
+         "linkedIn" : "Jose Manuel",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 63,
+         "salary" : 8800.0,
+         "bonus" : 1950.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 4,
+         "deptId" : 100,
+         "mgrId" : 109,
+         "deptName" : "Finance",
+         "mgrFirstName" : "Daniel",
+         "mgrLastName" : "Faviet",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 2,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 111,
+         "firstName" : "Ismael",
+         "lastName" : "Sciarra",
+         "title" : "Accountant",
+         "email" : "ISCIARRA",
+         "phone" : "515.124.4369",
+         "mobile" : "515.124.4369",
+         "address" : "2004 Bellevue Ct",
+         "city" : "Seattle",
+         "state" : "Washington",
+         "country" : "US",
+         "postal" : "98102",
+         "twitter" : "Ismael",
+         "facebook" : "Ismael",
+         "google" : "Ismael",
+         "linkedIn" : "Ismael",
+         "hireDate" : "2004-09-14T00:00:00-07:00",
+         "compRatio" : 112,
+         "salary" : 7900.0,
+         "bonus" : 1925.0,
+         "commission" : 0.0,
+         "rating" : 2,
+         "potential" : 3,
+         "deptId" : 100,
+         "mgrId" : 109,
+         "deptName" : "Finance",
+         "mgrFirstName" : "Daniel",
+         "mgrLastName" : "Faviet",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 2.0,
+         "groupAvgPotential" : 3.0,
+         "groupCompRatioAbove" : 1,
+         "groupCompRatioIn" : 0,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 1,
+         "groupEvents" : 0,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 2
+      }, {
+         "empId" : 110,
+         "firstName" : "John",
+         "lastName" : "Chen",
+         "title" : "Accountant",
+         "email" : "JCHEN",
+         "phone" : "515.124.4269",
+         "mobile" : "515.124.4269",
+         "address" : "2004 Bellevue Ct",
+         "city" : "Seattle",
+         "state" : "Washington",
+         "country" : "US",
+         "postal" : "98102",
+         "twitter" : "John",
+         "facebook" : "John",
+         "google" : "John",
+         "linkedIn" : "John",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 87,
+         "salary" : 8200.0,
+         "bonus" : 1950.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 100,
+         "mgrId" : 109,
+         "deptName" : "Finance",
+         "mgrFirstName" : "Daniel",
+         "mgrLastName" : "Faviet",
+         "teamAvgRating" : 3.5,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 0,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 1
+      } ]
+   }

@@ -1,0 +1,18 @@
+{
+  "name": "demo-ratings",
+  "displayName": "demo-ratings",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": ">=3.0.0",
+  "properties": {
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}
