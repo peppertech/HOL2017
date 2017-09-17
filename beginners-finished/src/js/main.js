@@ -28,7 +28,7 @@ requirejs.config(
     'ojtranslations': 'libs/oj/v4.0.0/resources',
     'text': 'libs/require/text',
     'signals': 'libs/js-signals/signals',
-    'customElements': 'libs/webcomponents/CustomElements.min',
+    'customElements': 'libs/webcomponents/custom-elements.min',
     'proj4': 'libs/proj4js/dist/proj4-src',
     'css': 'libs/require-css/css',
   }
