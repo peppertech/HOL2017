@@ -12,8 +12,8 @@ To check your NPM version, type: `npm --version`
 Clone the project and run the following commands from the root of the project folder:
 `npm install -g ojet-cli`
 
-### Running
-If you are new to Oracle JET, we recommend you start with the **Beginners Start** project. 
+### Where to start
+If you are new to Oracle JET, we recommend you start with the [**Beginners Start**](./beginners-start) project. 
 Change to this directory and follow the steps outlined in the README.
 
 If you have been working with JET for sometime, and would like to take an existing project to another level. 
