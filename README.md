@@ -3,7 +3,8 @@
 ### Prerequisites
 node 4+ (preferably the LTS)
 
->**NOTE** /n NPM v5 has known bugs that will cause the JET CLI tool to fail on installation. Make sure you are on an early version of NPM than 5.x
+>**NOTE**  
+NPM v5 has known bugs that will cause the JET CLI tool to fail on installation. Make sure you are on an early version of NPM than 5.x
 To check your NPM version, type: `npm --version`  
 
 
