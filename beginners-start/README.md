@@ -28,12 +28,19 @@ To build the default project, run:
 
 `ojet build`
 
->By default this will build a web application for you.  This is what we will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid application by running the same command as above, with these additional options:  
-> `--hybrid --platform=android | ios | windows`
+>By default this will build a web application for you and add a /web folder to your project root.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid application by running the same command as above, with these additional options:  
+> `--hybrid --platform=android | ios | windows`  
+
+**IMAGE 2**
+
 
 ### Editing the project
-Make all code edits in the /src folder.  
-If you make edits to any HTML, CSS, or JavaScript files while the ojet serve command is running, 
-the change will automatically be pushed to the /web folder and the browser will refresh.
+Make all code edits in the **/src folder**.  
+If you make edits to any HTML, CSS, or JavaScript files while the `ojet serve` command is running, 
+the changes will automatically be pushed to the /web folder and the browser will refresh.
 
 Adding or removing libraries from the project will require a rebuild.
+
+
+
+
