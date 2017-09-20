@@ -158,7 +158,7 @@ An "observable" or "observableArray" is a special type of two-way binding variab
 
 Looking at image 8 below, there are a few things to pay attention to:  
 * The original definition of the self.messageText knockout observable variable
-* The _context.props.then()_ method holds the callback function that returns a list of all the properties that our component has defined. Notice how the _context.props_ method returns a Promise which allows our callback function to only be called after the properties are available.
+* The _context.props.then()_ method holds the callback function that returns a list of all the properties that your component has defined. Notice how the _context.props_ method returns a Promise which allows our callback function to only be called after the properties are available.
 * Using the self.properties object, we can get the value of the _myMessage_ property and set the value of _self.messageText_ to that value.  Notice how a Knockout observable value is set by passing in the value as an argument to a method, and not by using the **=** assignment operator. 
 
 
