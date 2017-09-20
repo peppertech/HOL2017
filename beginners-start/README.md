@@ -148,11 +148,24 @@ You have also defined the _type_ that this attribute will pass, to be a string. 
 **IMAGE 7**
 
 #### Telling the component what to do with the value
-The component now knows to look for the _my-message_ attribute.  Let's now connect the business logic in the viewModle of your component to use that attributes value to display the message where we want it.
+The component now knows to look for the _my-message_ attribute.  Let's now connect the business logic in the viewModel of your component to use that attributes value to display the message where we want it.
 
-Open the _viewModel.js_ file from your **/js/jet-composites/my-chart** directory.
+Open the _viewModel.js_ file from your **/js/jet-composites/my-chart** directory.  In the default template, the value for the _self.messageText_ observable is hardcoded to a set value.  You are going to add a line in the _context.props_ Promise callback function to set the observable value to the string that is passed in by the DOM elements _my-message_ attribute.
+
+>Knockout.js observables  
+An "observable" or "observableArray" is a special type of two-way binding variable used by Knockout.js. When the value is changed by either the UI, or the JavaScript ViewModel, the other references to the observable are automatically updated as well.
+
+
+Looking at image 8 below, there are a few things to pay attention to:  
+* The original definition of the self.messageText knockout observable variable
+* The _context.props.then()_ method holds the callback function that returns a list of all the properties that our component has defined. Notice how the _context.props_ method returns a Promise which allows our callback function to only be called after the properties are available.
+* Using the self.properties object, we can get the value of the _myMessage_ property and set the value of _self.messageText_ to that value.  Notice how a Knockout observable value is set by passing in the value as an argument to a method, and not by using the **=** assignment operator. 
 
 
 
+![contents of viewModel.js file](./images/image-8.png "contents of viewModel.js file")  
+**IMAGE 8**
 
+Save your changes and you should see your new message being displayed instead of the default one.
+>If you still have the 'ojet serve' command running, all of these changes will have been save, compiled and the browers refreshed for you automatically. If you stopped the serve, re-run 'ojet serve' to see the updates.
 
