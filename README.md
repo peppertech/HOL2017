@@ -17,8 +17,11 @@ To check your NPM version, type: `npm --version`
 
 
 ### Installation
-Clone the project and run the following command from the root of the project folder:  
-`npm install -g @oracle/ojet-cli`
+Clone the project and run the following command from the root of the project folder:
+
+```
+npm install -g @oracle/ojet-cli
+```
 
 >If you are using a proxy server, you will need to make sure that npm's proxy settings are configured properly before the above command will succeed.
 
