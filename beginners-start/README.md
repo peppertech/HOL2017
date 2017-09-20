@@ -118,7 +118,7 @@ You should see the application loaded in your default browser, and the Dashboard
 
 
 ####  Adding an attribute in HTML
-To make things simple, let's let the developer pass in the message that we display when the component is rendered. Re-open the dashboard.html file and add an attribute to the `<my-chart>` component.  Name this attribute **my-message** and set the value to anything you like.
+To make things simple, let's let the developer pass in the message that we display when the component is rendered. Re-open the dashboard.html file and add an attribute to the `<my-chart>` element.  Name this attribute **my-message** and set the value to anything you like.
 
 ```xml
 <my-chart id="chart1" my-message="My new message from runtime"></my-chart>
@@ -146,5 +146,13 @@ You have also defined the _type_ that this attribute will pass, to be a string. 
 
  ![contents of components.json file](./images/image-7.png "contents of components.json file")  
 **IMAGE 7**
+
+#### Telling the component what to do with the value
+The component now knows to look for the _my-message_ attribute.  Let's now connect the business logic in the viewModle of your component to use that attributes value to display the message where we want it.
+
+Open the _viewModel.js_ file from your **/js/jet-composites/my-chart** directory.
+
+
+
 
 
