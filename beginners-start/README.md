@@ -17,7 +17,7 @@ The project will install all of the required files and then build and serve the 
 ***
 ### Getting Started
 
-To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the /beginners-start directory:  
+To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the **/beginners-start** directory:  
 
 `ojet create myHOL2017 --template=navdrawer`
 
@@ -45,17 +45,38 @@ the changes will automatically be pushed to the /web folder and the browser will
 Adding or removing libraries from the project will require a rebuild.
 
 ### Creating a Composite Component
-In JET, there is a concept of a reusable component called a composite component. You will often see this referred to as a CCA component as well.  CCA stands for Composite Component Architecture.  The special kinds of components are built according to the HTML5 Web Component specification and can be re-used across multiple Oracle development frameworks and tools, such as the Visual Builder Cloud Service and Sites Cloud Service.
+In JET, there is a concept of a reusable component called a composite component. You will often see this referred to as a CCA component as well.  CCA stands for Composite Component Architecture.  These special kinds of components are built according to the HTML5 Web Component specification and can be re-used across multiple Oracle development frameworks and tools, such as the Visual Builder Cloud Service and Sites Cloud Service.
 
 To create your new component run the following command from the root of the project that you just created.  
 `ojet create component my-chart`
 
 >The name of your component can be different, but it must be all lowercase and have at least one hyphen in the name.  This naming convention is part of the HTML5 web component specification.
 
-Once you have created your component, you can see the default template that has been created for you in the  
-**/src/js/jet-composites/my-chart**. The directory structure of your project should now look like image 3 below
+Once you have created your component, you will see that it has been added to a directory called **jet-composites** using the name that you gave your component.  This new component directory contains the default template. The directory structure of your project should now look like image 3 below
 
 ![folder structure with composite component](./images/image-3.png "Project structure with composite component")  
 **IMAGE 3**
+
+***
+### Using an editor or IDE of your choice
+So far, you have used the command line for quickly setting up the structure of your application.  From this point on, you are going to be editing code, as well as copying and pasting code from the Oracle JET Cookbook website.  JET is written in regular JavaScript, HTML, and CSS.  Because of this, you can use just about any editor that provides support for these technologies.  
+
+The screenshots showing code and application structure in this HOL, will be from NetBeans IDE.  NetBeans can open an existing JET application without any configuration or special setup.  Just choose "open project" from the NetBeans menu toolbar or menu and navigate to the root of your application.
+
+### Adding the default component to your application page
+Now that you have a new composite component, let's add it to the Dashboard page of your application.
+JET starter templates use a feature of JET called ojModule.  This is the ability to define a view (HTML) and a viewModel(JS) and combine them to deliver a specific section of the page as a simple module.  These view and viewModel files are found in the /js directory under directories of the same name.
+
+Open the dashboard.html file from the **/js/views** directory and add the following HTML code just under the <H1> element. 
+
+`<mychart id="chart1"></my-chart>`
+
+The resulting code will look like image 4 below.
+
+![dashboard html with first component](./images/image-4.png "dashboard html with first component")  
+**IMAGE 4**
+
+
+
 
 
