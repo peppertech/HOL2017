@@ -67,7 +67,7 @@ The screenshots showing code and application structure in this HOL, will be from
 Now that you have a new composite component, let's add it to the Dashboard page of your application.
 JET starter templates use a feature of JET called ojModule.  This is the ability to define a view (HTML) and a viewModel(JS) and combine them to deliver a specific section of the page as a simple module.  These view and viewModel files are found in the /js directory under directories of the same name.
 
-Open the dashboard.html file from the **/js/views** directory and add the following HTML code just under the <H1> element. 
+Open the dashboard.html file from the **/js/views** directory and add the following HTML code just under the `<H1>` element. 
 
 `<mychart id="chart1"></my-chart>`
 
