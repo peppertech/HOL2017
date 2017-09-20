@@ -167,5 +167,5 @@ Looking at image 8 below, there are a few things to pay attention to:
 **IMAGE 8**
 
 Save your changes and you should see your new message being displayed instead of the default one.
->If you still have the 'ojet serve' command running, all of these changes will have been save, compiled and the browers refreshed for you automatically. If you stopped the serve, re-run 'ojet serve' to see the updates.
+>If you still have the `ojet serve` command running, all of these changes will have been saved, compiled and the brower refreshed for you automatically. If you stopped the serve command earlier, re-run `ojet serve` to see the updates.
 
