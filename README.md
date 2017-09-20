@@ -1,4 +1,4 @@
-# Oracle JET HOL2017
+# Oracle JET Hands-On-Lab 2017
 
 This project is a collection of smaller Hands-On-Lab sessions presented at the 2017 Oracle OpenWorld/JavaOne Conference.
 
