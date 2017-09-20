@@ -8,7 +8,8 @@
 
 ### Seeing the final project first
 If you would like to see what your final project will look like when you are finished, you can follow these steps.  
-From the root of the [**beginners-finished**](./beginners-finished) directory, run the following commands:  
+From the root of the [**beginners-finished**](./beginners-finished) directory, run the following commands: 
+
 `npm install`  
 `ojet serve`
 
@@ -24,17 +25,20 @@ To get the initial project setup for your Hands-On-Lab, run the following comman
 Once the above command completes, you should have a directory structure that looks similar to Image 1 below.  
 
 ![default folder structure](./images/image-1.png "Default project file structure")  
-**IMAGE 1**
+**IMAGE 1**  
 
 To build the default project, run:  
 
 `ojet build`
 
->By default this will build a web application for you and add a /web folder to your project root.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid application by running the same command as above, with these additional options:  
+>By default this will build a web application for you and add a /web folder to your project root.  This is what you will be working with >for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid >application by running the same command as above, with these additional options: 
+> 
 > `--hybrid --platform=android | ios | windows`  
 
+
 ![folder structure after build](./images/image-2.png "Project file structure after build")  
-**IMAGE 2**
+**IMAGE 2**  
+
 
 ***
 ### Editing the project
@@ -92,13 +96,40 @@ Save both files and run your application again by typing:
 
 `ojet serve`
 
-You should see the application loaded in your default browser, and the Dashboard page will look like image 6 below.
+You should see the application loaded in your default browser, and the Dashboard page will look like image 6 below. Notice the **Hello from Example Component** message.
 
  ![running app with component message shown](./images/image-6.png "running app with component message shown")  
 **IMAGE 6**
 
  
+ ***
  
+ ### Making things more interactive
+ By default, your new component only displays new content into your page. However you can define HTML5 attributes for your component that will allow the developer to pass in values to your component at runtime.  Your component can then process those values and use  them to manipulate the content that you want to display.
+
+
+####  Adding an attribute in HTML
+To make things simple, let's let the developer pass in the message that we display when the component is rendered. Re-open the dashboard.html file and add an attribute to the `<my-chart>` component.  Name this attribute **my-message** and set the value to anything you like.
+
+`<my-chart id="chart1" my-message="My new message from runtime"></my-chart>`
+
+>Notice that the custom attribute starts with a prefix of **my-**. It's a good idea to add some kind of prefix to your attributes to help avoid the chance of naming an attribute after some existing attribute that you were not aware of.  Like a reserved word for the base HTML element that your composite component could be based on.
+
+#### Defining the attribute in your component
+You now have the HTML code ready to send a new message to your component. But you need to tell your component to look for that attribute first, and then decide what you are going to do with that information once you find it.
+
+Go to the **/js/jet-composites/my-chart/** directory and open the **component.json** file. This is the main definition file for your components metadata.  You can set the _name_, _description_, _version_, and many other propertiess in this file. One important property  to set is the _jetVersion_ property. This tells a developer what version of JET your component is written (and hopefully tested) to work with.  Most of these properties will be used when you publish your component to a future component catalog.
+
+For this Hands-on-Lab, you are going to add the definition of your attribute to the _properties_ object. You will provide the name, and the type of data that is going to be passed by the attribute. The code that you are going to add will be:
+
+```javascript
+  "properties": {
+    "myMessage": {
+      "type": "string"
+    }
+  },
+```
+There are a couple of key points to notice in the above code.  When you defined the attribute in your HTML code, you used a dash (-) to separate your prefix from your attribute name.  Notice in the JSON definition, you remove that dash and make the first letter that followed it, an upper case letter. The basic rule is that camel-case property names are converted into case-insensitive HTML element attributes with hyphens at the camel-case break point of the original name. So _myMessage_ has become _my-message_.
 
 
 
