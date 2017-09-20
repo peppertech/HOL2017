@@ -7,8 +7,8 @@ These sessions will allow someone who is brand new to Oracle JET, to get a good 
 
 
 ### Prerequisites
-* Node 4+ (preferably the LTS)
-* If running on a Mac, you will need to include "sudo" in front of all npm commands shown in the lab
+* Node 4+ (preferably the LTS release)
+* If running on a Mac, you will need to include "sudo" in front of all global npm commands shown in the lab
 
 
 >**NOTE**  
