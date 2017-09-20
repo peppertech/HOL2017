@@ -7,7 +7,9 @@ These sessions will allow someone who is brand new to Oracle JET, to get a good 
 
 
 ### Prerequisites
-node 4+ (preferably the LTS)
+* Node 4+ (preferably the LTS)
+* If running on a Mac, you will need to include "sudo" in front of all npm commands shown in the lab
+
 
 >**NOTE**  
 NPM v5 has known bugs that will cause the JET CLI tool to fail on installation. Make sure you are on an earlier version of NPM than 5.x
@@ -16,7 +18,7 @@ To check your NPM version, type: `npm --version`
 
 ### Installation
 Clone the project and run the following command from the root of the project folder:  
-`npm install -g ojet-cli`
+`npm install -g @oracle/ojet-cli`
 
 >If you are using a proxy server, you will need to make sure that npm's proxy settings are configured properly before the above command will succeed.
 
