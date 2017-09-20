@@ -9,10 +9,10 @@
 ### Seeing the final project first
 If you would like to see what your final project will look like when you are finished, you can follow these steps.  
 From the root of the [**beginners-finished**](./beginners-finished) directory, run the following commands: 
-
-`npm install`  
-`ojet serve`
-
+```
+npm install  
+ojet serve
+```
 The project will install all of the required files and then build and serve the application in your default browser. You can use the code from this project to compare with your own code that you will be writing under the **/beginners-start** directory 
 
 ***
@@ -20,7 +20,9 @@ The project will install all of the required files and then build and serve the 
 
 To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the **/beginners-start** directory:  
 
-`ojet create myHOL2017 --template=navdrawer`
+```
+ojet create myHOL2017 --template=navdrawer
+```
 
 Once the above command completes, you should have a directory structure that looks similar to Image 1 below.  
 
@@ -28,8 +30,9 @@ Once the above command completes, you should have a directory structure that loo
 **IMAGE 1**  
 
 To build the default project, run:  
-
-`ojet build`
+```
+ojet build
+```
 
 >By default this will build a web application for you and add a /web folder to your project root.  This is what you will be working with >for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid >application by running the same command as above, with these additional options: 
 > 
@@ -52,7 +55,9 @@ Adding or removing libraries from the project will require a rebuild.
 In JET, there is a concept of a reusable component called a composite component. You will often see this referred to as a CCA component as well.  CCA stands for Composite Component Architecture.  These special kinds of components are built according to the HTML5 Web Component specification and can be re-used across multiple Oracle development frameworks and tools, such as the Visual Builder Cloud Service and Sites Cloud Service.
 
 To create your new component run the following command from the root of the project that you just created.  
-`ojet create component my-chart`
+```
+ojet create component my-chart
+```
 
 >The name of your component can be different, but it must be all lowercase and have at least one hyphen in the name.  This naming convention is part of the HTML5 web component specification.
 
@@ -73,7 +78,9 @@ JET starter templates use a feature of JET called ojModule.  This is the ability
 
 Open the dashboard.html file from the **/js/views** directory and add the following HTML code just under the `<H1>` element. 
 
-`<mychart id="chart1"></my-chart>`
+```xml
+<mychart id="chart1"></my-chart>
+```
 
 The resulting code will look like image 4 below.
 
@@ -94,7 +101,9 @@ The code you are going to add is a path to the **loader.js** file of your compon
  
 Save both files and run your application again by typing:
 
-`ojet serve`
+```
+ojet serve
+```
 
 You should see the application loaded in your default browser, and the Dashboard page will look like image 6 below. Notice the **Hello from Example Component** message.
 
@@ -111,7 +120,9 @@ You should see the application loaded in your default browser, and the Dashboard
 ####  Adding an attribute in HTML
 To make things simple, let's let the developer pass in the message that we display when the component is rendered. Re-open the dashboard.html file and add an attribute to the `<my-chart>` component.  Name this attribute **my-message** and set the value to anything you like.
 
-`<my-chart id="chart1" my-message="My new message from runtime"></my-chart>`
+```xml
+<my-chart id="chart1" my-message="My new message from runtime"></my-chart>
+```
 
 >Notice that the custom attribute starts with a prefix of **my-**. It's a good idea to add some kind of prefix to your attributes to help avoid the chance of naming an attribute after some existing attribute that you were not aware of.  Like a reserved word for the base HTML element that your composite component could be based on.
 
