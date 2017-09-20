@@ -77,6 +77,29 @@ The resulting code will look like image 4 below.
 **IMAGE 4**
 
 
+Now open the dashboard.js file located in the **/js/viewModels** directory and add a reference to your new my-chart component in the **define** block at the top of the file.
+
+The code you are going to add is a path to the **loader.js** file of your component.
+
+`jet-composites/my-chart/loader`
+ 
+ and the final code will look like image 5 below.
+ 
+ ![dashboard javascript with loader reference](./images/image-5.png "dashboard javascript with loader reference")  
+**IMAGE 5**
+ 
+Save both files and run your application again by typing:
+
+`ojet serve`
+
+You should see the application loaded in your default browser, and the Dashboard page will look like image 6 below.
+
+ ![running app with component message shown](./images/image-6.png "running app with component message shown")  
+**IMAGE 6**
+
+ 
+ 
+
 
 
 
