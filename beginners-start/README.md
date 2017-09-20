@@ -140,8 +140,11 @@ For this Hands-on-Lab, you are going to add the definition of your attribute to 
     }
   },
 ```
-There are a couple of key points to notice in the above code.  When you defined the attribute in your HTML code, you used a dash (-) to separate your prefix from your attribute name.  Notice in the JSON definition, you remove that dash and make the first letter that followed it, an upper case letter. The basic rule is that camel-case property names are converted into case-insensitive HTML element attributes with hyphens at the camel-case break point of the original name. So _myMessage_ has become _my-message_.
+There are a couple of key points to notice in the above code.  When you defined the attribute in your HTML code, you used a hyphen (-) to separate your prefix from your attribute name.  Notice in the JSON definition, you remove that hyphen and make the first letter that followed it, an upper case letter. The basic rule is that camel-case property names are converted into case-insensitive HTML element attributes with hyphens at the camel-case break point of the original name. So _myMessage_ has become _my-message_.
 
+You have also defined the _type_ that this attribute will pass, to be a string. The final components.json file will look like image 7 below.
 
+ ![contents of components.json file](./images/image-7.png "contents of components.json file")  
+**IMAGE 7**
 
 
