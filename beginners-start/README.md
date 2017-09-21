@@ -169,3 +169,34 @@ Looking at image 8 below, there are a few things to pay attention to:
 Save your changes and you should see your new message being displayed instead of the default one.
 >If you still have the `ojet serve` command running, all of these changes will have been saved, compiled and the brower refreshed for you automatically. If you stopped the serve command earlier, re-run `ojet serve` to see the updates.
 
+***
+### Working with prettier things
+You have now finished your first composite component and you could make multiple instances of the element in the _dashboard.html_ file with different messages if you liked.  That is pretty boring though, so let's add something a little more complex and make multiple instance of that.
+
+Open the _view.html_ from your composites directory.  You will see the existing `<span>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
+
+To add the chart component to your components view, you are going to copy and paste some HTML from the JET Cookbook page. Open the [Bar Chart Cookbook page](http://www.oracle.com/webfolder/technetwork/jet/jetCookbook.html?component=barChart&demo=default) in a new browser window so you can easily copy and paste between two windows.
+
+Looking at the Cookbook demo page, look for the tabs that allow you to see, _demo.html_, _demo.js_ or _all_, and click on the All tab.  It will look like image 9 below.
+
+![screenshot of basic cookbook demo](./images/image-9.png "screenshot of basic cookbook demo")  
+**IMAGE 9**
+
+Selecting _All_ will allow you to see both the HTML and the JavaScript at the same time and will be easier for doing copy and paste.
+Look at the HTML Editor section and copy the code that you see in image 10 below. You do not need any other HTML code from this section.
+
+![screenshot of basic cookbook demo HTML](./images/image-10.png "screenshot of basic cookbook demo HTML")  
+**IMAGE 10**
+
+Place the HTML code into the _view.html_ file just below the existing `<span>` element.
+Remove the attributes for _orientation_ and _stack_ from the code that you copied over.
+You code will look like image 11 below when completed.
+
+![HTML code in view file](./images/image-11.png "HTML code in view file")  
+**IMAGE 11**
+
+
+
+
+
+
