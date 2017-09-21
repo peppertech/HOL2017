@@ -182,11 +182,13 @@ Looking at the Cookbook demo page, look for the tabs that allow you to see, _dem
 ![screenshot of basic cookbook demo](./images/image-9.png "screenshot of basic cookbook demo")  
 **IMAGE 9**
 
+
 Selecting _All_ will allow you to see both the HTML and the JavaScript at the same time and will be easier for doing copy and paste.
 Look at the HTML Editor section and copy the code that you see in image 10 below. You do not need any other HTML code from this section.
 
 ![screenshot of basic cookbook demo HTML](./images/image-10.png "screenshot of basic cookbook demo HTML")  
 **IMAGE 10**
+
 
 Place the HTML code into the _view.html_ file just below the existing `<span>` element.
 Remove the attributes for _orientation_ and _stack_ from the code that you copied over.
@@ -194,6 +196,42 @@ You code will look like image 11 below when completed.
 
 ![HTML code in view file](./images/image-11.png "HTML code in view file")  
 **IMAGE 11**
+
+
+Now that you have your HTML for the chart, open the _viewModel.js_ file and go back to the Cookbook page so you can copy the JavaScript code related to your chart. Image 12 below shows what you are going to copy from the JavaScript Editor section of the Cookbook page.
+
+![javascript code in cookbook](./images/image-12.png "javascript code in cookbook")  
+**IMAGE 12**
+
+
+Paste the code into the _viewModel.js_ file just after the `context.props` function.  Make sure it's still inside of the _ExampleComponentModel_ function though.  Image 13 will show the proper location.
+
+![javascript code in viewmodel file](./images/image-13.png "javascript code in viewmodel file")  
+**IMAGE 13**
+
+You now have the values for the data that will populate your chart, but you need to add a reference to the attribute that will be passed into your component from the custom element.  At the top of the _viewModel.js_ file, just under the `self.messageText` variable, add a new variable called `chartType` and give it a default value of **bar**
+
+```javascript
+self.chartType = "bar";
+```
+
+Now go down to the `.then()` Promise callback function where you setup the _myMessage_ assignment and add another assignment for this attribute _chartType_.  Image 14 below will show the final setup in the _viewModel.js_ file.
+
+```javascript
+self.chartType = self.properties.chartType;
+```
+
+![completed code in viewmodel file](./images/image-14.png "completed code in viewmodel file")  
+**IMAGE 14**
+
+
+If you haven't noticed, you are working backwards from what you did when you setup the _myMessage_ attribute code.  You now have the view and viewModel for you composite component done. Next you need to add this _chartType_ property to the _properties.json_ file so that the component knows to listen for it from the DOM and pass it to your component logic.
+
+
+
+
+
+
 
 
 
