@@ -225,15 +225,34 @@ self.chartType = self.properties.chartType;
 **IMAGE 14**
 
 
-If you haven't noticed, you are working backwards from what you did when you setup the _myMessage_ attribute code.  You now have the view and viewModel for you composite component done. Next you need to add this _chartType_ property to the _properties.json_ file so that the component knows to listen for it from the DOM and pass it to your component logic.
+If you haven't noticed, you are working backwards from what you did when you setup the _myMessage_ attribute code.  You now have the view and viewModel for your composite component done. Next you need to add this _chartType_ property to the _component.json_ file so that the component knows to listen for it from the DOM and pass it to your component logic.
+
+Open the _component.json_ file.
+
+In the properties object, just below where you added your `myMessage` definition, add a new one for `chartType`. Set the value type to string again.
+
+```javascript
+"properties": {
+  "myMessage": {
+    "type": "string"
+  },
+  "chartType": {
+    "type": "string"
+  }
+}
+```  
+
+Save your files and reload the app in the browser. Again, if you haven't stopped the `ojet serve` command from earlier, all of these changes should be automatically taken care of in your product and the browser will refersh for you.  You should see a chart in your Dashboard page with the default _chartType_ of _bar_ being used.  It should look like image 15 below
+
+![dashboard page with chart](./images/image-15.png "dashboard page with chart")  
+**IMAGE 15**
 
 
+Your final step is to update the attributes in your `<my-chart>` custom element in the dashboard.html file, by adding the `chart-type` attribute. Use _line_ as the new value.
 
-
-
-
-
-
+```xml
+<my-chart id="chart1" chart-type="line" my-message="My new message from runtime"></my-chart>
+```
 
 
 
