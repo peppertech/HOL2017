@@ -1,4 +1,4 @@
 # HOL 2017
 
-## Under development still come back soon
+## Under development still, come back soon
 
