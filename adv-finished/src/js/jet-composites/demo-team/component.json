@@ -9,7 +9,7 @@
      "type": "string"
    },
    "profile" : {
-      "type": "array"
+      "type": "any"
    }
   },
   "methods": {
