@@ -1,8 +1,8 @@
 # Beginners Oracle JET HOL 2017
 
 ### Prerequisites
-* node 4+ (preferably the LTS)
-* follow the steps at the root of this project to install command line tools
+* Node 4+ (preferably the [Node LTS release](https://nodejs.org) ) for use of npm as an installer
+* Follow the steps at the root of this project to install command line tools
 
 >If you are running this HOL from behind a firewall, please make sure you have the npm proxy configurations setup properly before running any of the below steps
 
