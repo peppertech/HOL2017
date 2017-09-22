@@ -161,6 +161,9 @@ Looking at image 8 below, there are a few things to pay attention to:
 * The _context.props.then()_ method holds the callback function that returns a list of all the properties that your component has defined. Notice how the _context.props_ method returns a Promise which allows our callback function to only be called after the properties are available.
 * Using the self.properties object, we can get the value of the _myMessage_ property and set the value of _self.messageText_ to that value.  Notice how a Knockout observable value is set by passing in the value as an argument to a method, and not by using the **=** assignment operator. 
 
+```javascript
+self.messageText(self.properties.myMessage);
+```
 
 
 ![contents of viewModel.js file](./images/image-8.png "contents of viewModel.js file")  
@@ -190,7 +193,7 @@ Look at the HTML Editor section and copy the code that you see in image 10 below
 **IMAGE 10**
 
 
-Place the HTML code into the _view.html_ file just below the existing `<span>` element.
+Place the HTML code into the _view.html_ file just below the existing `<p>` element.
 Remove the attributes for _orientation_ and _stack_ from the code that you copied over.
 You code will look like image 11 below when completed.
 
@@ -229,6 +232,7 @@ One final step in the _viewModel.js_ file. At the top of the file, you will see 
 
 ```javascript
 define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'], function (oj, ko, $) {
+'use strict';
 ```
 
 If you haven't noticed yet, you are working backwards from what you did when you setup the _myMessage_ attribute code.  You now have the view and viewModel for your composite component done. Next you need to add the _chartType_ property to the _component.json_ file so that the component knows to listen for it from the DOM and pass it to your component logic.
