@@ -1,0 +1,561 @@
+{
+      "empId" : 102,
+      "firstName" : "Lex",
+      "lastName" : "De Haan",
+      "title" : "Administration Vice President",
+      "email" : "LDEHAAN",
+      "phone" : "515.123.4569",
+      "mobile" : "515.123.4569",
+      "address" : "2004 Bellevue Ct",
+      "city" : "Seattle",
+      "state" : "Washington",
+      "country" : "US",
+      "postal" : "98102",
+      "twitter" : "Lex",
+      "facebook" : "Lex",
+      "google" : "Lex",
+      "linkedIn" : "Lex",
+      "hireDate" : "2008-02-14T00:00:00-08:00",
+      "compRatio" : 58,
+      "salary" : 17000.0,
+      "bonus" : 4250.0,
+      "commission" : 0.0,
+      "rating" : 3,
+      "potential" : 4,
+      "deptId" : 90,
+      "mgrId" : 100,
+      "deptName" : "Executive",
+      "mgrFirstName" : "Steven",
+      "mgrLastName" : "King",
+      "teamAvgRating" : 3.75,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 14,
+      "groupAvgRating" : 3.9285714285714284,
+      "groupAvgPotential" : 4.0,
+      "groupCompRatioAbove" : 1,
+      "groupCompRatioIn" : 14,
+      "groupCompRatioBelow" : 11,
+      "groupMeetings" : 13,
+      "groupEvents" : 13,
+      "groupTrainings" : 16,
+      "groupTimeOff" : 10,
+      "comps" : [ {
+         "bonus" : 4250,
+         "comission" : 0,
+         "compId" : 50097,
+         "compRatio" : 58,
+         "compSalary" : 17000,
+         "effective" : "2015-05-05T00:00:00-07:00"
+      }, {
+         "bonus" : 4165,
+         "comission" : 0,
+         "compId" : 50098,
+         "compRatio" : 31,
+         "compSalary" : 16150,
+         "effective" : "2014-07-06T00:00:00-07:00"
+      }, {
+         "bonus" : 4040.05,
+         "comission" : 0,
+         "compId" : 50099,
+         "compRatio" : 103,
+         "compSalary" : 15342.5,
+         "effective" : "2013-12-21T00:00:00-08:00"
+      }, {
+         "bonus" : 3918.8485,
+         "comission" : 0,
+         "compId" : 50100,
+         "compRatio" : 26,
+         "compSalary" : 14882.225,
+         "effective" : "2012-04-18T00:00:00-07:00"
+      }, {
+         "bonus" : 3722.906075,
+         "comission" : 0,
+         "compId" : 50101,
+         "compRatio" : 4,
+         "compSalary" : 14733.40275,
+         "effective" : "2011-10-14T00:00:00-07:00"
+      }, {
+         "bonus" : 3462.30264975,
+         "comission" : 0,
+         "compId" : 50102,
+         "compRatio" : 104,
+         "compSalary" : 13996.7326125,
+         "effective" : "2010-09-15T00:00:00-07:00"
+      }, {
+         "bonus" : 3427.6796232525,
+         "comission" : 0,
+         "compId" : 50103,
+         "compRatio" : 53,
+         "compSalary" : 13716.79796025,
+         "effective" : "2009-01-23T00:00:00-08:00"
+      }, {
+         "bonus" : 3187.742049624825,
+         "comission" : 0,
+         "compId" : 50104,
+         "compRatio" : 99,
+         "compSalary" : 13579.6299806475,
+         "effective" : "2008-11-17T00:00:00-08:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2008-04-17T00:00:00-07:00",
+         "perfId" : 41838,
+         "potential" : 2,
+         "rating" : 4
+      }, {
+         "effective" : "2009-12-04T00:00:00-08:00",
+         "perfId" : 41839,
+         "potential" : 4,
+         "rating" : 2
+      }, {
+         "effective" : "2010-01-22T00:00:00-08:00",
+         "perfId" : 41840,
+         "potential" : 4,
+         "rating" : 4
+      }, {
+         "effective" : "2011-09-11T00:00:00-07:00",
+         "perfId" : 41841,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2012-04-21T00:00:00-07:00",
+         "perfId" : 41842,
+         "potential" : 3,
+         "rating" : 3
+      }, {
+         "effective" : "2013-06-12T00:00:00-07:00",
+         "perfId" : 41843,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2014-08-15T00:00:00-07:00",
+         "perfId" : 41844,
+         "potential" : 4,
+         "rating" : 4
+      }, {
+         "effective" : "2015-12-12T00:00:00-08:00",
+         "perfId" : 41845,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80938,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Management",
+            "skillId" : 14
+         }
+      }, {
+         "empskillassignId" : 80939,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 80940,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Procurement",
+            "skillId" : 21
+         }
+      }, {
+         "empskillassignId" : 80941,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Risk Analysis",
+            "skillId" : 12
+         }
+      }, {
+         "empskillassignId" : 80942,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      }, {
+         "empskillassignId" : 80943,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 80944,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Bookeeping",
+            "skillDescription" : "Bookeeping",
+            "skillId" : 1
+         }
+      }, {
+         "empskillassignId" : 80945,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Strategy",
+            "skillId" : 22
+         }
+      }, {
+         "empskillassignId" : 80946,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Acquistions",
+            "skillId" : 10
+         }
+      }, {
+         "empskillassignId" : 80947,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Analytics",
+            "skillId" : 8
+         }
+      }, {
+         "empskillassignId" : 80948,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Statistics",
+            "skillId" : 5
+         }
+      }, {
+         "empskillassignId" : 80949,
+         "empskillassignRating" : 5,
+         "skill" : {
+            "skill" : "Financials",
+            "skillId" : 15
+         }
+      }, {
+         "empskillassignId" : 80950,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 80951,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      } ],
+      "events" : [ {
+         "color" : "#309fdb",
+         "description" : "Acme Ent",
+         "end" : "2008-08-14T00:00:00-07:00",
+         "eventId" : 147472,
+         "name" : "Customer Meeting",
+         "start" : "2008-08-11T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2008-08-16T00:00:00-07:00",
+         "eventId" : 147473,
+         "name" : "Event",
+         "start" : "2008-08-15T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2009-12-30T00:00:00-08:00",
+         "eventId" : 147474,
+         "name" : "Training",
+         "start" : "2009-12-25T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "DEF Inc",
+         "end" : "2009-12-20T00:00:00-08:00",
+         "eventId" : 147475,
+         "name" : "Customer Meeting",
+         "start" : "2009-12-18T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2009-03-05T00:00:00-08:00",
+         "eventId" : 147476,
+         "name" : "Event",
+         "start" : "2009-03-01T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2009-11-07T00:00:00-08:00",
+         "eventId" : 147477,
+         "name" : "Time Off",
+         "start" : "2009-11-04T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2010-07-20T00:00:00-07:00",
+         "eventId" : 147478,
+         "name" : "Training",
+         "start" : "2010-07-16T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "DEF Inc",
+         "end" : "2010-05-13T00:00:00-07:00",
+         "eventId" : 147479,
+         "name" : "Customer Meeting",
+         "start" : "2010-05-11T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2011-08-06T00:00:00-07:00",
+         "eventId" : 147480,
+         "name" : "Event",
+         "start" : "2011-08-03T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2011-06-19T00:00:00-07:00",
+         "eventId" : 147481,
+         "name" : "Event",
+         "start" : "2011-06-15T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Winner's Circle",
+         "end" : "2011-02-24T00:00:00-08:00",
+         "eventId" : 147482,
+         "name" : "Event",
+         "start" : "2011-02-21T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-06-26T00:00:00-07:00",
+         "eventId" : 147483,
+         "name" : "Time Off",
+         "start" : "2011-06-22T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2012-02-24T00:00:00-08:00",
+         "eventId" : 147484,
+         "name" : "Time Off",
+         "start" : "2012-02-23T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2012-07-10T00:00:00-07:00",
+         "eventId" : 147485,
+         "name" : "Training",
+         "start" : "2012-07-05T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2013-11-23T00:00:00-08:00",
+         "eventId" : 147486,
+         "name" : "Event",
+         "start" : "2013-11-21T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2013-02-18T00:00:00-08:00",
+         "eventId" : 147487,
+         "name" : "Time Off",
+         "start" : "2013-02-15T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2014-05-18T00:00:00-07:00",
+         "eventId" : 147488,
+         "name" : "Customer Meeting",
+         "start" : "2014-05-13T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#309fdb",
+         "description" : "DEF Inc",
+         "end" : "2014-06-18T00:00:00-07:00",
+         "eventId" : 147489,
+         "name" : "Customer Meeting",
+         "start" : "2014-06-16T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Mgr Essentials",
+         "end" : "2014-03-05T00:00:00-08:00",
+         "eventId" : 147490,
+         "name" : "Training",
+         "start" : "2014-03-03T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2014-06-05T00:00:00-07:00",
+         "eventId" : 147491,
+         "name" : "Event",
+         "start" : "2014-06-02T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Ethics",
+         "end" : "2015-05-07T04:00:04-07:00",
+         "eventId" : 147492,
+         "name" : "Training",
+         "start" : "2015-05-04T04:00:04-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2015-04-19T04:00:04-07:00",
+         "eventId" : 147493,
+         "name" : "Training",
+         "start" : "2015-04-14T04:00:04-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Acme Ent",
+         "end" : "2015-04-22T04:00:05-07:00",
+         "eventId" : 148070,
+         "name" : "Customer Meeting",
+         "start" : "2015-04-19T04:00:05-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2015-04-19T04:00:05-07:00",
+         "eventId" : 148071,
+         "name" : "Event",
+         "start" : "2015-04-16T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Sales Convention",
+         "end" : "2015-04-22T04:00:05-07:00",
+         "eventId" : 148072,
+         "name" : "Event",
+         "start" : "2015-04-17T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2015-04-22T04:00:05-07:00",
+         "eventId" : 148073,
+         "name" : "Event",
+         "start" : "2015-04-18T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "Foo Ltd",
+         "end" : "2015-04-23T04:00:05-07:00",
+         "eventId" : 148074,
+         "name" : "Customer Meeting",
+         "start" : "2015-04-21T04:00:05-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2015-04-19T04:00:05-07:00",
+         "eventId" : 148075,
+         "name" : "Event",
+         "start" : "2015-04-17T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2015-04-24T04:00:05-07:00",
+         "eventId" : 148076,
+         "name" : "Event",
+         "start" : "2015-04-21T04:00:05-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-04-18T04:00:05-07:00",
+         "eventId" : 148077,
+         "name" : "Time Off",
+         "start" : "2015-04-16T04:00:05-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Public Speaking",
+         "end" : "2015-04-20T04:00:05-07:00",
+         "eventId" : 148078,
+         "name" : "Training",
+         "start" : "2015-04-16T04:00:05-07:00",
+         "type" : "3"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-03-27T00:00:00-07:00",
+         "perfId" : 41226,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2015-05-02T00:00:00-07:00",
+         "perfId" : 41251,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2015-05-15T00:00:00-07:00",
+         "perfId" : 41259,
+         "potential" : 2,
+         "rating" : 5
+      }, {
+         "effective" : "2015-12-12T00:00:00-08:00",
+         "perfId" : 41845,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "reports" : [ {
+         "empId" : 103,
+         "firstName" : "Alexander",
+         "lastName" : "Hunold",
+         "title" : "IT Director",
+         "email" : "AHUNOLD",
+         "phone" : "590.423.4567",
+         "mobile" : "590.423.4567",
+         "address" : "2014 Main St",
+         "city" : "Southlake",
+         "state" : "Texas",
+         "country" : "US",
+         "postal" : "76034",
+         "twitter" : "Alexander",
+         "facebook" : "Alexander",
+         "google" : "Alexander",
+         "linkedIn" : "Alexander",
+         "hireDate" : "2006-07-14T00:00:00-07:00",
+         "compRatio" : 26,
+         "salary" : 15000.0,
+         "bonus" : 7250.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 5,
+         "deptId" : 60,
+         "mgrId" : 102,
+         "deptName" : "IT",
+         "mgrFirstName" : "Lex",
+         "mgrLastName" : "De Haan",
+         "teamAvgRating" : 4.0,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 13,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 1,
+         "groupCompRatioIn" : 13,
+         "groupCompRatioBelow" : 10,
+         "groupMeetings" : 11,
+         "groupEvents" : 8,
+         "groupTrainings" : 13,
+         "groupTimeOff" : 9
+      } ]
+   }

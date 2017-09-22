@@ -1,0 +1,7 @@
+demo-my-activities:not(.oj-complete){
+  visibility: hidden;
+}
+
+demo-my-activities{
+
+}

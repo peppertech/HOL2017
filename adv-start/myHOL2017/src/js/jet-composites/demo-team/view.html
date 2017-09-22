@@ -1,0 +1,26 @@
+<!--
+  Copyright (c) 2015, 2017, Oracle and/or its affiliates.
+  The Universal Permissive License (UPL), Version 1.0
+-->
+    <!-- My Team tile 2x2 -->
+<div role="link" data-bind="click: function(){$root.router.go('people')}, event:{keypress:onEnterLoadPeople}" tabindex="0" aria-label="My Organization">
+    <h2 class="oj-flex oj-flex-items-pad dastopmargin">
+        My Organization
+    </h2>
+    <!-- ko if: ready() -->
+    <div class="oj-flex oj-flex-items-pad teamcontent">
+        <div class="oj-flex-item oj-lg-3 oj-md-3 oj-sm-3 mygrp">
+            <div class="grpicontxt"><span data-bind="text: personProfile().groupSize">100</span></div>
+            Total</div>
+        <div class="oj-flex-item oj-lg-3 oj-md-3 oj-sm-3 mygrp">
+            <div class="diricontxt"><span data-bind="text: personProfile().reports.length">10</span></div>
+            Directs</div>
+        <div class="oj-flex-item oj-lg-6 oj-md-6 oj-sm-6 tcrow">
+            <div class="theadcount"><span>Open Headcount</span><label>3</label></div>
+            <div class="tnewhire"><span>New Hires</span><label>30</label></div>
+            <div class="ttermin"><span>Terminations</span><label>1</label></div>
+        </div>
+    </div>
+    <!-- /ko -->
+    <div class="oj-flex oj-sm-justify-content-center oj-md-justify-content-center oj-lg-justify-content-center curquater">current quarter</div>
+</div>

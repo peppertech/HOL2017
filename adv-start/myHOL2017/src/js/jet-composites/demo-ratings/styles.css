@@ -1,0 +1,7 @@
+demo-ratings:not(.oj-complete){
+  visibility: hidden;
+}
+
+demo-ratings{
+
+}

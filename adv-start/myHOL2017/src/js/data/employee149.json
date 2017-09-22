@@ -1,0 +1,669 @@
+{
+      "empId" : 149,
+      "firstName" : "Eleni",
+      "lastName" : "Zlotkey",
+      "title" : "Public Relations Manager",
+      "email" : "EZLOTKEY",
+      "phone" : "011.44.1344.429018",
+      "mobile" : "011.44.1344.429018",
+      "address" : "Magdalen Centre The Oxford Science Park",
+      "city" : "Oxford",
+      "state" : "Oxford",
+      "country" : "UK",
+      "postal" : "OX9 9ZB",
+      "twitter" : "Eleni",
+      "facebook" : "Eleni",
+      "google" : "Eleni",
+      "linkedIn" : "Eleni",
+      "hireDate" : "2008-02-14T00:00:00-08:00",
+      "compRatio" : 74,
+      "salary" : 10500.0,
+      "bonus" : 2625.0,
+      "commission" : 0.0,
+      "rating" : 3,
+      "potential" : 4,
+      "deptId" : 70,
+      "mgrId" : 204,
+      "deptName" : "Public Relations",
+      "mgrFirstName" : "Hermann",
+      "mgrLastName" : "Baer",
+      "teamAvgRating" : 3.0,
+      "empMeetings" : 0,
+      "empEvents" : 0,
+      "notifyApproved" : 3,
+      "notifyWaiting" : 4,
+      "notifyRejected" : 1,
+      "groupSize" : 5,
+      "groupAvgRating" : 5.0,
+      "groupAvgPotential" : 4.4,
+      "groupCompRatioAbove" : 0,
+      "groupCompRatioIn" : 6,
+      "groupCompRatioBelow" : 5,
+      "groupMeetings" : 5,
+      "groupEvents" : 6,
+      "groupTrainings" : 3,
+      "groupTimeOff" : 6,
+      "comps" : [ {
+         "bonus" : 2625,
+         "comission" : 0,
+         "compId" : 49914,
+         "compRatio" : 74,
+         "compSalary" : 10500,
+         "effective" : "2015-12-27T00:00:00-08:00"
+      }, {
+         "bonus" : 2467.5,
+         "comission" : 0,
+         "compId" : 49915,
+         "compRatio" : 27,
+         "compSalary" : 10395,
+         "effective" : "2014-08-12T00:00:00-07:00"
+      }, {
+         "bonus" : 2220.75,
+         "comission" : 0,
+         "compId" : 49916,
+         "compRatio" : 99,
+         "compSalary" : 9979.2,
+         "effective" : "2013-06-10T00:00:00-07:00"
+      }, {
+         "bonus" : 1998.675,
+         "comission" : 0,
+         "compId" : 49917,
+         "compRatio" : 38,
+         "compSalary" : 9879.408,
+         "effective" : "2012-01-06T00:00:00-08:00"
+      }, {
+         "bonus" : 1818.79425,
+         "comission" : 0,
+         "compId" : 49918,
+         "compRatio" : 46,
+         "compSalary" : 9385.4376,
+         "effective" : "2011-06-09T00:00:00-07:00"
+      }, {
+         "bonus" : 1764.2304225,
+         "comission" : 0,
+         "compId" : 49919,
+         "compRatio" : 111,
+         "compSalary" : 9291.583224,
+         "effective" : "2010-04-10T00:00:00-07:00"
+      }, {
+         "bonus" : 1640.734292925,
+         "comission" : 0,
+         "compId" : 49920,
+         "compRatio" : 21,
+         "compSalary" : 9105.75155952,
+         "effective" : "2009-01-26T00:00:00-08:00"
+      }, {
+         "bonus" : 1575.104921208,
+         "comission" : 0,
+         "compId" : 49921,
+         "compRatio" : 23,
+         "compSalary" : 8832.5790127344,
+         "effective" : "2008-03-20T00:00:00-07:00"
+      } ],
+      "perfs" : [ {
+         "effective" : "2008-07-08T00:00:00-07:00",
+         "perfId" : 41655,
+         "potential" : 3,
+         "rating" : 5
+      }, {
+         "effective" : "2009-06-15T00:00:00-07:00",
+         "perfId" : 41656,
+         "potential" : 4,
+         "rating" : 5
+      }, {
+         "effective" : "2010-04-12T00:00:00-07:00",
+         "perfId" : 41657,
+         "potential" : 2,
+         "rating" : 3
+      }, {
+         "effective" : "2011-07-05T00:00:00-07:00",
+         "perfId" : 41658,
+         "potential" : 3,
+         "rating" : 2
+      }, {
+         "effective" : "2012-03-23T00:00:00-07:00",
+         "perfId" : 41659,
+         "potential" : 5,
+         "rating" : 2
+      }, {
+         "effective" : "2013-05-03T00:00:00-07:00",
+         "perfId" : 41660,
+         "potential" : 3,
+         "rating" : 4
+      }, {
+         "effective" : "2014-08-10T00:00:00-07:00",
+         "perfId" : 41661,
+         "potential" : 4,
+         "rating" : 3
+      }, {
+         "effective" : "2015-02-27T00:00:00-08:00",
+         "perfId" : 41662,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "skills" : [ {
+         "empskillassignId" : 80678,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Recruiting",
+            "skillId" : 13
+         }
+      }, {
+         "empskillassignId" : 80679,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Testing",
+            "skillId" : 9
+         }
+      }, {
+         "empskillassignId" : 80680,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Corporate Tax",
+            "skillDescription" : "Corporate Tax",
+            "skillId" : 2
+         }
+      }, {
+         "empskillassignId" : 80681,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Outsourcing",
+            "skillId" : 20
+         }
+      }, {
+         "empskillassignId" : 80682,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "HCM",
+            "skillId" : 17
+         }
+      }, {
+         "empskillassignId" : 80683,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Acquistions",
+            "skillId" : 10
+         }
+      }, {
+         "empskillassignId" : 80684,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Java",
+            "skillId" : 7
+         }
+      }, {
+         "empskillassignId" : 80685,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Javascript",
+            "skillId" : 6
+         }
+      }, {
+         "empskillassignId" : 80686,
+         "empskillassignRating" : 1,
+         "skill" : {
+            "skill" : "Engineering",
+            "skillId" : 19
+         }
+      }, {
+         "empskillassignId" : 80687,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Strategy",
+            "skillId" : 22
+         }
+      }, {
+         "empskillassignId" : 80688,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "Budgeting",
+            "skillId" : 25
+         }
+      }, {
+         "empskillassignId" : 80689,
+         "empskillassignRating" : 4,
+         "skill" : {
+            "skill" : "Human Resources",
+            "skillId" : 18
+         }
+      }, {
+         "empskillassignId" : 80690,
+         "empskillassignRating" : 3,
+         "skill" : {
+            "skill" : "Procurement",
+            "skillId" : 21
+         }
+      }, {
+         "empskillassignId" : 80691,
+         "empskillassignRating" : 2,
+         "skill" : {
+            "skill" : "CRM",
+            "skillId" : 16
+         }
+      } ],
+      "events" : [ {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2008-12-19T00:00:00-08:00",
+         "eventId" : 146903,
+         "name" : "Training",
+         "start" : "2008-12-16T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2008-01-06T00:00:00-08:00",
+         "eventId" : 146904,
+         "name" : "Training",
+         "start" : "2008-01-04T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2008-11-13T00:00:00-08:00",
+         "eventId" : 146905,
+         "name" : "Time Off",
+         "start" : "2008-11-10T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Security",
+         "end" : "2008-08-21T00:00:00-07:00",
+         "eventId" : 146906,
+         "name" : "Training",
+         "start" : "2008-08-20T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Development Convention",
+         "end" : "2009-05-11T00:00:00-07:00",
+         "eventId" : 146907,
+         "name" : "Event",
+         "start" : "2009-05-09T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Effective Mgmt",
+         "end" : "2009-01-09T00:00:00-08:00",
+         "eventId" : 146908,
+         "name" : "Training",
+         "start" : "2009-01-04T00:00:00-08:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Feedback Session",
+         "end" : "2010-09-09T00:00:00-07:00",
+         "eventId" : 146909,
+         "name" : "Event",
+         "start" : "2010-09-08T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sexual Harrassment",
+         "end" : "2010-10-17T00:00:00-07:00",
+         "eventId" : 146910,
+         "name" : "Training",
+         "start" : "2010-10-15T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Trade Show",
+         "end" : "2010-02-20T00:00:00-08:00",
+         "eventId" : 146911,
+         "name" : "Event",
+         "start" : "2010-02-15T00:00:00-08:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "ava Development",
+         "end" : "2011-07-23T00:00:00-07:00",
+         "eventId" : 146912,
+         "name" : "Training",
+         "start" : "2011-07-18T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2011-11-07T00:00:00-08:00",
+         "eventId" : 146913,
+         "name" : "Time Off",
+         "start" : "2011-11-03T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Business Meeting",
+         "end" : "2012-08-18T00:00:00-07:00",
+         "eventId" : 146914,
+         "name" : "Event",
+         "start" : "2012-08-15T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#ed813e",
+         "description" : "Design Awards",
+         "end" : "2012-07-03T00:00:00-07:00",
+         "eventId" : 146915,
+         "name" : "Event",
+         "start" : "2012-07-02T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#fbce4a",
+         "description" : "Sales",
+         "end" : "2012-06-28T00:00:00-07:00",
+         "eventId" : 146916,
+         "name" : "Training",
+         "start" : "2012-06-27T00:00:00-07:00",
+         "type" : "3"
+      }, {
+         "color" : "#309fdb",
+         "description" : "XYZ Systems",
+         "end" : "2013-01-16T00:00:00-08:00",
+         "eventId" : 146917,
+         "name" : "Customer Meeting",
+         "start" : "2013-01-11T00:00:00-08:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2013-06-28T00:00:00-07:00",
+         "eventId" : 146918,
+         "name" : "Time Off",
+         "start" : "2013-06-27T00:00:00-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "User Group Meetup",
+         "end" : "2014-08-07T00:00:00-07:00",
+         "eventId" : 146919,
+         "name" : "Event",
+         "start" : "2014-08-03T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#309fdb",
+         "description" : "AAA Inc",
+         "end" : "2014-09-11T00:00:00-07:00",
+         "eventId" : 146920,
+         "name" : "Customer Meeting",
+         "start" : "2014-09-06T00:00:00-07:00",
+         "type" : "1"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Vacation",
+         "end" : "2014-02-07T00:00:00-08:00",
+         "eventId" : 146921,
+         "name" : "Time Off",
+         "start" : "2014-02-06T00:00:00-08:00",
+         "type" : "4"
+      }, {
+         "color" : "#ed813e",
+         "description" : "StockHolder's Meeting",
+         "end" : "2014-08-24T00:00:00-07:00",
+         "eventId" : 146922,
+         "name" : "Event",
+         "start" : "2014-08-20T00:00:00-07:00",
+         "type" : "2"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2015-06-09T04:00:04-07:00",
+         "eventId" : 146923,
+         "name" : "Time Off",
+         "start" : "2015-06-04T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Bereavement",
+         "end" : "2015-07-17T04:00:04-07:00",
+         "eventId" : 146924,
+         "name" : "Time Off",
+         "start" : "2015-07-14T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#81bb5f",
+         "description" : "Sick",
+         "end" : "2015-08-03T04:00:04-07:00",
+         "eventId" : 146925,
+         "name" : "Time Off",
+         "start" : "2015-07-30T04:00:04-07:00",
+         "type" : "4"
+      }, {
+         "color" : "#309fdb",
+         "description" : "CCC Enterprises",
+         "end" : "2015-05-09T04:00:04-07:00",
+         "eventId" : 146926,
+         "name" : "Customer Meeting",
+         "start" : "2015-05-08T04:00:04-07:00",
+         "type" : "1"
+      } ],
+      "colleaguePerfs" : [ {
+         "effective" : "2015-02-27T00:00:00-08:00",
+         "perfId" : 41662,
+         "potential" : 4,
+         "rating" : 3
+      } ],
+      "reports" : [ {
+         "empId" : 175,
+         "firstName" : "Arthur",
+         "lastName" : "Hutton",
+         "title" : "Public Relations Reprentative",
+         "email" : "AHUTTON",
+         "phone" : "011.44.1644.429266",
+         "mobile" : "011.44.1644.429266",
+         "address" : "Magdalen Centre The Oxford Science Park",
+         "city" : "Oxford",
+         "state" : "Oxford",
+         "country" : "UK",
+         "postal" : "OX9 9ZB",
+         "twitter" : "Arthur",
+         "facebook" : "Arthur",
+         "google" : "Arthur",
+         "linkedIn" : "Arthur",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 50,
+         "salary" : 8800.0,
+         "bonus" : 2200.0,
+         "commission" : 0.0,
+         "rating" : 3,
+         "potential" : 4,
+         "deptId" : 70,
+         "mgrId" : 149,
+         "deptName" : "Public Relations",
+         "mgrFirstName" : "Eleni",
+         "mgrLastName" : "Zlotkey",
+         "teamAvgRating" : 4.4,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 3.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 2,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 179,
+         "firstName" : "Charles",
+         "lastName" : "Johnson",
+         "title" : "Public Relations Reprentative",
+         "email" : "CJOHNSON",
+         "phone" : "011.44.1644.429262",
+         "mobile" : "011.44.1644.429262",
+         "address" : "Magdalen Centre The Oxford Science Park",
+         "city" : "Oxford",
+         "state" : "Oxford",
+         "country" : "UK",
+         "postal" : "OX9 9ZB",
+         "twitter" : "Charles",
+         "facebook" : "Charles",
+         "google" : "Charles",
+         "linkedIn" : "Charles",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 74,
+         "salary" : 9200.0,
+         "bonus" : 2550.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 3,
+         "deptId" : 70,
+         "mgrId" : 149,
+         "deptName" : "Public Relations",
+         "mgrFirstName" : "Eleni",
+         "mgrLastName" : "Zlotkey",
+         "teamAvgRating" : 4.4,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 3.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 2,
+         "groupEvents" : 0,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      }, {
+         "empId" : 177,
+         "firstName" : "Jack",
+         "lastName" : "Livingston",
+         "title" : "Public Relations Reprentative",
+         "email" : "JLIVINGS",
+         "phone" : "011.44.1644.429264",
+         "mobile" : "011.44.1644.429264",
+         "address" : "Magdalen Centre The Oxford Science Park",
+         "city" : "Oxford",
+         "state" : "Oxford",
+         "country" : "UK",
+         "postal" : "OX9 9ZB",
+         "twitter" : "Jack",
+         "facebook" : "Jack",
+         "google" : "Jack",
+         "linkedIn" : "Jack",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 99,
+         "salary" : 8400.0,
+         "bonus" : 2100.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 5,
+         "deptId" : 70,
+         "mgrId" : 149,
+         "deptName" : "Public Relations",
+         "mgrFirstName" : "Eleni",
+         "mgrLastName" : "Zlotkey",
+         "teamAvgRating" : 4.4,
+         "empMeetings" : 0,
+         "empEvents" : 1,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 5.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 0,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 2,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 176,
+         "firstName" : "Judy",
+         "lastName" : "Taylor",
+         "title" : "Public Relations Reprentative",
+         "email" : "JTAYLOR",
+         "phone" : "011.44.1644.429265",
+         "mobile" : "011.44.1644.429265",
+         "address" : "Magdalen Centre The Oxford Science Park",
+         "city" : "Oxford",
+         "state" : "Oxford",
+         "country" : "UK",
+         "postal" : "OX9 9ZB",
+         "twitter" : "Judy",
+         "facebook" : "Judy",
+         "google" : "Judy",
+         "linkedIn" : "Judy",
+         "hireDate" : "2008-02-14T00:00:00-08:00",
+         "compRatio" : 91,
+         "salary" : 8600.0,
+         "bonus" : 2150.0,
+         "commission" : 0.0,
+         "rating" : 5,
+         "potential" : 4,
+         "deptId" : 70,
+         "mgrId" : 149,
+         "deptName" : "Public Relations",
+         "mgrFirstName" : "Eleni",
+         "mgrLastName" : "Zlotkey",
+         "teamAvgRating" : 4.4,
+         "empMeetings" : 0,
+         "empEvents" : 1,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 5.0,
+         "groupAvgPotential" : 4.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 0,
+         "groupEvents" : 1,
+         "groupTrainings" : 1,
+         "groupTimeOff" : 0
+      }, {
+         "empId" : 174,
+         "firstName" : "Ernest",
+         "lastName" : "Abel",
+         "title" : "Public Relations Reprentative",
+         "email" : "EABEL",
+         "phone" : "011.44.1644.429267",
+         "mobile" : "011.44.1644.429267",
+         "address" : "Magdalen Centre The Oxford Science Park",
+         "city" : "Oxford",
+         "state" : "Oxford",
+         "country" : "UK",
+         "postal" : "OX9 9ZB",
+         "twitter" : "Ernest",
+         "facebook" : "Ernest",
+         "google" : "Ernest",
+         "linkedIn" : "Ernest",
+         "hireDate" : "2010-01-01T00:00:00-08:00",
+         "compRatio" : 46,
+         "salary" : 11000.0,
+         "bonus" : 2750.0,
+         "commission" : 0.0,
+         "rating" : 4,
+         "potential" : 2,
+         "deptId" : 70,
+         "mgrId" : 149,
+         "deptName" : "Public Relations",
+         "mgrFirstName" : "Eleni",
+         "mgrLastName" : "Zlotkey",
+         "teamAvgRating" : 4.4,
+         "empMeetings" : 0,
+         "empEvents" : 0,
+         "notifyApproved" : 3,
+         "notifyWaiting" : 4,
+         "notifyRejected" : 1,
+         "groupSize" : 1,
+         "groupAvgRating" : 4.0,
+         "groupAvgPotential" : 2.0,
+         "groupCompRatioAbove" : 0,
+         "groupCompRatioIn" : 1,
+         "groupCompRatioBelow" : 1,
+         "groupMeetings" : 1,
+         "groupEvents" : 2,
+         "groupTrainings" : 0,
+         "groupTimeOff" : 1
+      } ]
+   }
