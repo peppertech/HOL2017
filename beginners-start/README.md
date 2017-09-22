@@ -79,7 +79,7 @@ JET starter templates use a feature of JET called ojModule.  This is the ability
 Open the dashboard.html file from the **/js/views** directory and add the following HTML code just under the `<H1>` element. 
 
 ```xml
-<mychart id="chart1"></my-chart>
+<my-chart id="chart1"></my-chart>
 ```
 
 The resulting code will look like image 4 below.
@@ -224,8 +224,14 @@ self.chartType = self.properties.chartType;
 ![completed code in viewmodel file](./images/image-14.png "completed code in viewmodel file")  
 **IMAGE 14**
 
+One final step in the _viewModel.js_ file. At the top of the file, you will see a _define_ statement that provides referencs to the libraries that this component has dependencies.  Oracle JET is a module toolkit, where you can use as little or as much of that toolkit as you like.  In this case, we need to add a reference to the JET Chart UI component so that our module will know to load it. Your _define_ block should look like this after adding the reference.
 
-If you haven't noticed, you are working backwards from what you did when you setup the _myMessage_ attribute code.  You now have the view and viewModel for your composite component done. Next you need to add this _chartType_ property to the _component.json_ file so that the component knows to listen for it from the DOM and pass it to your component logic.
+
+```javascript
+define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'], function (oj, ko, $) {
+```
+
+If you haven't noticed yet, you are working backwards from what you did when you setup the _myMessage_ attribute code.  You now have the view and viewModel for your composite component done. Next you need to add the _chartType_ property to the _component.json_ file so that the component knows to listen for it from the DOM and pass it to your component logic.
 
 Open the _component.json_ file.
 
@@ -248,10 +254,10 @@ Save your files and reload the app in the browser. Again, if you haven't stopped
 **IMAGE 15**
 
 
-Your last two steps are to update the attributes in your `<my-chart>` custom element in the dashboard.html file, by adding the `chart-type` attribute. Use _line_ as the new value, and add a second instance of your `<my-chart>` custom element with a different message and a different _chart-type_ value.  Try something like _area_ or _pie_ to mix it up.
+Your last two steps are to update the attributes in your `<my-chart>` custom element in the _dashboard.html_ file, by adding the `chart-type` attribute. Use _line_ as the new value, and add a second instance of your `<my-chart>` custom element with a different message and a different _chart-type_ value.  Try something like _area_ or _pie_ to mix it up. Make sure you change the _id_ in your second `<my-chart>` instance so you don't have duplicate ids.
 
 ```xml
-<my-chart id="chart1" chart-type="line" my-message="My new message from runtime"></my-chart>
+<my-chart id="chart2" chart-type="line" my-message="My new message from runtime"></my-chart>
 ```
 
 When you are all done, save the _dashboard.html_ file and you should see something like image 16 below.
