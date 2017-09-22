@@ -21,7 +21,7 @@ To check your NPM version, type: `npm --version`
 Cloning this project using Git will give you the directory structure described throughout the Labs. If you do not want to clone the project, you can still follow the labs using your own directory structure.  You will not have the finished version of the project to compare your results against unless you do a clone though. 
 
 ```
-git clone 
+git clone https://github.com/peppertech/HOL2017.git  // optional
 npm install -g @oracle/ojet-cli
 ```
 
