@@ -7,9 +7,9 @@ These sessions will allow someone who is brand new to Oracle JET, to get a good 
 
 
 ### Prerequisites
-* Node 4+ (preferably the LTS release)
+* Node 4+ (preferably the [Node LTS release](https://nodejs.org) ) 
 * If running on a Mac, you will need to include "sudo" in front of all global npm commands shown in the lab
-* Git installed and configured properly (this is optional, read the installation step for details)
+* Git installed and configured properly (this is optional, read the installation step for details) https://git-scm.com/downloads
 
 
 >**NOTE**  
