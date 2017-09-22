@@ -248,12 +248,34 @@ Save your files and reload the app in the browser. Again, if you haven't stopped
 **IMAGE 15**
 
 
-Your final step is to update the attributes in your `<my-chart>` custom element in the dashboard.html file, by adding the `chart-type` attribute. Use _line_ as the new value.
+Your last two steps are to update the attributes in your `<my-chart>` custom element in the dashboard.html file, by adding the `chart-type` attribute. Use _line_ as the new value, and add a second instance of your `<my-chart>` custom element with a different message and a different _chart-type_ value.  Try something like _area_ or _pie_ to mix it up.
 
 ```xml
 <my-chart id="chart1" chart-type="line" my-message="My new message from runtime"></my-chart>
 ```
 
+When you are all done, save the _dashboard.html_ file and you should see something like image 16 below.
 
+![final dashboard page](./images/image-16.png "final dashboard page")  
+**IMAGE 16**
+
+If you layout isn't exactly the same as what you see in image 16, try adding some of JET's flex layout classes like the code below, to easily make your layout responsive on multiple device sizes.
+
+```xml
+<div class="oj-hybrid-padding">
+  <h1>Dashboard Content Area</h1>
+  <div class="oj-flex oj-flex-items-pad">
+    <div class="oj-flex-item">
+      <my-chart id="chart1" chart-type="pie" my-message="My new message from runtime"></my-chart>
+    </div>
+    <div class="oj-flex-item">
+      <my-chart id="chart2" chart-type="line" my-message="My second component message"></my-chart>
+    </div>
+  </div>
+</div>
+```
+***
+## Learn more about Oracle JET
+To learn more about Oracle JET, resources such as an online training course, and other example applications are available from the **Learn** page of the [JET website](http://oraclejet.org "oracle jet home page")
 
 
