@@ -1,7 +1,7 @@
 ### Prerequisites
 * Node 4+ (preferably the LTS release)
 * If running on a Mac, you will need to include "sudo" in front of all global npm commands shown in the lab
-* Oracle JET CLI tooling installed globally.  Follow the README steps at the root of this repository for how to install.
+* Oracle JET CLI tooling installed globally.  Follow the [README](../README.md) steps at the root of this repository for how to install.
 
 
 >**NOTE**  
