@@ -51,6 +51,10 @@ the changes will automatically be pushed to the /web folder and the browser will
 
 Adding or removing libraries from the project will require a rebuild.
 
+>**IMPORTANT**  
+If you make changes to files in the _/web_ folder, they will be overriden the next time you do a build or serve with what is in the _/src_ folder. **Only make edits to files under the /src folder**
+
+
 ### Creating a Composite Component
 In JET, there is a concept of a reusable component called a composite component. You will often see this referred to as a CCA component as well.  CCA stands for Composite Component Architecture.  These special kinds of components are built according to the HTML5 Web Component specification and can be re-used across multiple Oracle development frameworks and tools, such as the Visual Builder Cloud Service and Sites Cloud Service.
 
