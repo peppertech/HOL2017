@@ -9,6 +9,7 @@ These sessions will allow someone who is brand new to Oracle JET, to get a good 
 ### Prerequisites
 * Node 4+ (preferably the LTS release)
 * If running on a Mac, you will need to include "sudo" in front of all global npm commands shown in the lab
+* Git installed and configured properly
 
 
 >**NOTE**  
@@ -17,9 +18,10 @@ To check your NPM version, type: `npm --version`
 
 
 ### Installation
-Clone the project and run the following command from the root of the project folder:
+Cloning this project using Git will give you the directory structure described throughout the Labs. If you do not want to clone the project, you can still follow the labs using your own directory structure.  You will not have the finished version of the project to compare your results against unless you do a clone though. 
 
 ```
+git clone 
 npm install -g @oracle/ojet-cli
 ```
 
