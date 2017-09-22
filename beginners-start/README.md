@@ -259,7 +259,7 @@ When you are all done, save the _dashboard.html_ file and you should see somethi
 ![final dashboard page](./images/image-16.png "final dashboard page")  
 **IMAGE 16**
 
-If you layout isn't exactly the same as what you see in image 16, try adding some of JET's flex layout classes like the code below, to easily make your layout responsive on multiple device sizes.
+If your layout isn't exactly the same as what you see in image 16, try adding some of JET's flex layout classes like the code below, to easily make your layout responsive on multiple device sizes.
 
 ```xml
 <div class="oj-hybrid-padding">
