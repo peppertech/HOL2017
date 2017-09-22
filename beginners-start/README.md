@@ -8,7 +8,7 @@
 
 ### Seeing the final project first
 If you would like to see what your final project will look like when you are finished, you can follow these steps.  
-From the root of the [**beginners-finished**](./beginners-finished) directory, run the following commands: 
+From the root of the [**beginners-finished**](../beginners-finished) directory, run the following commands: 
 ```
 npm install  
 ojet serve
