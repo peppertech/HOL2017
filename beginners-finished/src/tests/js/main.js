@@ -22,7 +22,7 @@ requirejs.config(
           'text' : 'libs/require/text',
           'css' : 'libs/require-css/css',
           'signals' : 'libs/js-signals/signals',
-          'customElements': 'libs/webcomponents/CustomElements.min',
+          'customElements': 'libs/webcomponents/custom-elements.min',
           'test' : '../tests/js/test'
         }
       ,

@@ -2,11 +2,11 @@
   Copyright (c) 2015, 2017, Oracle and/or its affiliates.
   The Universal Permissive License (UPL), Version 1.0
 -->
-<p data-bind="text: messageText"></p>
+<p data-bind="text:messageText"></p>
 <oj-chart id="barChart"
-          type="[[type]]"
-          series="{{barSeriesValue}}"
-          groups="{{barGroupsValue}}" 
+          type="[[chartType]]"
+          series="[[barSeriesValue]]"
+          groups="[[barGroupsValue]]" 
           animation-on-display="auto"
           animation-on-data-change="auto"
           hover-behavior="dim"
