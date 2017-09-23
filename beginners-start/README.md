@@ -34,9 +34,11 @@ To build the default project, run:
 ojet build
 ```
 
->By default this will build a web application for you and add a /web folder to your project root.  This is what you will be working with >for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid >application by running the same command as above, with these additional options: 
-> 
-> `--hybrid --platform=android | ios | windows`  
+By default this will build a web application for you and add a /web folder to your project root like you see in image 2 below.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid application by running the same command as above, with these additional options: 
+ 
+ ```
+ --hybrid --platform=android | ios | windows
+ ```  
 
 
 ![folder structure after build](./images/image-2.png "Project file structure after build")  
