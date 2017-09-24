@@ -1,4 +1,4 @@
 # HOL 2017
 
-## Under development still, come back soon
+## Currently Under Development, please keep watching this page for more details.
 
