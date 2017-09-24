@@ -5,11 +5,59 @@
 /*
  * Your about ViewModel code goes here
  */
-define(['ojs/ojcore', 'knockout', 'jquery'],
- function(oj, ko, $) {
+define(['ojs/ojcore', 'knockout', 'jquery','socketio','ojs/ojgauge','ojs/ojswitch'],
+ function(oj, ko, $, io) {
   
     function AboutViewModel() {
       var self = this;
+      self.thresholdValues = [{max: 15, color:'#00CC00'}, {max: 30, color:'#FDEF22'}, {color:'#FF0000'}];
+      self.value = ko.observable(5);		
+      self.isChecked = ko.observable();
+      
+			var apiHost = "https://websocketservice2-paas124.apaas.em2.oraclecloud.com" //window.location.hostname || 'localhost';
+			var apiPort = '' // apiHost.match(/localhost/) ? ':3000' : '';
+			const socket = io(apiHost+":"+apiPort,{autoConnect: false});
+
+      var converterFactory = oj.Validation.converterFactory('number');
+      self.customConverter = {rendered:'on', converter: converterFactory.createConverter({style: 'decimal', decimalFormat: 'standard'})};
+
+			function cb(err, value){
+				if (err){
+					console.log('Subscriber Error: '+err);
+				}else{
+					console.log('The server says: '+ value);
+          self.value(value);
+				}
+			};
+
+      self.toggleConnection = ko.pureComputed(function(){
+        self.isChecked() ? self.startConnection() : self.closeConnection(); 
+      })
+
+			self.startConnection = function() {
+				socket.connect();
+			};
+
+			self.subscribeToTimer = function() {
+				socket.on('timer', value => cb(null, value));
+				socket.emit('subscribeToTimer', 2000);
+			}
+
+			self.closeConnection = function(){
+					console.log('Connection id: '+socket.id+' closed');
+					socket.close()
+			};
+
+			socket.on('connect', () => {
+					console.log('Connection started with id: '+socket.id);
+			});
+
+			socket.on('connect_error', (error) => {
+					console.log('Connection Error: '+error);
+			});
+			
+			
+			
       // Below are a subset of the ViewModel methods invoked by the ojModule binding
       // Please reference the ojModule jsDoc for additionaly available methods.
 

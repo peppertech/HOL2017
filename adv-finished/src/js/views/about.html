@@ -1,10 +1,38 @@
 <!--
  Copyright (c) 2014, 2017, Oracle and/or its affiliates.
  The Universal Permissive License (UPL), Version 1.0
- -->
+-->
 <div class="oj-hybrid-padding">
   <h3>About Content Area</h3>
   <div>
-      To change the content of this section, you will make edits to the about.html file located in the /js/views folder.
+    <p>Below is an example of starting a connection to a WebSocket server, making a request from that service, and then closing the connection. 
+    The WebSocket service used in this example simply returns a random number at an interval that can be set by passing a value to the service request.</p>
+    <p>Start by toggling the WebSocket Connection on.  
+      Then request the timer to start with the <i>Request Service</i> button. 
+      To stop the updates, toggle the connection closed.</p>
+    <p>You can see the code for this example in the <i>/js/views/about.html</i> and <i>/js/viewModels/about.js</i> files. 
+      Opening the browser console window will show you the connection start, output, and connection close messages.</p>
   </div>
+
+  <oj-toolbar id="socketControls" aria-label="websock controls" aria-controls="sampleStatusGauge" class="oj-toolbar-bottom-border oj-toolbar-top-border">
+    <oj-label class="oj-label" for="switch">WebSocket Connection</oj-label>
+    <oj-switch id="switch" value="{{isChecked}}" on-value-changed="[[toggleConnection]]" style="margin-bottom: 0px; margin-left: 10px"></oj-switch>
+    <span role="separator" aria-orientation="vertical" class="oj-toolbar-separator"></span>
+    <oj-button on-click="[[subscribeToTimer]]">Request Service</oj-button>
+    <span role="separator" aria-orientation="vertical" class="oj-toolbar-separator"></span>
+  </oj-toolbar>
+
+  <oj-status-meter-gauge 
+    id="sampleStatusGauge"
+    min="0" 
+    max="50" 
+    value="[[value]]"
+    readonly="false"
+    step="1"
+    thresholds="[[thresholdValues]]"
+    orientation="circular"
+    animation-on-data-change="auto"
+    metric-label="[[customConverter]]"
+    style="align:center;margin-top:5px;margin-bottom:5px;height:150px;width:150px;">
+  </oj-status-meter-gauge>
 </div>
