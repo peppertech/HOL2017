@@ -3,7 +3,7 @@
 This project is a collection of smaller Hands-On-Lab sessions presented at the 2017 Oracle OpenWorld/JavaOne Conference.
 
 
-These sessions will allow someone who is brand new to Oracle JET, to get a good understanding of the basic concepts of working with JET while creating, editing, and publishing a very simple application, or if you are already familiar with JET, the advanced session will provide you an existing Dashboard application and walk your through extending it to connect to a REST service to enable CRUD operations on a table, as well as connecting to a WebSocket service for random updates to your data.
+These sessions will allow someone who is brand new to Oracle JET, to get a good understanding of the basic concepts of working with JET while creating, editing, and publishing a very simple application. If you are already familiar with JET, the advanced session will provide you an existing Dashboard application and give you options for extending it, such as connecting to a REST service to enable CRUD operations on a table, or connecting to a WebSocket service for random updates to your data.
 
 
 ### Prerequisites
