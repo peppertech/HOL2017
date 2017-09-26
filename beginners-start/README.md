@@ -26,7 +26,7 @@ ojet create myHOL2017 --template=navdrawer
 
 Once the above command completes, you should have a directory structure that looks similar to Image 1 below.  
 
-![default folder structure](./images/image-1.png "Default project file structure")  
+![default project file structure](./images/image-1.png "Default project file structure")  
 **IMAGE 1**  
 
 To build the default project, run:  
@@ -41,7 +41,7 @@ By default this will build a web application for you and add a /web folder to yo
  ```  
 
 
-![folder structure after build](./images/image-2.png "Project file structure after build")  
+![project folder structure after build](./images/image-2.png "Project folder structure after build")  
 **IMAGE 2**  
 
 
@@ -69,7 +69,7 @@ ojet create component my-chart
 
 Once you have created your component, you will see that it has been added to a directory called **jet-composites** using the name that you gave your component.  This new component directory contains the default template. The directory structure of your project should now look like image 3 below
 
-![folder structure with composite component](./images/image-3.png "Project structure with composite component")  
+![project folder structure with composite component](./images/image-3.png "Project structure with composite component")  
 **IMAGE 3**
 
 ***
