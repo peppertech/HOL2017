@@ -13,6 +13,7 @@ define(['ojs/ojcore', 'knockout', 'jquery','socketio','ojs/ojgauge','ojs/ojswitc
       self.thresholdValues = [{max: 15, color:'#00CC00'}, {max: 30, color:'#FDEF22'}, {color:'#FF0000'}];
       self.value = ko.observable(5);		
       self.isChecked = ko.observable();
+      self.status = ko.observable('Not connected');
       
 			var apiHost = "https://websocketservice2-paas124.apaas.em2.oraclecloud.com" //window.location.hostname || 'localhost';
 			var apiPort = '' // apiHost.match(/localhost/) ? ':3000' : '';
@@ -24,9 +25,11 @@ define(['ojs/ojcore', 'knockout', 'jquery','socketio','ojs/ojgauge','ojs/ojswitc
 			function cb(err, value){
 				if (err){
 					console.log('Subscriber Error: '+err);
+          self.status('Connection Error: '+err);
 				}else{
 					console.log('The server says: '+ value);
           self.value(value);
+          
 				}
 			};
 
@@ -45,15 +48,18 @@ define(['ojs/ojcore', 'knockout', 'jquery','socketio','ojs/ojgauge','ojs/ojswitc
 
 			self.closeConnection = function(){
 					console.log('Connection id: '+socket.id+' closed');
+          self.status('Connection id: '+socket.id+' closed');
 					socket.close()
 			};
 
 			socket.on('connect', () => {
 					console.log('Connection started with id: '+socket.id);
+          self.status('Connection started with id: '+socket.id);
 			});
 
 			socket.on('connect_error', (error) => {
 					console.log('Connection Error: '+error);
+          self.status('Connection Error: '+error);
 			});
 			
 			

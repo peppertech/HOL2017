@@ -6,7 +6,7 @@
   <h3>WebSocket Example</h3>
   <div>
     <p>Below is an example of starting a connection to a WebSocket server, making a request from that service, and then closing the connection. 
-    The WebSocket service used in this example simply returns a random number at an interval that can be set by passing a value to the service request.</p>
+      The WebSocket service used in this example simply returns a random number at an interval that can be set by passing a value to the service request.</p>
     <p>Start by toggling the WebSocket Connection on.  
       Then request the timer to start with the <i>Request Service</i> button. 
       To stop the updates, toggle the connection closed.</p>
@@ -21,18 +21,25 @@
     <oj-button on-click="[[subscribeToTimer]]">Request Service</oj-button>
     <span role="separator" aria-orientation="vertical" class="oj-toolbar-separator"></span>
   </oj-toolbar>
-
-  <oj-status-meter-gauge 
-    id="sampleStatusGauge"
-    min="0" 
-    max="50" 
-    value="[[value]]"
-    readonly="false"
-    step="1"
-    thresholds="[[thresholdValues]]"
-    orientation="circular"
-    animation-on-data-change="auto"
-    metric-label="[[customConverter]]"
-    style="align:center;margin-top:5px;margin-bottom:5px;height:150px;width:150px;">
-  </oj-status-meter-gauge>
+  <div class="oj-flex oj-flex-items-pad oj-sm-flex-direction-column">
+    <div class="oj-flex-item">
+      <oj-status-meter-gauge 
+        id="sampleStatusGauge"
+        min="0" 
+        max="50" 
+        value="[[value]]"
+        readonly="false"
+        step="1"
+        thresholds="[[thresholdValues]]"
+        orientation="circular"
+        animation-on-data-change="auto"
+        metric-label="[[customConverter]]"
+        style="align:center;margin-top:5px;margin-bottom:5px;height:150px;width:150px;">
+      </oj-status-meter-gauge>
+    </div>
+    <div class="oj-flex-item">
+      <oj-label for="statusMsg">Socket status: </oj-label>
+      <span id="statusMsg" data-bind="text: status"></span>
+    </div>
+  </div>
 </div>
