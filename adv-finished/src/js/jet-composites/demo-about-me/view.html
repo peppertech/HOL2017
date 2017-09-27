@@ -3,11 +3,13 @@
   The Universal Permissive License (UPL), Version 1.0
 -->
 <!-- About Me tile 1x1 -->
-<div tabindex="0" role="link" data-bind="click: function(){history.pushState(null, '', 'index.html?root=person&emp=100'); oj.Router.sync();}, event:{keypress:onEnterLoadProfile}">
+<a tabindex="0" id="profile" href="#" data-bind="click: showProfile">
+  <div>
     <h2 class="oj-flex oj-flex-items-pad aboutmetitle">
-        About Me
+      About Me
     </h2>
     <!-- ko if: ready -->
     <img class="dash-photo-circular" alt="employee photo" data-bind="attr: {src: getPhoto(personProfile().empId)}"/>
     <!-- /ko -->
-</div>
+  </div>
+</a>
