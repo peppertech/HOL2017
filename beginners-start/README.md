@@ -26,7 +26,7 @@ ojet create myHOL2017 --template=navdrawer
 
 Once the above command completes, you should have a directory structure that looks similar to Image 1 below.  
 
-![default folder structure](./images/image-1.png "Default project file structure")  
+![default project folder structure](./images/image-1.png "Default project folder structure")  
 **IMAGE 1**  
 
 To build the default project, run:  
@@ -34,27 +34,24 @@ To build the default project, run:
 ojet build
 ```
 
-By default this will build a web application for you and add a /web folder to your project root like you see in image 2 below.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could build a JET hybrid application by running the same command as above, with these additional options: 
+By default this will build a web application for you and add a /web folder to your project root like you see in image 2 below.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could also build a JET hybrid application. For details on working with Mobile applications visit the [JET Developers Guide](http://docs.oracle.com/middleware/jet400/jet/developer/GUID-C75CD8DC-5084-4831-BE1A-FFEE4EA8600C.htm#JETDG-GUID-C75CD8DC-5084-4831-BE1A-FFEE4EA8600C "JET Developers Guide Mobile Chapter") 
  
- ```
- --hybrid --platform=android | ios | windows
- ```  
 
 
-![folder structure after build](./images/image-2.png "Project file structure after build")  
+![project folder structure after build](./images/image-2.png "Project folder structure after build")  
 **IMAGE 2**  
 
 
 ***
 ### Editing the project
-Make all code edits in the **/src folder**.  
+Make all code edits in the projects **/src folder**.  
 If you make edits to any HTML, CSS, or JavaScript files while the `ojet serve` command is running, 
-the changes will automatically be pushed to the /web folder and the browser will refresh.
+the changes will automatically be pushed to the projects /web folder and the browser will refresh.
 
 Adding or removing libraries from the project will require a rebuild.
 
 >**IMPORTANT**  
-If you make changes to files in the _/web_ folder, they will be overriden the next time you do a build or serve with what is in the _/src_ folder. **Only make edits to files under the /src folder**
+If you make changes to files in the projects _/web_ folder, they will be overriden the next time you do a build or serve with what is in the projects _/src_ folder. **Only make edits to files under the projects /src folder**
 
 
 ### Creating a Composite Component
@@ -69,7 +66,7 @@ ojet create component my-chart
 
 Once you have created your component, you will see that it has been added to a directory called **jet-composites** using the name that you gave your component.  This new component directory contains the default template. The directory structure of your project should now look like image 3 below
 
-![folder structure with composite component](./images/image-3.png "Project structure with composite component")  
+![project folder structure with composite component](./images/image-3.png "Project structure with composite component")  
 **IMAGE 3**
 
 ***
@@ -80,9 +77,9 @@ The screenshots showing code and application structure in this HOL, will be from
 
 ### Adding the default component to your application page
 Now that you have a new composite component, let's add it to the Dashboard page of your application.
-JET starter templates use a feature of JET called ojModule.  This is the ability to define a view (HTML) and a viewModel(JS) and combine them to deliver a specific section of the page as a simple module.  These view and viewModel files are found in the /js directory under directories of the same name.
+JET starter templates use a feature of JET called ojModule.  This is the ability to define a view (HTML) and a viewModel (JS) and combine them to deliver a specific section of the page as a simple module.  These view and viewModel files are found in the /js directory under directories of the same name.
 
-Open the dashboard.html file from the **/js/views** directory and add the following HTML code just under the `<H1>` element. 
+Open the dashboard.html file from the projects **src/js/views** directory and add the following HTML code just under the `<H1>` element. 
 
 ```xml
 <my-chart id="chart1"></my-chart>
@@ -94,7 +91,7 @@ The resulting code will look like image 4 below.
 **IMAGE 4**
 
 
-Now open the dashboard.js file located in the **/js/viewModels** directory and add a reference to your new my-chart component in the **define** block at the top of the file.
+Now open the dashboard.js file located in the projects **src/js/viewModels** directory and add a reference to your new my-chart component in the **define** block at the top of the file.
 
 The code you are going to add is a path to the **loader.js** file of your component.
 
@@ -135,7 +132,7 @@ To make things simple, let's let the developer pass in the message that we displ
 #### Defining the attribute in your component
 You now have the HTML code ready to send a new message to your component. But you need to tell your component to look for that attribute first, and then decide what you are going to do with that information once you find it.
 
-Go to the **/js/jet-composites/my-chart/** directory and open the **component.json** file. This is the main definition file for your components metadata.  You can set the _name_, _description_, _version_, and many other propertiess in this file. One important property  to set is the _jetVersion_ property. This tells a developer what version of JET your component is written (and hopefully tested) to work with.  Most of these properties will be used when you publish your component to a future component catalog.
+Go to the projects **src/js/jet-composites/my-chart/** directory and open the **component.json** file. This is the main definition file for your components metadata.  You can set the _name_, _description_, _version_, and many other propertiess in this file. One important property  to set is the _jetVersion_ property. This tells a developer what version of JET your component is written (and hopefully tested) to work with.  Most of these properties will be used when you publish your component to a future component catalog.
 
 For this Hands-on-Lab, you are going to add the definition of your attribute to the _properties_ object. You will provide the name, and the type of data that is going to be passed by the attribute. The code that you are going to add will be:
 
@@ -156,7 +153,7 @@ You have also defined the _type_ that this attribute will pass, to be a string. 
 #### Telling the component what to do with the value
 The component now knows to look for the _my-message_ attribute.  Let's now connect the business logic in the viewModel of your component to use that attributes value to display the message where we want it.
 
-Open the _viewModel.js_ file from your **/js/jet-composites/my-chart** directory.  In the default template, the value for the _self.messageText_ observable is hardcoded to a set value.  You are going to add a line in the _context.props_ Promise callback function to set the observable value to the string that is passed in by the DOM elements _my-message_ attribute.
+Open the _viewModel.js_ file from your projects **src/js/jet-composites/my-chart** directory.  In the default template, the value for the _self.messageText_ observable is hardcoded to a set value.  You are going to add a line in the _context.props_ Promise callback function to set the observable value to the string that is passed in by the DOM elements _my-message_ attribute.
 
 >Knockout.js observables  
 An "observable" or "observableArray" is a special type of two-way binding variable used by Knockout.js. When the value is changed by either the UI, or the JavaScript ViewModel, the other references to the observable are automatically updated as well.
@@ -200,8 +197,9 @@ Look at the HTML Editor section and copy the code that you see in image 10 below
 
 
 Place the HTML code into the _view.html_ file just below the existing `<p>` element.
-Remove the attributes for _orientation_ and _stack_ from the code that you copied over.
-You code will look like image 11 below when completed.
+Remove the attributes for _orientation_ and _stack_ from the code that you copied over. 
+Also change the value for `type` to be `[[chartType]]`. You'll create this new variable in a few more steps.
+Your code will look like image 11 below when completed.
 
 ![HTML code in view file](./images/image-11.png "HTML code in view file")  
 **IMAGE 11**
