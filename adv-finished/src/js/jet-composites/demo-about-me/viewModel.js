@@ -9,15 +9,10 @@ define(['ojs/ojcore', 'knockout', 'data/data'],
           function AboutMeComponentModel(context) {
             var self = this;
 
-            self.averagePerformance = ko.observable();
-            self.averagePotential = ko.observable();
             self.ready = ko.observable(false);
             self.personProfile = ko.observableArray([]);
 
             self.composite = context.element;
-            //Example observable
-            self.messageText = ko.observable('Hello from Example Component');
-
             context.props.then(function (propertyMap) {
               //Store a reference to the properties for any later use
               self.properties = propertyMap;
@@ -25,20 +20,13 @@ define(['ojs/ojcore', 'knockout', 'data/data'],
             });
 
             var router = oj.Router.rootInstance;
-            var converterFactory = oj.Validation.converterFactory('number');
-            self.percentConverter = converterFactory.createConverter({style: 'decimal', maximumFractionDigits: 0});
 
             data.fetchData('js/data/employee100.json').then(function (person) {
               self.personProfile(person);
               self.ready(true);
-              self.formatAverages();
             }).fail(function (error) {
               console.log('Error: ' + error.message);
             });
-            self.formatAverages = function () {
-              self.averagePerformance(self.personProfile().groupAvgRating.toPrecision(2));
-              self.averagePotential(self.personProfile().groupAvgPotential.toPrecision(2));
-            };
 
             self.showProfile = function () {
               router.go('profile');
@@ -53,7 +41,6 @@ define(['ojs/ojcore', 'knockout', 'data/data'],
               return src;
             };
 
-            self.onEnterLoadProfile = function () {};
           }
 
           //Lifecycle methods - uncomment and implement if necessary 
