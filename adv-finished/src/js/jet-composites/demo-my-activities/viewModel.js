@@ -11,7 +11,7 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'socketio'],
 
             var apiHost = "https://websocketservice2-paas124.apaas.em2.oraclecloud.com" //window.location.hostname || 'localhost';
             var apiPort = '' // apiHost.match(/localhost/) ? ':3000' : '';
-            const socket = io(apiHost + ":" + apiPort, {autoConnect: true});
+            const socket = io(apiHost + ":" + apiPort, {autoConnect: false});
             self.value = ko.observable('10');
 
             self.composite = context.element;
