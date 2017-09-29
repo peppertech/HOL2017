@@ -47,9 +47,11 @@ define(['ojs/ojcore', 'knockout', 'jquery','socketio','ojs/ojgauge','ojs/ojswitc
 			}
 
 			self.closeConnection = function(){
+        if (socket.id !== undefined){
 					console.log('Connection id: '+socket.id+' closed');
           self.status('Connection id: '+socket.id+' closed');
 					socket.close()
+        }
 			};
 
 			socket.on('connect', () => {

@@ -11,6 +11,9 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'socketio'],
 
             var apiHost = "https://websocketservice2-paas124.apaas.em2.oraclecloud.com" //window.location.hostname || 'localhost';
             var apiPort = '' // apiHost.match(/localhost/) ? ':3000' : '';
+            
+            // This is set to false by default.  To see the code working with the Websocket interface
+            // change the autoConnect value to true below.
             const socket = io(apiHost + ":" + apiPort, {autoConnect: false});
             self.value = ko.observable('10');
 
