@@ -5,14 +5,16 @@
   "version": "1.0.0",
   "jetVersion": ">=3.0.0",
   "properties": {
-  },
-  "methods": {
-
+        "avatarImage" : {
+            "description":"Path to the image source",
+            "type":"string"
+        }
   }, 
   "events": {
-
-  }, 
-  "slots": {
-
+        "demoAboutMeDrill":{
+          "description" : "The event that consuming views can use to recognize when the About Me is clicked",
+          "bubbles" : true,
+          "cancelable" : false
+        }
   }
 }
