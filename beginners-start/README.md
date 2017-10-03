@@ -18,7 +18,7 @@ The project will install all of the required files and then build and serve the 
 ***
 ### Getting Started
 
-To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the **/beginners-start** directory:  
+To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the **/beginners-start** (if you cloned the project) or from any directory that you choose to use:  
 
 ```
 ojet create myHOL2017 --template=navdrawer
