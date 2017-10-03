@@ -26,6 +26,7 @@ Cloning this project using Git will give you the directory structure described t
 
 ```
 git clone https://github.com/peppertech/HOL2017.git  // optional
+
 npm install -g @oracle/ojet-cli
 ```
 
