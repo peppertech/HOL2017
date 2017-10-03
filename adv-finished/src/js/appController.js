@@ -29,12 +29,12 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojrouter', 'ojs/ojknockout',
             });
             oj.Router.defaults['urlAdapter'] = new oj.Router.urlParamAdapter();
 
-            data.fetchData('https://apex.oracle.com/pls/apex/oraclejet/emp/7839').then(function (person) {
-              self.personProfile(person);
-              self.ready(true);
-            }).fail(function (error) {
-              console.log('Error: ' + error.message);
-            });
+//            data.fetchData('https://apex.oracle.com/pls/apex/oraclejet/emp/7839').then(function (person) {
+//              self.personProfile(person);
+//              self.ready(true);
+//            }).fail(function (error) {
+//              console.log('Error: ' + error.message);
+//            });
 
             // Navigation setup
             var navData = [
