@@ -8,8 +8,6 @@
     <h2 class="oj-flex oj-flex-items-pad aboutmetitle">
       About Me
     </h2>
-    <!-- ko if: ready -->
-    <img class="dash-photo-circular" alt="employee photo" data-bind="attr: {src: getPhoto(personProfile().empId)}"/>
-    <!-- /ko -->
+    <img class="dash-photo-circular" alt="employee photo" data-bind="attr: {src: $props.avatarImage}"/>
   </div>
 </a>

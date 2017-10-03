@@ -6,20 +6,42 @@
  * Your dashboard ViewModel code goes here
  */
 define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
-        'ojs/ojmasonrylayout', 
-        'jet-composites/demo-team/loader',
-        'jet-composites/demo-about-me/loader',
-        'jet-composites/demo-attrition/loader',
-        'jet-composites/demo-comp-ratio/loader',
-        'jet-composites/demo-my-activities/loader',
-        'jet-composites/demo-notifications/loader',
-        'jet-composites/demo-comp/loader',
-        'jet-composites/demo-ratings/loader',
-        'jet-composites/demo-team-activities/loader'],
-        function (oj, ko, data) {
+    'ojs/ojmasonrylayout',
+    'jet-composites/demo-team/loader',
+    'jet-composites/demo-about-me/loader',
+    'jet-composites/demo-attrition/loader',
+    'jet-composites/demo-comp-ratio/loader',
+    'jet-composites/demo-my-activities/loader',
+    'jet-composites/demo-notifications/loader',
+    'jet-composites/demo-comp/loader',
+    'jet-composites/demo-ratings/loader',
+    'jet-composites/demo-team-activities/loader',
+    'data/data'],
+    function (oj, ko, data) {
 
-          function DashboardViewModel() {
+        function DashboardViewModel() {
             var self = this;
+
+            //** DRM Part 1 Start ** 
+            //Set up the Avatar for the About Me dialog
+            self.personProfile = ko.observableArray([]);
+            self.avatarSrc = ko.observable();
+
+            data.fetchData('js/data/employee100.json').then(function (person) {
+                self.personProfile(person);
+                if (self.personProfile().empId < 188) {
+                    self.avatarSrc('/css/images/people/' + self.personProfile().empId + '.png');
+                } else {
+                    self.avatarSrc('/css/images/people/nopic.png');
+                }
+            }).fail(function (error) {
+                console.log('Error: ' + error.message);
+            });
+
+            //See handleAttached for Part 2
+            // 
+            // ** DRM Part 1 End **
+
 
             self.averagePerformance = ko.observable();
             self.averagePotential = ko.observable();
@@ -33,10 +55,10 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
 
             /* chart data */
             var barSeries = [{name: categories[0], items: [42, 34]},
-              {name: categories[1], items: [55, 30]},
-              {name: categories[2], items: [36, 50]},
-              {name: categories[3], items: [22, 46]},
-              {name: categories[4], items: [22, 46]}];
+                {name: categories[1], items: [55, 30]},
+                {name: categories[2], items: [36, 50]},
+                {name: categories[3], items: [22, 46]},
+                {name: categories[4], items: [22, 46]}];
 
             var barGroups = ["Group A", "Group B"];
 
@@ -45,10 +67,10 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
 
             /* chart data */
             var bubbleSeries = [{name: categories[0], items: [{x: 15, y: 25, z: 5}, {x: 25, y: 30, z: 12}, {x: 25, y: 45, z: 12}]},
-              {name: categories[1], items: [{x: 15, y: 15, z: 8}, {x: 20, y: 35, z: 14}, {x: 40, y: 55, z: 35}]},
-              {name: categories[2], items: [{x: 10, y: 10, z: 8}, {x: 18, y: 55, z: 10}, {x: 40, y: 50, z: 18}]},
-              {name: categories[3], items: [{x: 8, y: 20, z: 6}, {x: 11, y: 30, z: 8}, {x: 30, y: 40, z: 15}]},
-              {name: categories[4], items: [{x: 4, y: 17, z: 2}, {x: 35, y: 10, z: 15}, {x: 22, y: 22, z: 13}]}];
+                {name: categories[1], items: [{x: 15, y: 15, z: 8}, {x: 20, y: 35, z: 14}, {x: 40, y: 55, z: 35}]},
+                {name: categories[2], items: [{x: 10, y: 10, z: 8}, {x: 18, y: 55, z: 10}, {x: 40, y: 50, z: 18}]},
+                {name: categories[3], items: [{x: 8, y: 20, z: 6}, {x: 11, y: 30, z: 8}, {x: 30, y: 40, z: 15}]},
+                {name: categories[4], items: [{x: 4, y: 17, z: 2}, {x: 35, y: 10, z: 15}, {x: 22, y: 22, z: 13}]}];
 
             var bubbleGroups = ["Group A", "Group B", "Group C"];
 
@@ -56,16 +78,16 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
             this.bubbleSeriesValue = ko.observableArray(bubbleSeries);
             this.bubbleGroupsValue = ko.observableArray(bubbleGroups);
 
-            self.loadData = function(){
-            data.fetchData('js/data/employee100.json').then(function (person) {
-                self.personProfile(person);
-                self.ready(true);
-                self.formatAverages();
-            }).fail(function (error) {
-                console.log('Error: ' + error.message);
-            });
+            self.loadData = function () {
+                data.fetchData('js/data/employee100.json').then(function (person) {
+                    self.personProfile(person);
+                    self.ready(true);
+                    self.formatAverages();
+                }).fail(function (error) {
+                    console.log('Error: ' + error.message);
+                });
 
-          }
+            }
 
             self.formatAverages = function () {
                 self.averagePerformance(self.personProfile().groupAvgRating.toPrecision(2));
@@ -90,7 +112,7 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
              * the promise is resolved
              */
             self.handleActivated = function (info) {
-              self.loadData();
+                self.loadData();
             };
 
             /**
@@ -103,7 +125,12 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
              * @param {boolean} info.fromCache - A boolean indicating whether the module was retrieved from cache.
              */
             self.handleAttached = function (info) {
-              // Implement if needed
+                // ** DRM Part 2 
+                document.getElementById('AboutMe').addEventListener("demoAboutMeDrill",
+                    function (event) {
+                        var router = oj.Router.rootInstance;
+                        router.go('profile');
+                    });
             };
 
 
@@ -116,7 +143,7 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
              * @param {Function} info.valueAccessor - The binding's value accessor.
              */
             self.handleBindingsApplied = function (info) {
-              // Implement if needed
+                // Implement if needed
             };
 
             /*
@@ -128,15 +155,15 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
              * @param {Array} info.cachedNodes - An Array containing cached nodes for the View if the cache is enabled.
              */
             self.handleDetached = function (info) {
-              // Implement if needed
+                // Implement if needed
             };
-          }
-
-          /*
-           * Returns a constructor for the ViewModel so that the ViewModel is constrcuted
-           * each time the view is displayed.  Return an instance of the ViewModel if
-           * only one instance of the ViewModel is needed.
-           */
-          return new DashboardViewModel();
         }
+
+        /*
+         * Returns a constructor for the ViewModel so that the ViewModel is constrcuted
+         * each time the view is displayed.  Return an instance of the ViewModel if
+         * only one instance of the ViewModel is needed.
+         */
+        return new DashboardViewModel();
+    }
 );
