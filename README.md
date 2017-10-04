@@ -25,16 +25,21 @@ To check your NPM version, type: `npm --version`
 Cloning this project using Git will give you the directory structure described throughout the Labs. If you do not want to clone the project, you can still follow the labs using your own directory structure.  You will not have the finished version of the project to compare your results against unless you do a clone though. 
 
 ```
-git clone https://github.com/peppertech/HOL2017.git  // optional
-
 npm install -g @oracle/ojet-cli
 ```
+
+***
+#### OPTIONAL
+```
+git clone https://github.com/peppertech/HOL2017.git  // optional
+```
+***
 
 >If you are using a proxy server, you will need to make sure that npm's proxy settings are configured properly before the above command will succeed.
 
 ### Where to start
-If you are new to Oracle JET, we recommend you start with the [**Beginners Start**](./beginners-start) project. 
-Change to the beginners-start directory and follow the steps outlined in the README.
+If you are new to Oracle JET, we recommend you start with the [**Beginners Start**](./beginners-start) project. Follow the steps
+described in the README file at the above link.
 
 If you have been working with JET for sometime, and would like to take an existing project to another level. 
-The [**Advanced Start**](./adv-start) project is the place for you. Change to adv-start directory and follow the steps outline in the README. 
+The [**Advanced Start**](./adv-start) project is the place for you. Clone the HOL Git repository and change to adv-start directory and follow the steps outline in the README. 
