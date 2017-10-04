@@ -179,7 +179,7 @@ Save your changes and you should see your new message being displayed instead of
 ### Working with prettier things
 You have now finished your first composite component and you could make multiple instances of the element in the _dashboard.html_ file with different messages if you liked.  That is pretty boring though, so let's add something a little more complex and make multiple instance of that.
 
-Open the _view.html_ from your composites directory.  You will see the existing `<span>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
+Open the _view.html_ from your composites directory.  You will see the existing `<p>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
 
 To add the chart component to your components view, you are going to copy and paste some HTML from the JET Cookbook page. Open the [Bar Chart Cookbook page](http://www.oracle.com/webfolder/technetwork/jet/jetCookbook.html?component=barChart&demo=default) in a new browser window so you can easily copy and paste between two windows.
 
