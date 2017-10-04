@@ -22,7 +22,7 @@ To check your NPM version, type: `npm --version`
 
 
 ### Installation
-Cloning this project using Git will give you the directory structure described throughout the Labs. If you do not want to clone the project, you can still follow the labs using your own directory structure.  You will not have the finished version of the project to compare your results against unless you do a clone though. 
+From a command prompt, type the following command to install Oracle JET Command Line Interface(CLI). 
 
 ```
 npm install -g @oracle/ojet-cli
@@ -30,6 +30,8 @@ npm install -g @oracle/ojet-cli
 
 ***
 #### OPTIONAL
+Cloning this project using Git will give you the directory structure described throughout the Labs. 
+
 ```
 git clone https://github.com/peppertech/HOL2017.git  // optional
 ```
