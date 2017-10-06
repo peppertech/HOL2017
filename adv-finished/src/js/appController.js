@@ -24,7 +24,7 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojrouter', 'ojs/ojknockout',
             self.router.configure({
               'dashboard': {label: 'Dashboard', isDefault: true},
               'profile': {label: 'Profile'},
-              'customers': {label: 'Customers'},
+              'employees': {label: 'Employees'},
               'websockets': {label: 'WebSockets'}
             });
             oj.Router.defaults['urlAdapter'] = new oj.Router.urlParamAdapter();
@@ -42,7 +42,7 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojrouter', 'ojs/ojknockout',
                 iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-chart-icon-24'},
               {name: 'Profile', id: 'profile',
                 iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-person-icon-24'},
-              {name: 'Customers', id: 'customers',
+              {name: 'Employees', id: 'employees',
                 iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-people-icon-24'},
               {name: 'WebSockets', id: 'websockets',
                 iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-info-icon-24'}
