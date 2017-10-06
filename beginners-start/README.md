@@ -6,8 +6,11 @@
 
 >If you are running this HOL from behind a firewall, please make sure you have the npm proxy configurations setup properly before running any of the below steps
 
-### Seeing the final project first
-If you would like to see what your final project will look like when you are finished, you can follow these steps.  
+***
+### OPTIONAL
+
+#### Seeing the final project first
+If you clone the HOL project on the previous page and would like to see what your final project will look like when you are finished, you can follow these steps.  
 From the root of the [**beginners-finished**](../beginners-finished) directory, run the following commands: 
 ```
 npm install  
@@ -16,9 +19,10 @@ ojet serve
 The project will install all of the required files and then build and serve the application in your default browser. You can use the code from this project to compare with your own code that you will be writing under the **/beginners-start** directory 
 
 ***
+
 ### Getting Started
 
-To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the **/beginners-start** directory:  
+To get the initial project setup for your Hands-On-Lab, run the following command from the command line at the root of the **/beginners-start** (if you did not clone the repository on the previous page, **create this directory**):  
 
 ```
 ojet create myHOL2017 --template=navdrawer
@@ -179,7 +183,7 @@ Save your changes and you should see your new message being displayed instead of
 ### Working with prettier things
 You have now finished your first composite component and you could make multiple instances of the element in the _dashboard.html_ file with different messages if you liked.  That is pretty boring though, so let's add something a little more complex and make multiple instance of that.
 
-Open the _view.html_ from your composites directory.  You will see the existing `<span>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
+Open the _view.html_ from your composites directory.  You will see the existing `<p>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
 
 To add the chart component to your components view, you are going to copy and paste some HTML from the JET Cookbook page. Open the [Bar Chart Cookbook page](http://www.oracle.com/webfolder/technetwork/jet/jetCookbook.html?component=barChart&demo=default) in a new browser window so you can easily copy and paste between two windows.
 
