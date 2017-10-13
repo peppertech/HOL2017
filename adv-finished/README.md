@@ -4,6 +4,7 @@
 Clone the project and run the following commands from the root of the project folder:
 ```
 npm install -g @oracle/ojet-cli   /** only needed if you don't already have the JET CLI installed **/
+
 npm install
 ```
 
