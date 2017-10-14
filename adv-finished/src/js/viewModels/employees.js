@@ -58,7 +58,6 @@ define(['ojs/ojcore', 'knockout', 'jquery',
                 }
               });
               self.enableDelete();
-              //document.getElementById("demoTable").refresh();
             }
 
             // Update handlers/helpers
@@ -97,15 +96,14 @@ define(['ojs/ojcore', 'knockout', 'jquery',
 
             // Create handler
             self.addEmp = function (event) {
-              var recordAttrs = {empno: self.newEmpNo(), ename: self.newEmpName()};
-              //{ "empno": 9999, "ename": "HALL", "job": "ANALYST", "mgr": 7782, "hiredate": "01-JAN-2016", "sal": 1000, "comm": null, "deptno": 10 }
+              var recordAttrs = {"empno": self.newEmpNo(), "ename": self.newEmpName()};
               self.EmpCol().create(recordAttrs, {wait: true,
-                contentType: 'application/vnd.oracle.adf.resource+json',
+                contentType: 'application/json',
                 success: function (model, response) {
                   console.log('success: ')
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
-                  console.log('Error in Create: '  + textStatus + " | "+ errorThrown);
+                  alert('Error in Create: '  + textStatus + " | "+ errorThrown);
                 }
               });
             };
@@ -116,17 +114,17 @@ define(['ojs/ojcore', 'knockout', 'jquery',
             self.datasource = ko.observable();
 
             self.parseSaveProfile = function (response) {
-              return {empno: response['empno'],
-                ename: response['ename'],
-                job: response['job'],
-                deptno: response['deptno']};
+              return {"empno": response['empno'],
+                "ename": response['ename'],
+                "job": response['job'],
+                "deptno": response['deptno']};
             };
 
             self.parseProfile = function (response) {
-              return {empno: response['empno'],
-                ename: response['ename'],
-                job: response['job'],
-                deptno: response['deptno']};
+              return {"empno": response['empno'],
+                "ename": response['ename'],
+                "job": response['job'],
+                "deptno": response['deptno']};
             };
             self.Employee = oj.Model.extend({
               urlRoot: self.serviceURL,

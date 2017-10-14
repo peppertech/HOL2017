@@ -29,7 +29,7 @@
         <div id="quickUpdate" class="oj-form oj-md-labels-inline">
           <h3>New Employee</h3><hr/>
           <oj-label for="newEmpNo">Employee Number</oj-label>
-          <oj-input-number id="newEmpno" value="{{newEmpNo}}"></oj-input-number>
+          <oj-input-number id="newEmpno" value="{{newEmpNo}}" maxlength="6"></oj-input-number>
           <oj-label for="newEmpName">Employee Name</oj-label>
           <oj-input-text id="newEmpName" maxlength='30' value="{{newEmpName}}" placeholder="enter new name"></oj-input-text><br/>
           <oj-button id="saveBtn" on-click="[[addEmp]]">Add Employee</oj-button>
