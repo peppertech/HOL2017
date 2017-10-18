@@ -29,13 +29,6 @@ npm install -g @oracle/ojet-cli
 ```
 
 ***
-#### OPTIONAL
-Cloning this project using Git will give you the directory structure described throughout the Labs. 
-
-```
-git clone https://github.com/peppertech/HOL2017.git  // optional
-```
-***
 
 >If you are using a proxy server, you will need to make sure that npm's proxy settings are configured properly before the above command will succeed.
 
