@@ -28,9 +28,9 @@ From a command prompt, type the following command to install Oracle JET Command 
 npm install -g @oracle/ojet-cli
 ```
 
-***
-
 >If you are using a proxy server, you will need to make sure that npm's proxy settings are configured properly before the above command will succeed.
+
+***
 
 ### Where to start
 If you are new to Oracle JET, we recommend you start with the [**Beginners Start**](./beginners-start) project. Follow the steps
