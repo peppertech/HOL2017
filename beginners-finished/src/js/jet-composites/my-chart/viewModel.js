@@ -2,7 +2,7 @@
  Copyright (c) 2015, 2017, Oracle and/or its affiliates.
  The Universal Permissive License (UPL), Version 1.0
  */
-define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'], function (oj, ko, $) {
+define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart', 'ojs/ojselectcombobox'], function (oj, ko, $) {
   'use strict';
 
   function ExampleComponentModel(context) {
@@ -10,14 +10,14 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'], function (oj, ko, $)
     self.composite = context.element;
     //Example observable
     self.messageText = ko.observable('Hello from Example Component');
-    self.chartType = "bar";
+    self.chartType = ko.observable("bar");
 
     context.props.then(function (propertyMap) {
       //Store a reference to the properties for any later use
       self.properties = propertyMap;
       //Parse your component properties here 
       self.messageText(self.properties.myMessage);
-      self.chartType = self.properties.chartType;
+      self.chartType(self.properties.chartType);
 
     });
 
