@@ -3,8 +3,13 @@
   The Universal Permissive License (UPL), Version 1.0
 -->
 <p data-bind="text:messageText"></p>
+<oj-select-one id="basicSelect" value="{{chartType}}" style="max-width:20em">
+    <oj-option value="pie">Pie</oj-option>
+    <oj-option value="bar">Bar</oj-option>
+    <oj-option value="line">Line</oj-option>           
+</oj-select-one>
 <oj-chart id="barChart"
-          type="[[chartType]]"
+          type="{{chartType}}"
           series="[[barSeriesValue]]"
           groups="[[barGroupsValue]]" 
           animation-on-display="auto"
