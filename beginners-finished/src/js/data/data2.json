@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Trucks",
+        "items": [92, 12]
+    },
+    {
+        "name": "Cars",
+        "items": [12, 10]
+    },
+    {
+        "name": "Bicycles",
+        "items": [26, 50]
+    },
+    {
+        "name": "Airplanes",
+        "items": [22, 46]
+    },
+    {
+        "name": "Trains",
+        "items": [12, 46]
+    }
+]
