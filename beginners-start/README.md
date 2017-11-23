@@ -7,18 +7,6 @@
 >If you are running this HOL from behind a firewall, please make sure you have the npm proxy configurations setup properly before running any of the below steps
 
 ***
-### OPTIONAL
-
-#### Seeing the final project first
-If you clone the HOL project on the previous page and would like to see what your final project will look like when you are finished, you can follow these steps.  
-From the root of the [**beginners-finished**](../beginners-finished) directory, run the following commands: 
-```
-npm install  
-ojet serve
-```
-The project will install all of the required files and then build and serve the application in your default browser. You can use the code from this project to compare with your own code that you will be writing under the **/beginners-start** directory 
-
-***
 
 ### Getting Started
 
@@ -235,7 +223,7 @@ self.chartType = self.properties.chartType;
 ![completed code in viewmodel file](./images/image-14.png "completed code in viewmodel file")  
 **IMAGE 14**
 
-One final step in the _viewModel.js_ file. At the top of the file, you will see a _define_ statement that provides referencs to the libraries that this component has dependencies.  Oracle JET is a module toolkit, where you can use as little or as much of that toolkit as you like.  In this case, we need to add a reference to the JET Chart UI component so that our module will know to load it. Your _define_ block should look like this after adding the reference.
+One final step in the _viewModel.js_ file. At the top of the file, you will see a _define_ statement that provides references to the libraries that this component has dependencies.  Oracle JET is a module toolkit, where you can use as little or as much of that toolkit as you like.  In this case, we need to add a reference to the JET Chart UI component so that our module will know to load it. Your _define_ block should look like this after adding the reference.
 
 
 ```javascript
