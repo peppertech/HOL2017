@@ -1,8 +1,8 @@
 node_modules/*
-bower_components/*
 /web
 /themes
 /nbproject/*
+/.vscode/*
 
 /hybrid/platforms
 /hybrid/www/*
