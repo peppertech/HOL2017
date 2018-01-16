@@ -30,9 +30,9 @@ define(['ojs/ojcore', 'knockout', 'data/data', 'ojs/ojchart',
             data.fetchData('js/data/employee100.json').then(function (person) {
                 self.personProfile(person);
                 if (self.personProfile().empId < 188) {
-                    self.avatarSrc('/css/images/people/' + self.personProfile().empId + '.png');
+                    self.avatarSrc('css/images/people/' + self.personProfile().empId + '.png');
                 } else {
-                    self.avatarSrc('/css/images/people/nopic.png');
+                    self.avatarSrc('css/images/people/nopic.png');
                 }
             }).fail(function (error) {
                 console.log('Error: ' + error.message);
