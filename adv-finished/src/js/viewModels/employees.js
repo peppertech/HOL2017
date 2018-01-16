@@ -100,7 +100,7 @@ define(['ojs/ojcore', 'knockout', 'jquery',
               self.EmpCol().create(recordAttrs, {wait: true,
                 contentType: 'application/json',
                 success: function (model, response) {
-                  console.log('success: ')
+                  console.log('New record added successfully')
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                   alert('Error in Create: '  + textStatus + " | "+ errorThrown);
@@ -121,6 +121,7 @@ define(['ojs/ojcore', 'knockout', 'jquery',
             };
 
             self.parseProfile = function (response) {
+              if(response.items !== undefined){response = response.items[0]};
               return {"empno": response['empno'],
                 "ename": response['ename'],
                 "job": response['job'],
@@ -132,10 +133,6 @@ define(['ojs/ojcore', 'knockout', 'jquery',
               parseSave: self.parseSaveProfile,
               idAttribute: 'empno'
             });
-
-
-
-
 
             self.myProfile = new self.Employee();
             self.EmpCollection = oj.Collection.extend({
