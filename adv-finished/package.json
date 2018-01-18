@@ -10,7 +10,7 @@
     "@oracle/grunt-oraclejet": "^4.1.0",
     "load-grunt-config": "0.19.2",
     "qunit-reporter-junit": "^1.1.1",
-    "qunitjs": "^2.3.3"
+    "qunit": "^2.4.1"
   },
   "engines": {
     "node": ">=5"
