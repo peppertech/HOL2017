@@ -1,4 +1,4 @@
-# HOL2017
+# Advanced Hands-On-Lab 2018  
 
 ### Installation
 Clone the project and run the following commands from the root of the project folder:
