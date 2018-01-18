@@ -6,42 +6,44 @@
   <h3>Employee List</h3>
   <div class="oj-flex oj-flex-items-pad oj-sm-flex-direction-column">
     <div class="oj-flex-item">
-      <oj-table id="table" style="min-width:100%" 
-                data="[[datasource]]"
-                columns='[{"headerText": "Remove", "id": "column1", "sortable": "disabled"},
+      <oj-table id="table" style="min-width:100%" data="[[datasource]]" columns='[{"headerText": "Remove", "id": "column1", "sortable": "disabled"},
                 {"headerText": "Employee Id", "field": "empno", "sortable": "enabled"},
                 {"headerText": "Employee Name", "field": "ename", "sortable": "enabled"},
                 {"headerText": "Job Title", "field": "job", "sortable": "enabled"},
-                {"headerText": "Dept Number", "field": "deptno", "sortable": "enabled"}]'
-                selectionMode='{"row": "none", "column": "none"}'
-                row-renderer='[[oj.KnockoutTemplateUtils.getRenderer("row_tmpl", true)]]'>
+                {"headerText": "Dept Number", "field": "deptno", "sortable": "enabled"}]' selectionMode='{"row": "none", "column": "none"}'
+        row-renderer='[[oj.KnockoutTemplateUtils.getRenderer("row_tmpl", true)]]'>
       </oj-table>
     </div>
     (Click on an Employee Name to edit it)
-    <br/><br/>
+    <br/>
+    <br/>
     <button style="width:20em" id="deleteDept_btn" data-bind="enable: somethingChecked, click: deleteEmp">Remove Employee</button>
     <br/>
-    <br/><br/>
+    <br/>
+    <br/>
 
     <div class="oj-flex-item">
       <!-- A simple form is used to add a new employee record. -->
       <div id="addEmp">
         <div id="quickUpdate" class="oj-form oj-md-labels-inline">
-          <h3>New Employee</h3><hr/>
+          <h3>New Employee</h3>
+          <hr/>
           <oj-label for="newEmpNo">Employee Number</oj-label>
           <oj-input-number id="newEmpno" value="{{newEmpNo}}" maxlength="6"></oj-input-number>
           <oj-label for="newEmpName">Employee Name</oj-label>
-          <oj-input-text id="newEmpName" maxlength='30' value="{{newEmpName}}" placeholder="enter new name"></oj-input-text><br/>
+          <oj-input-text id="newEmpName" maxlength='30' value="{{newEmpName}}" placeholder="enter new name"></oj-input-text>
+          <br/>
           <oj-button id="saveBtn" on-click="[[addEmp]]">Add Employee</oj-button>
         </div>
       </div>
     </div>
   </div>
-  <oj-dialog id="editDialog" style="display:none" title="Change Employee Name" drag-affordance="title-bar" modality="modeless" resize-behavior="none">
+  <oj-dialog id="editDialog" style="display:none" title="Change Employee Name" drag-affordance="title-bar" modality="modeless"
+    resize-behavior="none">
     <div slot="header" class="oj-helper-clearfix" aria-labelledby="dialog-title-id">
       <div>
         <span id="infoIcon" class="oj-message-status-icon oj-message-info-icon" style="float:left; margin-right: 10px"></span>
-        <span id="dialog-title-id" class="oj-dialog-title">Change Employee Name</span>                                    
+        <span id="dialog-title-id" class="oj-dialog-title">Change Employee Name</span>
       </div>
     </div>
     <div slot="body">
@@ -59,7 +61,11 @@
   <br/>
   <script type="text/html" id="row_tmpl">    
     <tr>
-      <td><input type="checkbox" data-bind="attr: {id: empno}, click: $parent.enableDelete"/></td>
+      <td>
+        <oj-checkboxset aria-hidden='true' on-value-changed="[[$parent.enableDelete]]" class='oj-checkboxset-no-chrome'>
+          <oj-option data-bind="attr:{id: empno}" value="[[empno]]"></oj-option>
+      </oj-checkboxset>
+      </td>
       <td><div id='empId' data-bind="text: empno, click: function(data, event){$parent.showChangeNameDialog(empno,data,event)}"></div></td>
       <td><div id="empName" data-bind="text: ename, click: function(data, event){$parent.showChangeNameDialog(empno,data,event)}"></div></td>
       <td><div id="empjob" data-bind="text: job"></div></td>

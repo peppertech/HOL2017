@@ -12,7 +12,8 @@ define(['ojs/ojcore', 'knockout', 'jquery',
   'ojs/ojcollectiontabledatasource', 
   'ojs/ojinputnumber', 
   'ojs/ojinputtext', 
-  'ojs/ojdialog', 
+  'ojs/ojdialog',
+  'ojs/ojcheckboxset', 
   'ojs/ojbutton'],
         function (oj, ko, $) {
 
@@ -27,23 +28,19 @@ define(['ojs/ojcore', 'knockout', 'jquery',
 
             self.findEmpIds = function () {
               var selectedIdsArray = [];
-              $("input:checkbox").each(function () {
+              $("oj-checkboxset").each(function() {
                 var cb = $(this);
-                if (cb.is(":checked")) {
-                  selectedIdsArray.push(cb.attr("id"));
+                var cbComp = document.getElementById(cb.attr("id"));        
+                if (cbComp.value && cbComp.value.length) {
+                  selectedIdsArray.push(cbComp.value[0]);
                 }
               });
               return selectedIdsArray;
             }
 
             // Deletion handlers/helpers
-            self.enableDelete = function () {
-              if (!$('input[type=checkbox]:checked').length) {
-                self.somethingChecked(false);
-              } else {
-                self.somethingChecked(true);
-              }
-              return true;
+            self.enableDelete = function(event) {
+              self.somethingChecked(event && event.target && event.target.value && event.target.value.length);
             }
 
             self.deleteEmp = function (data, event) {
@@ -57,7 +54,8 @@ define(['ojs/ojcore', 'knockout', 'jquery',
                   model.destroy();
                 }
               });
-              self.enableDelete();
+              document.getElementById("table").refresh();
+              self.somethingChecked(false);
             }
 
             // Update handlers/helpers
