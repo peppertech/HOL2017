@@ -106,7 +106,6 @@ define(['ojs/ojcore', 'knockout', 'jquery',
               });
             };
 
-
             self.serviceURL = 'https://apex.oracle.com/pls/apex/oraclejet/emp/';
             self.EmpCol = ko.observable();
             self.datasource = ko.observable();
@@ -140,9 +139,6 @@ define(['ojs/ojcore', 'knockout', 'jquery',
             });
 
             self.EmpCol(new self.EmpCollection());
-
-
-
 
 
             // Below are a subset of the ViewModel methods invoked by the ojModule binding
