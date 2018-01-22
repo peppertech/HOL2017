@@ -17,7 +17,7 @@ npm un -g generator-oraclejet
 ```
 
 >**NOTE**  
-NPM v5 has known bugs that will cause the JET CLI tool to fail on installation. Make sure you are on an earlier version of NPM than 5.x
+NPM v5 has known bugs that will cause the JET CLI tool to fail on installation. Make sure you are on 5.6.x or an earlier version of NPM than 5.x alltogether. 
 To check your NPM version, type: `npm --version`  
 
 
