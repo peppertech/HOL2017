@@ -230,7 +230,7 @@
 .demo-employee-contact-icon{
     height: 32px;
     width: 32px;
-    margin-left: -32px;
+    /* margin-left: -32px; */
 }
 
 .demo-employee-phone-icon{

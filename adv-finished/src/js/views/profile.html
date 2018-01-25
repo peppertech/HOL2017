@@ -4,7 +4,49 @@
  -->
 <div class="oj-hybrid-padding">
   <h3>My Profile</h3>
-  <div>
-      To change the content of this section, you will make edits to the customers.html file located in the /js/views folder.
+  <div class="justifyCenter">
+    <div id="personaldetails" class="oj-flex oj-flex-items-pad" style="margin-bottom:26px;">
+      <div class="oj-flex-item demo-employee-photo-person-detail">
+        <img class="demo-circular-person-detail" data-bind="attr: {src: getPhoto(personProfile().empId), alt: 'photo of '+personProfile().firstName+' '+personProfile().lastName}"
+        />
+      </div>
+      <div class="oj-flex-item" style="margin-top: 10px;">
+        <h1 class="demo-employee-name-person-detail" data-bind="text: personProfile().firstName + ' ' + personProfile().lastName"></h1>
+        <h2 class="demo-employee-title-and-dept-person-detail" data-bind="text: personProfile().title"></h2>
+        <h2 class="demo-employee-title-and-dept-person-detail" data-bind="text: personProfile().deptName"></h2>
+      </div>
+      <div class="oj-flex oj-flex-item oj-flex-items-pad">
+        <div class="oj-flex-item" style="margin-top: 10px;">
+          <div class="oj-flex oj-flex-items-pad">
+            <img alt="phone" src="css/images/func_phone_16@2x.png" class="demo-employee-contact-icon" />
+            <div class="demo-employee-contact-label demo-employee-phone-label" data-bind="text: personProfile().phone"></div>
+          </div>
+          <div class="oj-flex oj-flex-items-pad">
+            <img alt="mobile phone" src="css/images/func_mobilePhone_16@2x.png" class="demo-employee-contact-icon" />
+            <div class="demo-employee-contact-label demo-employee-mobile-label" data-bind="text: personProfile().mobile"></div>
+          </div>
+          <div class="oj-flex oj-flex-items-pad">
+            <img alt="email" src="css/images/func_email_16@2x.png" class="demo-employee-contact-icon" />
+            <div class="demo-employee-contact-label demo-employee-email-label">
+              <a data-bind="attr:{href: getEmail($data)}, text: personProfile().email+'@example.net'"></a>
+            </div>
+          </div>
+        </div>
+        <div class="oj-flex-item" style="margin-top: 10px;">
+          <div class="oj-flex oj-flex-items-pad">
+            <img alt="Twitter" src="css/images/func_twitter_16@2x.png" class="demo-employee-contact-icon" />
+            <div class="demo-employee-contact-label demo-employee-twitter-label" data-bind="text: personProfile().twitter"></div>
+          </div>
+          <div class="oj-flex oj-flex-items-pad">
+            <img alt="Facebook" src="css/images/func_facebook_16@2x.png" class="demo-employee-contact-icon" />
+            <div class="demo-employee-contact-label demo-employee-facebook-label" data-bind="text: personProfile().facebook"></div>
+          </div>
+          <div class="oj-flex oj-flex-items-pad">
+            <img alt="LinkedIn" src="css/images/func_linkedin_16_2x.png" class="demo-employee-contact-icon" />
+            <div class="demo-employee-contact-label demo-employee-linkedin-label" data-bind="text: personProfile().linkedin"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
