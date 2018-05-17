@@ -145,23 +145,24 @@ You have also defined the _type_ that this attribute will pass, to be a string. 
 #### Telling the component what to do with the value
 The component now knows to look for the _my-message_ attribute.  Let's now connect the business logic in the viewModel of your component to use that attributes value to display the message where we want it.
 
-Open the _viewModel.js_ file from your projects **src/js/jet-composites/my-chart** directory.  In the default template, the value for the _self.messageText_ observable is hardcoded to a set value.  You are going to add a line in the _context.props_ Promise callback function to set the observable value to the string that is passed in by the DOM elements _my-message_ attribute.
+Open the _my-chart-viewModel.js_ file from your projects **src/js/jet-composites/my-chart** directory.  In the default template, the value for the _self.messageText_ observable is hardcoded to a set value. You will also see a commented out example section for how to check if a specific property is defined, and if it is, then set it to the new value. You are going to uncomment this section and add a line to set the observable value to the string that is passed in by the DOM elements _my-message_ attribute.
 
 >Knockout.js observables  
 An "observable" or "observableArray" is a special type of two-way binding variable used by Knockout.js. When the value is changed by either the UI, or the JavaScript ViewModel, the other references to the observable are automatically updated as well.
 
 
-Looking at image 8 below, there are a few things to pay attention to:  
+Looking at image 8 below, there are a couple things to pay attention to:  
 * The original definition of the self.messageText knockout observable variable
-* The _context.props.then()_ method holds the callback function that returns a list of all the properties that your component has defined. Notice how the _context.props_ method returns a Promise which allows our callback function to only be called after the properties are available.
-* Using the self.properties object, we can get the value of the _myMessage_ property and set the value of _self.messageText_ to that value.  Notice how a Knockout observable value is set by passing in the value as an argument to a method, and not by using the **=** assignment operator. 
+* Using the context.properties object, we can get the value of the _myMessage_ property and set the value of _self.messageText_ to that value.  Notice how a Knockout observable value is set by passing in the value as an argument to a method, and not by using the **=** assignment operator. 
 
-```javascript
-self.messageText(self.properties.myMessage);
+```javascript       
+  if (context.properties.myMessage) {
+    self.messageText(context.properties.myMessage);
+  }
 ```
 
 
-![contents of viewModel.js file](./images/image-8.png "contents of viewModel.js file")  
+![contents of my-chart-viewModel.js file](./images/image-8.png "contents of my-chart-viewModel.js file")  
 **IMAGE 8**
 
 Save your changes and you should see your new message being displayed instead of the default one.
@@ -171,7 +172,7 @@ Save your changes and you should see your new message being displayed instead of
 ### Working with prettier things
 You have now finished your first composite component and you could make multiple instances of the element in the _dashboard.html_ file with different messages if you liked.  That is pretty boring though, so let's add something a little more complex and make multiple instance of that.
 
-Open the _view.html_ from your composites directory.  You will see the existing `<p>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
+Open the _my-chart-view.html_ from your composites directory.  You will see the existing `<p>` element that is rendering your runtime message right now.  You are going to add a Chart component from the JET Data Visualization collection and bind the type of chart to an attribute that can be defined in the HTML DOM.
 
 To add the chart component to your components view, you are going to copy and paste some HTML from the JET Cookbook page. Open the [Bar Chart Cookbook page](http://www.oracle.com/webfolder/technetwork/jet/jetCookbook.html?component=barChart&demo=default) in a new browser window so you can easily copy and paste between two windows.
 
@@ -188,7 +189,7 @@ Look at the HTML Editor section and copy the code that you see in image 10 below
 **IMAGE 10**
 
 
-Place the HTML code into the _view.html_ file just below the existing `<p>` element.
+Place the HTML code into the _my-chart-view.html_ file just below the existing `<p>` element.
 Remove the attributes for _orientation_ and _stack_ from the code that you copied over. 
 Also change the value for `type` to be `[[chartType]]`. You'll create this new variable in a few more steps.
 Your code will look like image 11 below when completed.
@@ -197,37 +198,40 @@ Your code will look like image 11 below when completed.
 **IMAGE 11**
 
 
-Now that you have your HTML for the chart, open the _viewModel.js_ file and go back to the Cookbook page so you can copy the JavaScript code related to your chart. Image 12 below shows what you are going to copy from the JavaScript Editor section of the Cookbook page.
+Now that you have your HTML for the chart, open the _my-chart-viewModel.js_ file and go back to the Cookbook page so you can copy the JavaScript code related to your chart. Image 12 below shows what you are going to copy from the JavaScript Editor section of the Cookbook page.
 
 ![javascript code in cookbook](./images/image-12.png "javascript code in cookbook")  
 **IMAGE 12**
 
 
-Paste the code into the _viewModel.js_ file just after the `context.props` function.  Make sure it's still inside of the _ExampleComponentModel_ function though.  Image 13 will show the proper location.
+Paste the code into the _my-chart-viewModel.js_ file just after the `context.props` function.  Make sure it's still inside of the _ExampleComponentModel_ function though.  Image 13 will show the proper location.
 
 ![javascript code in viewmodel file](./images/image-13.png "javascript code in viewmodel file")  
 **IMAGE 13**
 
-You now have the values for the data that will populate your chart, but you need to add a reference to the attribute that will be passed into your component from the custom element.  At the top of the _viewModel.js_ file, just under the `self.messageText` variable, add a new variable called `chartType` and give it a default value of **bar**
+You now have the values for the data that will populate your chart, but you need to add a reference to the attribute that will be passed into your component from the custom element.  At the top of the _my-chart-viewModel.js_ file, just under the `self.messageText` variable, add a new variable called `chartType` and give it a default value of **bar**
 
 ```javascript
 self.chartType = "bar";
 ```
 
-Now go down to the `.then()` Promise callback function where you setup the _myMessage_ assignment and add another assignment for this attribute _chartType_.  Image 14 below will show the final setup in the _viewModel.js_ file.
+Now go down to where you setup the _myMessage_ assignment and add another assignment for this attribute _chartType_.  Image 14 below will show the final setup in the _my-chart-viewModel.js_ file.
 
 ```javascript
-self.chartType = self.properties.chartType;
+  if (context.properties.chartType) {
+    self.chartType = context.properties.chartType;
+  }
 ```
 
 ![completed code in viewmodel file](./images/image-14.png "completed code in viewmodel file")  
 **IMAGE 14**
 
-One final step in the _viewModel.js_ file. At the top of the file, you will see a _define_ statement that provides references to the libraries that this component has dependencies.  Oracle JET is a module toolkit, where you can use as little or as much of that toolkit as you like.  In this case, we need to add a reference to the JET Chart UI component so that our module will know to load it. Your _define_ block should look like this after adding the reference.
+One final step in the _my-chart-viewModel.js_ file. At the top of the file, you will see a _define_ statement that provides references to the libraries that this component has dependencies.  Oracle JET is a module toolkit, where you can use as little or as much of that toolkit as you like.  In this case, we need to add a reference to the JET Chart UI component so that our module will know to load it. Your _define_ block should look like this after adding the reference.
 
 
 ```javascript
-define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart'], function (oj, ko, $) {
+define(
+    ['ojs/ojcore', 'knockout', 'jquery', 'ojL10n!./resources/nls/my-chart-strings','ojs/ojchart'], function (oj, ko, $) {
 'use strict';
 ```
 
