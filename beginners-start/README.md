@@ -26,7 +26,7 @@ To build the default project, run:
 ojet build
 ```
 
-By default this will build a web application for you and add a /web folder to your project root like you see in image 2 below.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could also build a JET hybrid application. For details on working with Mobile applications visit the [JET Developers Guide](http://docs.oracle.com/middleware/jet400/jet/developer/GUID-C75CD8DC-5084-4831-BE1A-FFEE4EA8600C.htm#JETDG-GUID-C75CD8DC-5084-4831-BE1A-FFEE4EA8600C "JET Developers Guide Mobile Chapter") 
+By default this will build a web application for you and add a /web folder to your project root like you see in image 2 below.  This is what you will be working with for this HOL, however, if you had Cordova and the appropriate SDK installed for Android, iOS, or Windows, you could also build a JET hybrid application. For details on working with Mobile applications visit the [JET Developers Guide](https://www.oracle.com/pls/topic/lookup?ctx=en/middleware/jet/5&id=JETDG-GUID-C75CD8DC-5084-4831-BE1A-FFEE4EA8600C "JET Developers Guide Mobile Chapter") 
  
 
 
