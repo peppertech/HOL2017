@@ -8,6 +8,9 @@
     "myMessage": {
       "type": "string"
     },
+    "myData": {
+      "type": "Array"
+    },
     "chartType": {
       "type": "string"
     }

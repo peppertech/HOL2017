@@ -10,6 +10,7 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart', 'ojs/ojselectcombobox
     self.composite = context.element;
     //Example observable
     self.messageText = ko.observable('Hello from Example Component');
+    self.barSeriesValue = ko.observableArray("");
     self.chartType = ko.observable("bar");
 
     context.props.then(function (propertyMap) {
@@ -17,20 +18,13 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart', 'ojs/ojselectcombobox
       self.properties = propertyMap;
       //Parse your component properties here 
       self.messageText(self.properties.myMessage);
+      self.barSeriesValue(self.properties.myData);
       self.chartType(self.properties.chartType);
-
     });
 
     /* chart data */
-    var barSeries = [{name: "Series 1", items: [42, 34]},
-      {name: "Series 2", items: [55, 30]},
-      {name: "Series 3", items: [36, 50]},
-      {name: "Series 4", items: [22, 46]},
-      {name: "Series 5", items: [22, 46]}];
-
     var barGroups = ["Group A", "Group B"];
 
-    self.barSeriesValue = ko.observableArray(barSeries);
     self.barGroupsValue = ko.observableArray(barGroups);
   }
 
