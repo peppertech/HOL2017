@@ -2,7 +2,7 @@
  Copyright (c) 2015, 2017, Oracle and/or its affiliates.
  The Universal Permissive License (UPL), Version 1.0
  */
-define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart', 'ojs/ojbutton'], function (oj, ko, $) {
+define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart', 'ojs/ojselectcombobox'], function (oj, ko, $) {
   'use strict';
 
   function ExampleComponentModel(context) {
@@ -29,16 +29,6 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojchart', 'ojs/ojbutton'], func
       {name: "Series 5", items: [22, 46]}];
 
     var barGroups = ["Group A", "Group B"];
-
-    /* chart types */
-    self.chartTypes = [
-        {id: 'bar',  label: 'Bar'},
-        {id: 'line', label: 'Line'},
-        {id: 'area', label: 'Area'},
-        {id: 'combo', label: 'Combo'},
-        {id: 'scatter', label: 'Scatter'},
-        {id: 'bubble', label: 'Bubble'}
-    ];
 
     self.barSeriesValue = ko.observableArray(barSeries);
     self.barGroupsValue = ko.observableArray(barGroups);
