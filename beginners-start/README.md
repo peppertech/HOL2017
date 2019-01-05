@@ -87,7 +87,7 @@ Now open the dashboard.js file located in the projects **src/js/viewModels** dir
 
 The code you are going to add is a path to the **loader.js** file of your component.
 
-`jet-composites/my-chart/loader`
+`my-chart/loader`
  
  and the final code will look like image 5 below.
  
